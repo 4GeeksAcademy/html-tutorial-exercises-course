@@ -6,7 +6,9 @@
     <h2 align="center"> HTML at 4Geeks Academy (beta) </h2>
 </p>
 
-You can find lots of interactive tutorials online, but none about React.js. That's why we decided to create a very complete selection of autograded react.js exercises developers interested in learning React.js: For seniors or juniors!
+Complete selection of autograded html exercises, anyone interested in learning HTML!
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-exercises.git)
 
 ## Instalation
 
