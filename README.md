@@ -10,7 +10,7 @@ Complete selection of autograded html exercises, anyone interested in learning H
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-exercises.git)
 
-## Instalation
+## Manual installation (if you prefer not to use gitpod)
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
 ```
