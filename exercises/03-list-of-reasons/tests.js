@@ -7,7 +7,7 @@ jest.dontMock('fs');
 describe('ol should exist', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
-    const li = document.querySelectorAll("li").length
+
 
  it('ol exists', function () {
         expect(document.querySelector("ol")).toBeTruthy()
@@ -16,9 +16,13 @@ describe('ol should exist', function () {
         expect(document.querySelectorAll("li").length).toBe(6)
     })
 
-       it("InnerHTML Exist", function(){
-        expect(document.querySelectorAll("li")).filter(l => l.innerHTML !== "").toBeTruthy()
+       it("innerHTML exist", function(){
+
+        for(let i=0; i<document.querySelectorAll("li").length;i++){
+             expect(document.querySelectorAll("li")[i].innerHTML).not.toBe("")
+        }
     })
+
 
 
 });
