@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "2550dfe5aa04ce749e3a";
+/******/ 	var hotCurrentHash = "873b8d2b8bbfb5148422";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -10575,10 +10575,10 @@ module.exports.formatError = function(err) {
 
 /***/ }),
 
-/***/ "./exercises/04-anchor-in-new-window/index.html":
-/*!******************************************************!*\
-  !*** ./exercises/04-anchor-in-new-window/index.html ***!
-  \******************************************************/
+/***/ "./exercises/05-anchor-same-page/index.html":
+/*!**************************************************!*\
+  !*** ./exercises/05-anchor-same-page/index.html ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10586,28 +10586,28 @@ module.exports = __webpack_require__.p + "index.html";
 
 /***/ }),
 
-/***/ "./exercises/04-anchor-in-new-window/index.js":
-/*!****************************************************!*\
-  !*** ./exercises/04-anchor-in-new-window/index.js ***!
-  \****************************************************/
+/***/ "./exercises/05-anchor-same-page/index.js":
+/*!************************************************!*\
+  !*** ./exercises/05-anchor-same-page/index.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(/*! ./index.html */ "./exercises/04-anchor-in-new-window/index.html");
+__webpack_require__(/*! ./index.html */ "./exercises/05-anchor-same-page/index.html");
 
 /***/ }),
 
 /***/ 0:
-/*!**********************************************************************************************************!*\
-  !*** multi ./exercises/04-anchor-in-new-window/index.js webpack-dev-server/client?http://localhost:8080 ***!
-  \**********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** multi ./exercises/05-anchor-same-page/index.js webpack-dev-server/client?http://localhost:8080 ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/04-anchor-in-new-window/index.js */"./exercises/04-anchor-in-new-window/index.js");
+__webpack_require__(/*! ./exercises/05-anchor-same-page/index.js */"./exercises/05-anchor-same-page/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://localhost:8080 */"../../home/gitpod/.nvm/versions/node/v10.15.3/lib/node_modules/breathecode-cli/node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 
 
