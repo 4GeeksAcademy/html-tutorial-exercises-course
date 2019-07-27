@@ -1,4 +1,4 @@
-#  Make the anchor tag open a new window using the target attribute.
+#  Make the anchor tag scroll the website to a specific element that we specify.
 
 Anchors are also capable to scroll the website to a specific element that we specify.
 
