@@ -8,7 +8,7 @@ describe('<a> tag should open in new window', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
-   it('<a> exists', function () {
+   it('Two (2) <a> exists', function () {
         expect(document.querySelectorAll("a").length).toBe(2)
     })
 
@@ -20,10 +20,11 @@ describe('<a> tag should open in new window', function () {
         }
     })
 
-        it('<a> should take user to end and beginning of website', function () {
+        it('<a href> should point to <h2> id', function () {
             if ( document.querySelectorAll("a").length === 2) {
         for(let i=0; i<document.querySelectorAll("a").length;i++){
-             expect(document.querySelectorAll("a")[i].href).toBeTruthy()
+             expect(document.querySelectorAll("a")[i].href).toEqual("http://localhost/" + "#"+document.querySelectorAll("h2")[i].id)
+
         }
             }
 
