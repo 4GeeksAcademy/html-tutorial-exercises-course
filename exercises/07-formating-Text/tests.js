@@ -6,7 +6,7 @@ const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 
 jest.dontMock('fs');
 
-describe('Replicate the exact same styles with pure html, use headings, paragraph, strong, blockquote, ol and il', function () {
+describe('Format the exact same styles with pure html, use h1 headings, paragraph, strong, blockquote, ol and il', function () {
 
     beforeEach(() => { document.documentElement.innerHTML = html.toString()});
     afterEach(() => { jest.resetModules(); });
