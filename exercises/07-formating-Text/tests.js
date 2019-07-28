@@ -12,9 +12,8 @@ describe('Replicate the exact same styles with pure html, use headings, paragrap
     afterEach(() => { jest.resetModules(); });
 
    it('order of html tags', function () {
-       if(document.querySelector("p")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[1,2]).toStrictEqual(document.querySelector("p")
-        )
+       if(document.querySelectorAll("p")){
+        expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[1,2].tagName).toStrictEqual(document.querySelector("p").tagName)
        }
         if(document.querySelector("ol")){
         expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[3]).toBe(document.querySelector("ol")
@@ -32,18 +31,15 @@ describe('Replicate the exact same styles with pure html, use headings, paragrap
 it('<h1> exists', function () {
         expect(document.querySelector("h1")).toBeTruthy()
     })
-     it('HTML setup', function () {
-        expect(document.querySelector("body")).toEqual(()=> <p></p> ,<h1></h1>)
-    })
 
    it('<h1> innerHTML exist', function () {
         expect(document.querySelector("h1").innerHTML).toBeTruthy()
     })
 
-     it('<p> exist', function () {
-        expect(document.querySelector("p")).toBeTruthy()
+     it(' two (2) <p> exist', function () {
+        expect(document.querySelectorAll("p").length).toBe(2)
     })
      it('<p> innerHTML exist', function () {
-        expect(document.querySelector("p").innerHTML).toBeTruthy()
+        expect([].slice.call(document.querySelectorAll("p"))[0,1].innerHTML).toBeTruthy()
     })
 });
