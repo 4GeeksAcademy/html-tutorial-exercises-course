@@ -12,65 +12,32 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
     afterEach(() => { jest.resetModules(); });
 
    it('Order of html tags', function () {
-       if(document.querySelectorAll("p")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[1,3].tagName).toStrictEqual(document.querySelector("p").tagName)
+       if(document.querySelector("h1")){
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2,ul"))[0].tagName).toStrictEqual(document.querySelector("h1").tagName)
        }
 
-       if(document.querySelectorAll("blockquote")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[2].tagName).toStrictEqual(document.querySelector("blockquote").tagName)
+        if(document.querySelector("h2")){
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2,ul"))[1,7].tagName).toStrictEqual(document.querySelector("h2").tagName)
        }
 
+        if(document.querySelector("p")){
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2, ul"))[2,12].tagName).toStrictEqual(document.querySelector("p").tagName)
+       }
         if(document.querySelector("ol")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[4]).toBe(document.querySelector("ol")
-        )
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2, ul"))[3].tagName).toStrictEqual(document.querySelector("ol").tagName)
        }
-         if(document.querySelector("li")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[5,6,7].tagName).toStrictEqual(document.querySelector("li").tagName
-        )
+       if(document.querySelector("li")){
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2,ul"))[4,5,6,9,10,11].tagName).toStrictEqual(document.querySelector("li").tagName)
        }
-          if(document.querySelector("h1")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[0]).toBe(document.querySelector("h1")
-        )
+
+       if(document.querySelector("ul")){
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2,ul"))[8].tagName).toStrictEqual(document.querySelector("ul").tagName)
        }
-    })
-it('<h1> exists', function () {
-        expect(document.querySelector("h1")).toBeTruthy()
-    })
-
-    it('<blockquote> exists', function () {
-        expect(document.querySelector("blockquote")).toBeTruthy()
-    })
+       if(document.querySelector("a")){
+        expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2,ul"))[13].tagName).toStrictEqual(document.querySelector("a").tagName)
+       }
 
 
-     it('Two(2) <p> exist', function () {
-        expect(document.querySelectorAll("p").length).toBe(2)
-    }) 
-    
-    
-     it('Two(2) <strong> exist', function () {
-        expect(document.querySelectorAll("strong").length).toBe(2)
-    }) 
-
-    it('<ol> exist', function () {
-        expect(document.querySelectorAll("ol").length).toBeTruthy()
-    }) 
-    it('Three(3) <li> exist', function () {
-        expect(document.querySelectorAll("li").length).toBe(3)
-    }) 
-
-  
-      it('<h1> innerHTML exist', function () {
-        expect(document.querySelector("h1").innerHTML).toBeTruthy()
     })
 
-        it('<blockquote> innerHTML exist', function () {
-        expect(document.querySelector("blockquote").innerHTML).toBeTruthy()
-    })
-
-     it('<p> innerHTML exist', function () {
-        expect([].slice.call(document.querySelectorAll("p"))[0,1].innerHTML).toBeTruthy()
-    })
-    it('<li> innerHTML exist', function () {
-        expect([].slice.call(document.querySelectorAll("li"))[0,1,2].innerHTML).toBeTruthy()
-    })
 });
