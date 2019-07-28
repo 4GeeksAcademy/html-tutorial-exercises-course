@@ -7,13 +7,27 @@ const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 jest.dontMock('fs');
 
 describe('Replicate the exact same styles with pure html, use headings, paragraph, strong, blockquote, ol and il', function () {
-    beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
+
+    beforeEach(() => { document.documentElement.innerHTML = html.toString()});
     afterEach(() => { jest.resetModules(); });
 
-   it('body setup', function () {
-        expect(document.querySelector("body").innerHTML).toBe(document.querySelector("p")
-
+   it('order of html tags', function () {
+       if(document.querySelector("p")){
+        expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[1,2]).toStrictEqual(document.querySelector("p")
         )
+       }
+        if(document.querySelector("ol")){
+        expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[3]).toBe(document.querySelector("ol")
+        )
+       }
+         if(document.querySelector("li")){
+        expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[4,5,6]).toStrictEqual(document.querySelector("li")
+        )
+       }
+          if(document.querySelector("h1")){
+        expect([].slice.call(document.querySelectorAll("p, h1, ol,li"))[0]).toBe(document.querySelector("h1")
+        )
+       }
     })
 it('<h1> exists', function () {
         expect(document.querySelector("h1")).toBeTruthy()
