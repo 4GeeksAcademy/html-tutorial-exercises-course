@@ -1,5 +1,6 @@
 # Formating Text
 
+
 The way word processing documents work is pretty standard, you always see the same stuff: Headings, bold text, paragraphs, quotes, etc.
 
 HTML was meant to replicate that exact behavior. Here is and example of a typical document that can be replicated with HTML:
