@@ -37,7 +37,49 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
         expect([].slice.call(document.querySelectorAll("h1,p, ol,li,a,h2,ul"))[13].tagName).toStrictEqual(document.querySelector("a").tagName)
        }
 
-
     })
+        it('<h1> Exist', function () {
+         expect(document.querySelector("h1")).toBeTruthy()
+      })
+
+       it('<h2> Exist', function () {
+         expect(document.querySelectorAll("h2").length).toBe(2)
+      })
+        it('<p> Exist', function () {
+         expect(document.querySelectorAll("p").length).toBe(2)
+      })
+         it('<ol> Exist', function () {
+         expect(document.querySelectorAll("ol")).toBeTruthy()
+      })
+      it('<ul> Exist', function () {
+         expect(document.querySelector("ul")).toBeTruthy()
+      })
+       it('<li> Exist', function () {
+         expect(document.querySelectorAll("li").length).toBe(6)
+      })
+      it('<a> Exist', function () {
+         expect(document.querySelector("a")).toBeTruthy()
+      })
+
+
+      it('<h1> Inner HTML Exist', function () {
+         expect(document.querySelector("h1").innerHTML).toBeTruthy()
+      })
+        it('<p> Inner HTML Exist', function () {
+             for(let i =0; i<document.querySelectorAll("p").length;i++){
+        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBeTruthy()
+             }
+      })
+        it('<h2> Inner HTML Exist', function () {
+            for(let i =0; i<document.querySelectorAll("h2").length;i++){
+        expect([].slice.call(document.querySelectorAll("h2"))[i].innerHTML).toBeTruthy()
+            }
+      })
+          it('<li> Inner HTML Exist', function () {
+            for(let i =0; i<document.querySelectorAll("li").length;i++){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBeTruthy()
+            }
+      })
+
 
 });

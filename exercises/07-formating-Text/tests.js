@@ -44,21 +44,21 @@ it('<h1> exists', function () {
 
      it('Two(2) <p> exist', function () {
         expect(document.querySelectorAll("p").length).toBe(2)
-    }) 
-    
-    
+    })
+
+
      it('Two(2) <strong> exist', function () {
         expect(document.querySelectorAll("strong").length).toBe(2)
-    }) 
+    })
 
     it('<ol> exist', function () {
         expect(document.querySelectorAll("ol").length).toBeTruthy()
-    }) 
+    })
     it('Three(3) <li> exist', function () {
         expect(document.querySelectorAll("li").length).toBe(3)
-    }) 
+    })
 
-  
+
       it('<h1> innerHTML exist', function () {
         expect(document.querySelector("h1").innerHTML).toBeTruthy()
     })
