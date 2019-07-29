@@ -68,9 +68,13 @@ it('<h1> exists', function () {
     })
 
      it('<p> innerHTML exist', function () {
-        expect([].slice.call(document.querySelectorAll("p"))[0,1].innerHTML).toBeTruthy()
+         for (let i=0; i<document.querySelectorAll("p".length);i++){
+        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBeTruthy()
+         }
     })
     it('<li> innerHTML exist', function () {
-        expect([].slice.call(document.querySelectorAll("li"))[0,1,2].innerHTML).toBeTruthy()
+        for (let i=0; i<document.querySelectorAll("p".length);i++){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBeTruthy()
+        }
     })
 });
