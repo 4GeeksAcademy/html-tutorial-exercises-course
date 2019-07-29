@@ -71,9 +71,9 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
              }
       })
         it('<h2> Inner HTML Exist', function () {
-            for(let i =0; i<document.querySelectorAll("h2").length;i++){
+                for(let i =0; i<document.querySelectorAll("h2").length;i++){
         expect([].slice.call(document.querySelectorAll("h2"))[i].innerHTML).toBeTruthy()
-            }
+                }
       })
           it('<li> Inner HTML Exist', function () {
             for(let i =0; i<document.querySelectorAll("li").length;i++){
