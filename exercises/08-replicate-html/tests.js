@@ -63,21 +63,48 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
 
 
       it('<h1> Inner HTML Exist', function () {
-         expect(document.querySelector("h1").innerHTML).toBeTruthy()
+         expect(document.querySelector("h1").innerHTML).toBe("The learning essay")
       })
         it('<p> Inner HTML Exist', function () {
              for(let i =0; i<document.querySelectorAll("p").length;i++){
-        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBeTruthy()
+                 if (i === 0){
+        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBe("We are going to explain in this paragraph the 3 most common signs that should look into yourself to recognize if you are learning.")
+                 }
+                          if (i === 1){
+        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBe("If you cant sleep, what better than watching videos of cats?<a href=\"google.com\">Click me</a>")
+                 }
              }
       })
         it('<h2> Inner HTML Exist', function () {
                 for(let i =0; i<document.querySelectorAll("h2").length;i++){
-        expect([].slice.call(document.querySelectorAll("h2"))[i].innerHTML).toBeTruthy()
+                    if (i === 0){
+        expect([].slice.call(document.querySelectorAll("h2"))[i].innerHTML).toBe("3 Reason you know you are learning")
+                    }
+                    if (i === 1){
+        expect([].slice.call(document.querySelectorAll("h2"))[i].innerHTML).toBe("3 Reason you know love are learning what you are learning")
+                    }
                 }
       })
           it('<li> Inner HTML Exist', function () {
             for(let i =0; i<document.querySelectorAll("li").length;i++){
-        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBeTruthy()
+                if (i === 0){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBe("You are able to complete the exercise by yourself.")
+                }
+                if (i === 1){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBe("You understand what the teacher is talking about.")
+                }
+                  if (i === 2){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBe("Your are able to have conversations about the topic.")
+                }
+                   if (i === 3){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBe("Time passes fast.")
+                }
+                 if (i === 4){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBe("You are anxious to finish this exercise and start the next one.")
+                }
+                  if (i === 5){
+        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBe("Is 12am and you dont want to go to sleep.")
+                }
             }
       })
 
