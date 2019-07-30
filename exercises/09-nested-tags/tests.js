@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
+import React from 'react'
 
 jest.dontMock('fs');
 
@@ -54,9 +55,15 @@ describe('Replicate Nested Tag Example', function () {
           }
     })
 
-    it('<a> inner HTML', function () {
-        expect(document.querySelector("a").innerHTML).toBe("<h2>Hello</h2><p>Hello This is a test</p>")})
+    it('<a> href', function () {
+        expect(document.querySelector("a").href).toBeTruthy()})
 
+     it('<a> inner HTML', function () {
+
+        expect(document.querySelector("a").innerHTML).toBeTruthy()
+
+
+        })
 
 
 });
