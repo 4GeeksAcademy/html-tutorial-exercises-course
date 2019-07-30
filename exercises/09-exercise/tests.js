@@ -53,9 +53,9 @@ describe('Replicate Nested Tag Example', function () {
               }
           }
     })
+
     it('<a> inner HTML', function () {
-        expect(document.querySelector("a").innerHTML).toBe("<h2>Hello</h2><p>Hello</p>")
-    })
+        expect(document.querySelector("a").innerHTML).toBe("<h2>Hello</h2><p>Hello This is a test</p>")})
 
 
 
