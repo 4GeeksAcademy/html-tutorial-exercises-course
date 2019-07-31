@@ -15,7 +15,7 @@ describe('Replicate Nested Tag Example', function () {
     })
 
  it('<tr> tag exists', function () {
-        expect(document.querySelectorAll("tr").length).toBe(2)
+        expect(document.querySelectorAll("tr").length).toBe(4)
     })
      it('<th> tag exists', function () {
         expect(document.querySelectorAll("th").length).toBe(3)
@@ -34,7 +34,7 @@ describe('Replicate Nested Tag Example', function () {
 
      it('<tr>[0] bgcolor', function () {
         expect(document.querySelectorAll("tr")[0].style.backgroundColor).toBe("red")
-        expect(document.querySelectorAll("tr")[0].height).toBe("40")
+        expect(document.querySelectorAll("tr")[0].style.height).toBe("40px")
     })
 
 
