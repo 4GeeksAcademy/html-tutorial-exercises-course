@@ -34,7 +34,7 @@ describe('Replicate Nested Tag Example', function () {
 
      it('<tr>[0] bgcolor', function () {
         expect(document.querySelectorAll("tr")[0].style.backgroundColor).toBe("red")
-        expect(document.querySelectorAll("tr")[0].height).toStrictEqual("40")
+        expect(document.querySelectorAll("tr")[0].height).toBe("40")
     })
 
 
