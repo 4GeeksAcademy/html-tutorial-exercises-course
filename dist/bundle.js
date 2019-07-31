@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "cab1f3851df302a1e30d";
+/******/ 	var hotCurrentHash = "25e0fe7ba8258e449934";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -10575,10 +10575,10 @@ module.exports.formatError = function(err) {
 
 /***/ }),
 
-/***/ "./exercises/09-nested-tags/index.html":
-/*!*********************************************!*\
-  !*** ./exercises/09-nested-tags/index.html ***!
-  \*********************************************/
+/***/ "./exercises/08-replicate-html/index.html":
+/*!************************************************!*\
+  !*** ./exercises/08-replicate-html/index.html ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10586,28 +10586,28 @@ module.exports = __webpack_require__.p + "index.html";
 
 /***/ }),
 
-/***/ "./exercises/09-nested-tags/index.js":
-/*!*******************************************!*\
-  !*** ./exercises/09-nested-tags/index.js ***!
-  \*******************************************/
+/***/ "./exercises/08-replicate-html/index.js":
+/*!**********************************************!*\
+  !*** ./exercises/08-replicate-html/index.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(/*! ./index.html */ "./exercises/09-nested-tags/index.html");
+__webpack_require__(/*! ./index.html */ "./exercises/08-replicate-html/index.html");
 
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************!*\
-  !*** multi ./exercises/09-nested-tags/index.js webpack-dev-server/client?http://localhost:8080 ***!
-  \*************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** multi ./exercises/08-replicate-html/index.js webpack-dev-server/client?http://localhost:8080 ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/09-nested-tags/index.js */"./exercises/09-nested-tags/index.js");
+__webpack_require__(/*! ./exercises/08-replicate-html/index.js */"./exercises/08-replicate-html/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://localhost:8080 */"../../home/gitpod/.nvm/versions/node/v10.15.3/lib/node_modules/breathecode-cli/node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 
 
