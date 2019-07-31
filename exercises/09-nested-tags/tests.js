@@ -10,21 +10,23 @@ describe('Replicate Nested Tag Example', function () {
     afterEach(() => { jest.resetModules(); });
 
     it('Order of html tags', function () {
-       if(document.querySelector("h1")){
-        expect([].slice.call(document.querySelectorAll("h1,h2,p,i,a"))[0,2].tagName).toStrictEqual(document.querySelector("h1").tagName)
+        for(let i=0;i<document.querySelectorAll("h1,h2,p,i,a").length;i++){
+            if (i===0 || i===2){
+        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("h1").tagName)
+            }
+         if(i===5){
+        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("h2").tagName)
        }
-         if(document.querySelector("h2")){
-        expect([].slice.call(document.querySelectorAll("h1,h2,p,i,a"))[5].tagName).toStrictEqual(document.querySelector("h2").tagName)
+        if(i===3){
+        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("p").tagName)
        }
-        if(document.querySelector("p")){
-        expect([].slice.call(document.querySelectorAll("h1,h2,p,i,a"))[3].tagName).toStrictEqual(document.querySelector("p").tagName)
+         if(i===1){
+        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("i").tagName)
        }
-         if(document.querySelector("i")){
-        expect([].slice.call(document.querySelectorAll("h1,h2,p,i,a"))[1].tagName).toStrictEqual(document.querySelector("i").tagName)
+         if(i===4){
+        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("a").tagName)
        }
-         if(document.querySelector("a")){
-        expect([].slice.call(document.querySelectorAll("h1,h2,p,i,a"))[4].tagName).toStrictEqual(document.querySelector("a").tagName)
-       }
+    }
 
     })
 
@@ -46,11 +48,14 @@ describe('Replicate Nested Tag Example', function () {
 
       it('<h1> innerHTML', function () {
           for(let i=0;i<document.querySelectorAll("h1").length;i++){
-              if (i=== 0){
-        expect([].slice.call(document.querySelectorAll("h1"))[i].innerHTML).toBe("Hello world.<i> italic word.</i>")
+              if (i===0){
+        expect(document.querySelectorAll("h1")[i].innerHTML).toBe("Hello world.<i> italic word.</i>")
               }
-               if (i=== 2){
-        expect([].slice.call(document.querySelectorAll("h1"))[i].innerHTML).toBe("Hello world.<p>Italic word.</p>")
+               if (i===1){
+        expect(document.querySelectorAll("h1")[i].innerHTML).toBe(`
+			Hello world.
+			<p>Italic word.</p>
+		`)
               }
           }
     })
