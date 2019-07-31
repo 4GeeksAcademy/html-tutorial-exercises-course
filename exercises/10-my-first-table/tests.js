@@ -24,9 +24,19 @@ describe('Replicate Nested Tag Example', function () {
         expect(document.querySelectorAll("td").length).toBe(3)
     })
 
-    it('<table> innerHTML, style, border', function () {
-        expect(document.querySelector("table").style).toBe("width:100%")
+    it('<table> style', function () {
+        expect(document.querySelector("table").style.width).toBe("100%")
     })
+     it('<table> border', function () {
+        expect(document.querySelector("table").border).toBe("1")
+    })
+
+
+     it('<tr>[0] bgcolor', function () {
+        expect(document.querySelectorAll("tr")[0].style.backgroundColor).toBe("red")
+        expect(document.querySelectorAll("tr")[0].height).toStrictEqual("40")
+    })
+
 
 
 
