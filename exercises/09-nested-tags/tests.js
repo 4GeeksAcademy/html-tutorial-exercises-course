@@ -60,7 +60,11 @@ describe('Replicate Nested Tag Example', function () {
 
      it('<a> inner HTML', function () {
 
-        expect(document.querySelector("a").innerHTML).toBeTruthy()
+        expect(document.querySelector("a").innerHTML).toBe(`<h2>Hello</h2>
+			<p>
+				This exercises seem boring, but I have to do them anyway because the more I practice the less my brain forgets, at least for the first
+				4 days.
+			</p>`)
 
 
         })
