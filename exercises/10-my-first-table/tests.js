@@ -14,7 +14,7 @@ describe('Replicate Nested Tag Example', function () {
         expect(document.querySelector("table")).toBeTruthy()
     })
 
- it('<tr> tag exists, all <tr> align=left', function () {
+ it('Al <tr> tag exists, all <tr> align=left', function () {
         expect(document.querySelectorAll("tr").length).toBe(4)
          for (let i=0;i<document.querySelectorAll("tr").length;i++){
         expect([].slice.call(document.querySelectorAll("tr"))[i].align).toBe("left")
