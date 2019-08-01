@@ -76,7 +76,9 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
         it('<p> Inner HTML Exist', function () {
              for(let i =0; i<document.querySelectorAll("p").length;i++){
                  if (i === 0){
-        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBe("We are going to explain in this paragraph the 3 most common signs that should look into yourself to recognize if you are learning.")
+        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBe(`
+			We are going to explain in this paragraph the 3 most common signs that should look into yourself to recognize if you are learning.
+		`)
                  }
                           if (i === 1){
         expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBe("If you cant sleep, what better than watching videos of cats?<a href=\"google.com\">Click me</a>")

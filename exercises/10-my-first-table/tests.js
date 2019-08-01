@@ -14,7 +14,7 @@ describe('Replicate Nested Tag Example', function () {
         expect(document.querySelector("table")).toBeTruthy()
     })
 
- it('Al <tr> tag exists, all <tr> align=left', function () {
+ it('All <tr> tag exists, all <tr> align=left', function () {
         expect(document.querySelectorAll("tr").length).toBe(4)
          for (let i=0;i<document.querySelectorAll("tr").length;i++){
         expect([].slice.call(document.querySelectorAll("tr"))[i].align).toBe("left")
@@ -42,7 +42,16 @@ describe('Replicate Nested Tag Example', function () {
         }
     })
      it('All <td> tag exists', function () {
-        expect(document.querySelectorAll("td").length).toBe(9)
+         if(document.querySelector("td")){
+           for(let i=0;i<document.querySelectorAll("table,th,tr,td").length;i++){
+               let arr=[6,7,8,10,11,12,14,15,16]
+               if(i===arr[i])
+        expect(document.querySelectorAll("table,th,tr,td")[i].tagName).toStrictEqual(document.querySelector("td").tagName)
+
+       }
+       }
+
+        //expect(document.querySelectorAll("td").length).toBe(9)
     })
 
     it('<table> width, border', function () {
