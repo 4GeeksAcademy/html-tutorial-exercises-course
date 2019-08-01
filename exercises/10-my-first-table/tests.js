@@ -14,32 +14,46 @@ describe('Replicate Nested Tag Example', function () {
         expect(document.querySelector("table")).toBeTruthy()
     })
 
- it('<tr> tag exists', function () {
+ it('<tr> tag exists, all <tr> align=left', function () {
         expect(document.querySelectorAll("tr").length).toBe(4)
-    })
-     it('<th> tag exists', function () {
+         for (let i=0;i<document.querySelectorAll("tr").length;i++){
+        expect([].slice.call(document.querySelectorAll("tr"))[i].align).toBe("left")
+        }
+ })
+
+     it('All <th> tag exists, innerHTML', function () {
         expect(document.querySelectorAll("th").length).toBe(3)
+        for(let i=0;i<document.querySelectorAll("th").length;i++){
+            if (i===0){
+        expect(document.querySelectorAll("th")[i].innerHTML).toBe(`
+					Name
+				`)
+            }
+              if (i===1){
+        expect(document.querySelectorAll("th")[i].innerHTML).toBe(`
+					Last Name
+				`)
+            }
+            if (i===2){
+        expect(document.querySelectorAll("th")[i].innerHTML).toBe(`
+					Phone Number
+				`)
+            }
+        }
     })
-     it('<td> tag exists', function () {
-        expect(document.querySelectorAll("td").length).toBe(3)
+     it('All <td> tag exists', function () {
+        expect(document.querySelectorAll("td").length).toBe(9)
     })
 
-    it('<table> style', function () {
+    it('<table> width, border', function () {
         expect(document.querySelector("table").style.width).toBe("100%")
-    })
-     it('<table> border', function () {
         expect(document.querySelector("table").border).toBe("1")
     })
 
-
-     it('<tr>[0] bgcolor', function () {
+     it('<tr>[0] bgcolor, height, align', function () {
         expect(document.querySelectorAll("tr")[0].style.backgroundColor).toBe("red")
         expect(document.querySelectorAll("tr")[0].style.height).toBe("40px")
+        expect(document.querySelectorAll("tr")[0].align).toBe("left")
     })
-
-
-
-
-
 
 });
