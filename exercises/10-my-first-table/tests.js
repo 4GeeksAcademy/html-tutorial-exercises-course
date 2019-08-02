@@ -41,17 +41,17 @@ describe('Replicate Nested Tag Example', function () {
             }
         }
     })
-     it('All <td> tag exists', function () {
+       it('All <td> tag\' exists', function () {
          if(document.querySelector("td")){
            for(let i=0;i<document.querySelectorAll("table,th,tr,td").length;i++){
-               let arr=[6,7,8,10,11,12,14,15,16]
-               if(i===arr[i])
-        expect(document.querySelectorAll("table,th,tr,td")[i].tagName).toStrictEqual(document.querySelector("td").tagName)
+               if([6,7,8,10,11,12,14,15,16].includes(i))
+                    expect(document.querySelectorAll("table,th,tr,td")[i].tagName)
+                        .toStrictEqual("TD")
 
-       }
-       }
+            }
+        }
 
-        //expect(document.querySelectorAll("td").length).toBe(9)
+        expect(document.querySelectorAll("td").length).toBe(9)
     })
 
     it('<table> width, border', function () {
