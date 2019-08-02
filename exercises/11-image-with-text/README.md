@@ -1,17 +1,17 @@
-## My First Table
+## Image with Text
 
-Create this table with HTML code:
+Before CSS existed, using tables was the only way possible to do some website layouts, is a very similar process to creating layouts on MS Office.
 
-![demo](http://i.imgur.com/jeaIWYJ.png)
+For example, to recreate this example you have to do the following:
+1.Create a table with the attribute border="0"
+2.Ad row (tr) with 2 columns (td) inside.
+3.The first column containing an image with the attribute height="150"
+4.The second one with the attribute valign="top" to move the texto to the top of the cell and also add some text inside: you can use this tool to generate fake text that looks like real text: http://www.lipsum.com/
 
-Without using CSS, with just plain HTML you can add some basic styles to elements.
-Do the following tasks to play with the table format:
+Please follow the previous steps to recreate the example.
 
-1.Add a width attribute to the table of 100% and a border of 1.
-2.Add to the tr tag inside of the thead tag a heigh of 40.
 
-This should be the result:
+![demo](http://i.imgur.com/opTIFpg.png)
 
-![demo](http://i.imgur.com/y02Cpvs.png)
+Note: you can use https://placehold.it/ for fake images.
 
-Note: don't use CSS! use basic HTML attributes in the tags.
