@@ -5,32 +5,38 @@ const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 
 jest.dontMock('fs');
 
+
+
 describe('Replicate Nested Tag Example', function () {
+
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
     it('Order of html tags', function () {
-        for(let i=0;i<document.querySelectorAll("h1,h2,p,i,a").length;i++){
+           const allSelectors = document.querySelectorAll("h1,h2,p,i,a");
+console.log(document.querySelectorAll("h1,h2,p,i,a"))
+        for(let i=0;i<allSelectors.length;i++){
             if (i===0 || i===2){
-        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("h1").tagName)
+        expect(allSelectors[i].tagName).toStrictEqual("H1")
             }
          if(i===5){
-        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("h2").tagName)
+        expect(allSelectors[i].tagName).toStrictEqual("H2")
        }
         if(i===3){
-        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("p").tagName)
+        expect(allSelectors[i].tagName).toStrictEqual("P")
        }
          if(i===1){
-        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("i").tagName)
+        expect(allSelectors[i].tagName).toStrictEqual("I")
        }
          if(i===4){
-        expect(document.querySelectorAll("h1,h2,p,i,a")[i].tagName).toStrictEqual(document.querySelector("a").tagName)
+        expect(allSelectors[i].tagName).toStrictEqual("A")
        }
     }
 
     })
 
  it('<h1> tag exists', function () {
+
         expect(document.querySelectorAll("h1").length).toBe(2)
     })
      it('<i> tag exists', function () {

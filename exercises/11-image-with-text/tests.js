@@ -15,14 +15,14 @@ describe('image with text', function () {
 
  it('order of HTML tag', function () {
 
-const selectors = document.querySelectorAll("table,tr,td,img,h1");
-console.log(selectors)
-for(let i=0;i<selectors.length;i++){
+const allSelectors = document.querySelectorAll("TABLE,TD,TR,IMG,H1");
+console.log(allSelectors)
+for(let i=0;i<allSelectors.length;i++){
     if (i===0){
-        expect(selectors[i].tagName).toStrictEqual("TABLE")
+        expect(allSelectors[i].tagName).toStrictEqual("TABLE")
 }
 if (i===1){
-    expect(selectors[i].tagName).toStrictEqual("TR")
+    expect(allSelectors[i].tagName).toStrictEqual("TR")
 
 }
 
