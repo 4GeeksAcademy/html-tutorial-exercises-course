@@ -15,7 +15,7 @@ describe('image with text', function () {
 
  it('order of HTML tag', function () {
 
-const allSelectors = document.querySelectorAll("TABLE,TD,TR,IMG,H1");
+const allSelectors = document.querySelectorAll("TABLE,TD,TR,IMG");
 console.log(allSelectors)
 for(let i=0;i<allSelectors.length;i++){
     if (i===0){
@@ -23,7 +23,15 @@ for(let i=0;i<allSelectors.length;i++){
 }
 if (i===1){
     expect(allSelectors[i].tagName).toStrictEqual("TR")
-
+}
+if (i===2){
+    expect(allSelectors[i].tagName).toStrictEqual("TD")
+}
+if (i===3){
+    expect(allSelectors[i].tagName).toStrictEqual("IMG")
+}
+if (i===4){
+    expect(allSelectors[i].tagName).toStrictEqual("TD")
 }
 
 }
@@ -31,22 +39,31 @@ if (i===1){
     })
 
 
- it('<table> tag exists', function () {
-        const table = document.querySelector("table")
-        expect(table).toBeTruthy()
+ it('table tag exist', function () {
+      expect(document.querySelector("TABLE")).toBeTruthy()
  })
 
-    it('<tr> tag exists', function () {
-        expect(document.querySelector("tr")).toBeTruthy()
+
+it('<tr> tag exists', function () {
+        expect(document.querySelector("TR")).toBeTruthy()
+    })
+it('<td> tags,innerHTML & valign exists', function () {
+    const allTD = document.querySelectorAll("TD")
+        expect(allTD.length).toBe(2)
+        for(let i=0;i<allTD.length;i++){
+            if (i===1){
+                expect(allTD[i].vAlign).toBe("top")
+               expect(allTD[i].innerHTML).toBeTruthy()
+            }
+        }
     })
 
-      it('<td> tags exists', function () {
-        expect(document.querySelectorAll("td").length).toBe(2)
-    })
 
-
- it('<img> tags exists', function () {
-        expect(document.querySelectorAll("img")).toBeTruthy()
+ it('<img> tag, src & height exists', function () {
+     const imgTag = document.querySelector("img")
+        expect(imgTag).toBeTruthy()
+        expect(imgTag.src).toBeTruthy()
+        expect(imgTag.height).toBe(150)
     })
 
 });
