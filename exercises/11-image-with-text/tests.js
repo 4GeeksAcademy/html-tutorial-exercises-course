@@ -14,23 +14,27 @@ describe('image with text', function () {
 
 
  it('order of HTML tag', function () {
- for(let i=0;i<document.querySelectorAll("table tr td img").length;i++){
-            if (i===0){
-        expect(document.querySelectorAll("table tr td img")[i].tagName).toStrictEqual(document.querySelector("table").tagName)
-            }
-         if(i===1){
-        expect(document.querySelectorAll("table tr td img")[i].tagName).toStrictEqual(document.querySelector("tr").tagName)
-       }
-           if(i===2){
-        expect(document.querySelectorAll("table tr td img")[i].tagName).toStrictEqual(document.querySelector("td").tagName)
-       }
- }
+
+const selectors = document.querySelectorAll("table,tr,td,img,h1");
+console.log(selectors)
+for(let i=0;i<selectors.length;i++){
+    if (i===0){
+        expect(selectors[i].tagName).toStrictEqual("TABLE")
+}
+if (i===1){
+    expect(selectors[i].tagName).toStrictEqual("TR")
+
+}
+
+}
+
     })
 
 
  it('<table> tag exists', function () {
-        expect(document.querySelector("table")).toBeTruthy()
-    })
+        const table = document.querySelector("table")
+        expect(table).toBeTruthy()
+ })
 
     it('<tr> tag exists', function () {
         expect(document.querySelector("tr")).toBeTruthy()

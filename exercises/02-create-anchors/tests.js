@@ -9,7 +9,8 @@ describe('<a> tag should exist', function () {
     afterEach(() => { jest.resetModules(); });
 
  it('<a> tag exists', function () {
-        expect(document.querySelector("a")).toBeTruthy()
+        const anchor = document.querySelector("a");
+        expect(anchor).toBeTruthy()
     })
 
      it('<a> innerHTML exists', function () {
