@@ -18,9 +18,9 @@ it('<video> tag exist', function () {
 
     it('<video> tag muted & autoplay exist', function () {
         const videoTag = document.querySelector("VIDEO")
-
-        expect(videoTag.muted).toBe("")
-        expect(videoTag.autoplay).toBe("")
+        console.log(videoTag.muted)
+       expect(videoTag.muted).toBeTruthy()
+        expect(videoTag.autoplay).toBeTruthy()
 
        })
 
