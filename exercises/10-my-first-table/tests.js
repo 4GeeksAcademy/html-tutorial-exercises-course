@@ -10,63 +10,69 @@ describe('Replicate Nested Tag Example', function () {
     afterEach(() => { jest.resetModules(); });
 
 
- it('<table> tag exists', function () {
-        expect(document.querySelector("table")).toBeTruthy()
+ it('<table> tag, width & border exist', function () {
+     const tableTag = document.querySelector("table")
+        expect(tableTag).toBeTruthy()
+        expect(tableTag.style.width).toBe("100%")
+         expect(tableTag.border).toBe("1")
     })
 
- it('All <tr> tag exists, all <tr> align=left', function () {
-        expect(document.querySelectorAll("tr").length).toBe(4)
-         for (let i=0;i<document.querySelectorAll("tr").length;i++){
-        expect([].slice.call(document.querySelectorAll("tr"))[i].align).toBe("left")
+
+     it('<tr>[0] bgcolor, height, align', function () {
+         const allTR = document.querySelectorAll("tr")
+        expect(allTR[0].style.backgroundColor).toBe("red")
+        expect(allTR[0].style.height).toBe("40px")
+        expect(allTR[0].align).toBe("left")
+    })
+
+ it('All <tr> tag exists & all <tr> align=left', function () {
+     const allTR = document.querySelectorAll("tr")
+        expect(allTR.length).toBe(4)
+         for (let i=0;i<allTR.length;i++){
+        expect(allTR[i].align).toBe("left")
         }
  })
 
-     it('All <th> tag exists, innerHTML', function () {
-        expect(document.querySelectorAll("th").length).toBe(3)
-        for(let i=0;i<document.querySelectorAll("th").length;i++){
+     it('All <th> tag exists & innerHTML', function () {
+         const allTH = document.querySelectorAll("th")
+        expect(allTH.length).toBe(3)
+        for(let i=0;i<allTH.length;i++){
             if (i===0){
-        expect(document.querySelectorAll("th")[i].innerHTML).toBe(`
+        expect(allTH[i].innerHTML).toBe(`
 					Name
 				`)
             }
               if (i===1){
-        expect(document.querySelectorAll("th")[i].innerHTML).toBe(`
+        expect(allTH[i].innerHTML).toBe(`
 					Last Name
 				`)
             }
             if (i===2){
-        expect(document.querySelectorAll("th")[i].innerHTML).toBe(`
+        expect(allTH[i].innerHTML).toBe(`
 					Phone Number
 				`)
             }
         }
     })
        it('All <td> tag exists, innerHTML', function () {
-         if(document.querySelector("td")){
-           for(let i=0;i<document.querySelectorAll("table,th,tr,td").length;i++){
+            const allSelectors =document.querySelectorAll("table,th,tr,td")
+            const allTD = document.querySelectorAll("td")
+           for(let i=0;i<allSelectors.length;i++){
                if([6,7,8,10,11,12,14,15,16].includes(i))
-                    expect(document.querySelectorAll("table,th,tr,td")[i].tagName)
+                    expect(allSelectors[i].tagName)
                         .toStrictEqual("TD")
 
             }
+
+
+        expect(allTD.length).toBe(9)
+        for(let i=0;i<allTD.length;i++){
+        expect(allTD[i].innerHTML).toBeTruthy()
         }
 
-        expect(document.querySelectorAll("td").length).toBe(9)
-        for(let i=0;i<document.querySelectorAll("td").length;i++){
-        expect(document.querySelectorAll("td")[i].innerHTML).toBeTruthy()
-        }
-
     })
 
-    it('<table> width, border', function () {
-        expect(document.querySelector("table").style.width).toBe("100%")
-        expect(document.querySelector("table").border).toBe("1")
-    })
 
-     it('<tr>[0] bgcolor, height, align', function () {
-        expect(document.querySelectorAll("tr")[0].style.backgroundColor).toBe("red")
-        expect(document.querySelectorAll("tr")[0].style.height).toBe("40px")
-        expect(document.querySelectorAll("tr")[0].align).toBe("left")
-    })
+
 
 });

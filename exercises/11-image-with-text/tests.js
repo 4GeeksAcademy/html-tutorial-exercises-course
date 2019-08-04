@@ -39,8 +39,11 @@ if (i===4){
     })
 
 
- it('table tag exist', function () {
-      expect(document.querySelector("TABLE")).toBeTruthy()
+ it('table tag & border exist', function () {
+     const tableTag= document.querySelector("TABLE")
+      expect(tableTag).toBeTruthy()
+      expect(tableTag.border).toBe("0")
+
  })
 
 
