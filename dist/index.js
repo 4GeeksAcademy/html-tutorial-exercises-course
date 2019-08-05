@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "25e0fe7ba8258e449934";
+/******/ 	var hotCurrentHash = "ba03df2a0e842e2fffd7";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -10575,9 +10575,9 @@ module.exports.formatError = function(err) {
 
 /***/ }),
 
-/***/ "./exercises/08-replicate-html/index.html":
+/***/ "./exercises/07-formating-Text/index.html":
 /*!************************************************!*\
-  !*** ./exercises/08-replicate-html/index.html ***!
+  !*** ./exercises/07-formating-Text/index.html ***!
   \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10586,9 +10586,9 @@ module.exports = __webpack_require__.p + "index.html";
 
 /***/ }),
 
-/***/ "./exercises/08-replicate-html/index.js":
+/***/ "./exercises/07-formating-Text/index.js":
 /*!**********************************************!*\
-  !*** ./exercises/08-replicate-html/index.js ***!
+  !*** ./exercises/07-formating-Text/index.js ***!
   \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10596,18 +10596,18 @@ module.exports = __webpack_require__.p + "index.html";
 "use strict";
 
 
-__webpack_require__(/*! ./index.html */ "./exercises/08-replicate-html/index.html");
+__webpack_require__(/*! ./index.html */ "./exercises/07-formating-Text/index.html");
 
 /***/ }),
 
 /***/ 0:
 /*!****************************************************************************************************!*\
-  !*** multi ./exercises/08-replicate-html/index.js webpack-dev-server/client?http://localhost:8080 ***!
+  !*** multi ./exercises/07-formating-Text/index.js webpack-dev-server/client?http://localhost:8080 ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/08-replicate-html/index.js */"./exercises/08-replicate-html/index.js");
+__webpack_require__(/*! ./exercises/07-formating-Text/index.js */"./exercises/07-formating-Text/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://localhost:8080 */"../../home/gitpod/.nvm/versions/node/v10.15.3/lib/node_modules/breathecode-cli/node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 
 

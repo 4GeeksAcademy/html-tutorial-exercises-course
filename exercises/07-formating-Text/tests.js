@@ -12,27 +12,32 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
     afterEach(() => { jest.resetModules(); });
 
    it('Order of html tags', function () {
-       if(document.querySelectorAll("p")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[1,3].tagName).toStrictEqual(document.querySelector("p").tagName)
-       }
+       const allSelectors = document.querySelectorAll("p, h1, ol,li,blockquote")
+       let arr = [5,6,7]
+       for(let i =0;i<allSelectors;i++){
+           if (i===1 && i===3)
+        expect(allSelectors[i].tagName).toStrictEqual("P")
 
-       if(document.querySelectorAll("blockquote")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[2].tagName).toStrictEqual(document.querySelector("blockquote").tagName)
-       }
+       if (arr[i]=== i)
+        expect(allSelectors[i].tagName).toStrictEqual("LI")
 
-        if(document.querySelector("ol")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[4]).toBe(document.querySelector("ol")
-        )
-       }
-         if(document.querySelector("li")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[5,6,7].tagName).toStrictEqual(document.querySelector("li").tagName
-        )
-       }
-          if(document.querySelector("h1")){
-        expect([].slice.call(document.querySelectorAll("p, h1, ol,li,blockquote"))[0]).toBe(document.querySelector("h1")
-        )
+        if(i===2)
+        expect(allSelectors[i].tagName).toStrictEqual("BLOCKQUOTE")
+
+
+        if (i===4){
+        expect(allSelectors[i].tagName).toBe("OL")
+        }
+
+
+         if (i===0){
+        expect(allSelectors[i].tagName).toBe("H1")
+         }
        }
     })
+
+
+
 it('<h1> exists', function () {
         expect(document.querySelector("h1")).toBeTruthy()
     })
@@ -68,13 +73,15 @@ it('<h1> exists', function () {
     })
 
      it('<p> innerHTML exist', function () {
-         for (let i=0; i<document.querySelectorAll("p".length);i++){
-        expect([].slice.call(document.querySelectorAll("p"))[i].innerHTML).toBeTruthy()
+         const allP = document.querySelectorAll("p")
+         for (let i=0; i<allP.length;i++){
+        expect(allP[i].innerHTML).toBeTruthy()
          }
     })
     it('<li> innerHTML exist', function () {
-        for (let i=0; i<document.querySelectorAll("p".length);i++){
-        expect([].slice.call(document.querySelectorAll("li"))[i].innerHTML).toBeTruthy()
+        const allLI = document.querySelectorAll("li")
+        for (let i=0; i<allLI.length;i++){
+        expect(allLI[i].innerHTML).toBeTruthy()
         }
     })
 });
