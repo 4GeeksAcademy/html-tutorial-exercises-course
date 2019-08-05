@@ -13,7 +13,7 @@ describe('Replicate Nested Tag Example', function () {
  it('<table> tag, width & border exist', function () {
      const tableTag = document.querySelector("table")
         expect(tableTag).toBeTruthy()
-        expect(tableTag.style.width).toBe("100%")
+        expect(tableTag.width).toBe("100%")
          expect(tableTag.border).toBe("1")
     })
 

@@ -14,4 +14,6 @@ This should be the result:
 
 ![demo](http://i.imgur.com/y02Cpvs.png)
 
+Use the style attribute inside the first tr tag to set height and border color.
+
 Note: don't use CSS! use basic HTML attributes in the tags.
