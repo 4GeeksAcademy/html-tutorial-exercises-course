@@ -20,8 +20,6 @@ Absolute Paths
 <a href="http://www.mysite.com/graphics/image.png">Click Me</a>
 <a href="http://www.mysite.com/help/articles/how-do-i-set-up-a-webpage.html">Click Me</a>
 
-#  Make the anchor tag open a new window using the target attribute.
-
 The difference is that absolute paths take the user to a different website, relative paths take the user to the same website.
 
 

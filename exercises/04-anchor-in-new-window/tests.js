@@ -10,7 +10,7 @@ describe('<a> tag should open in new window', function () {
 
 
  it('<a> new window', function () {
-        expect(document.querySelector("a").target).toBeTruthy()
+        expect(document.querySelector("a").target).toBe("_blank")
     })
 
 });

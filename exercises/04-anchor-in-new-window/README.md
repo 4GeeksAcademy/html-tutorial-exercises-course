@@ -1,4 +1,4 @@
-#  Make the anchor tag open a new window using the target attribute.
+#  Anchor in new window.
 
 Instructions:
 

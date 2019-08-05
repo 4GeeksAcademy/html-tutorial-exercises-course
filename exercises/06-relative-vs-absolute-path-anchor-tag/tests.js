@@ -8,14 +8,14 @@ describe('<a> tag should open in new window', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
-   it('Two (2) <a> exists', function () {
-        expect(document.querySelectorAll("a").length).toBe(2)
+   it('<a> exists', function () {
+        expect(document.querySelector("a")).toBeTruthy()
     })
 
-       it('Added <a> should have an absolute href path', function () {
-           for(let i=0; i<document.querySelectorAll("a").length;i++){
-        expect(document.querySelectorAll("a")[1].href).toBe("https://www.google.com/")
-           }
+       it('<a> should have an innerHTML and an absolute href path to google', function () {
+           const a = document.querySelector("a")
+        expect(a.href).toBe("https://www.google.com/")
+        expect(a.innerHTML).toBeTruthy()
     })
 
 

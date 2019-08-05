@@ -16,10 +16,10 @@ describe('ol should exist', function () {
         expect(document.querySelectorAll("li").length).toBe(6)
     })
 
-       it("innerHTML exist", function(){
-
-        for(let i=0; i<document.querySelectorAll("li").length;i++){
-             expect(document.querySelectorAll("li")[i].innerHTML).not.toBe("")
+       it(" LI innerHTML exist", function(){
+        const li = document.querySelectorAll("li")
+        for(let i=0; i<li.length;i++){
+             expect(li[i].innerHTML).toBeTruthy()
         }
     })
 
