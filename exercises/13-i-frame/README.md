@@ -1,24 +1,10 @@
-## Video Tag
+## iframe
 
-Here is the documentation for the video tag: http://lmgtfy.com/?q=html+video+tag
+The iframe tag is amazing, it lets you insert a website inside a website. Youtube uses the iframe tag to let you insert youtube videos in your own website.
 
-Instructions:
+Instructions
+Please add an iframe of 300x200 without any borders that points to this url:
+https://www.youtube.com/embed/hFQiSDiysWs
 
-Use the video tag to include this video into the website:
-https://assets.breatheco.de/apis/video/why-pair-programming
+P.D: It will not hurt to watch the video ;)
 
-1.The video needs to cover the whole 100% of website.
-
-2.The video should play automatically
-
-3.the video should have NO CONTROLS play, pause, etc.
-
-P.D: it will not hurt to watch the video.
-
-HINT: Chrome requires the use of attribute: autoplay muted like this:
-![<video muted autoplay>]()
-
-
-
-
-Read more about it here: https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome

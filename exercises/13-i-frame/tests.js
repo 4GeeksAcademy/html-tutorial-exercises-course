@@ -11,23 +11,24 @@ describe('video tag', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
-it('<video> tag exist', function () {
-
-      expect( document.querySelector("VIDEO")).toBeTruthy()
+it('<iframe> tag exist', function () {
+    const iframe =  document.querySelector("iframe")
+      expect(iframe).toBeTruthy()
       })
 
-    it('<video> tag muted & autoplay exist', function () {
-        const videoTag = document.querySelector("VIDEO")
+it('<iframe> width=300px', function () {
+    const iframe =  document.querySelector("iframe")
+      expect(iframe.width).toBe("300px")
+      })
 
-       //expect(videoTag.muted).toBeTruthy()
-        expect(videoTag.autoplay).toBeTruthy()
+      it('<iframe> height=200px', function () {
+    const iframe = document.querySelector("iframe")
+      expect(iframe.height).toBe("200px")
+      })
+           it('<iframe> height=200px', function () {
+    const iframe = document.querySelector("iframe")
+      expect(iframe.src).toBe("https://www.youtube.com/embed/hFQiSDiysWs")
+      })
 
-       })
-
-    it('<video> tag width=100% & height=100% exist', function () {
-        const videoTag = document.querySelector("VIDEO")
-      expect(videoTag.height + "%").toBe("100%")
-      expect(videoTag.width + "%").toBe("100%")
-       })
 
 });
