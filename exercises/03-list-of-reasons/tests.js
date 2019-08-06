@@ -12,15 +12,17 @@ describe('ol should exist', function () {
  it('ol exists', function () {
         expect(document.querySelector("ol")).toBeTruthy()
     })
-    it('li exists', function () {
+    it('(6) li tag exists', function () {
         expect(document.querySelectorAll("li").length).toBe(6)
     })
 
        it(" LI innerHTML exist", function(){
         const li = document.querySelectorAll("li")
+       expect(document.querySelector("li")).toBeTruthy()
         for(let i=0; i<li.length;i++){
              expect(li[i].innerHTML).toBeTruthy()
         }
+
     })
 
 

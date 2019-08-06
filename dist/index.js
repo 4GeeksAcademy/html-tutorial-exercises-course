@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "d2209c04884e01f17fe6";
+/******/ 	var hotCurrentHash = "acaee72ff966ad9adf31";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -10575,10 +10575,10 @@ module.exports.formatError = function(err) {
 
 /***/ }),
 
-/***/ "./exercises/06-relative-vs-absolute-path-anchor-tag/index.html":
-/*!**********************************************************************!*\
-  !*** ./exercises/06-relative-vs-absolute-path-anchor-tag/index.html ***!
-  \**********************************************************************/
+/***/ "./exercises/03-list-of-reasons/index.html":
+/*!*************************************************!*\
+  !*** ./exercises/03-list-of-reasons/index.html ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10586,28 +10586,28 @@ module.exports = __webpack_require__.p + "index.html";
 
 /***/ }),
 
-/***/ "./exercises/06-relative-vs-absolute-path-anchor-tag/index.js":
-/*!********************************************************************!*\
-  !*** ./exercises/06-relative-vs-absolute-path-anchor-tag/index.js ***!
-  \********************************************************************/
+/***/ "./exercises/03-list-of-reasons/index.js":
+/*!***********************************************!*\
+  !*** ./exercises/03-list-of-reasons/index.js ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(/*! ./index.html */ "./exercises/06-relative-vs-absolute-path-anchor-tag/index.html");
+__webpack_require__(/*! ./index.html */ "./exercises/03-list-of-reasons/index.html");
 
 /***/ }),
 
 /***/ 0:
-/*!**************************************************************************************************************************!*\
-  !*** multi ./exercises/06-relative-vs-absolute-path-anchor-tag/index.js webpack-dev-server/client?http://localhost:8080 ***!
-  \**************************************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** multi ./exercises/03-list-of-reasons/index.js webpack-dev-server/client?http://localhost:8080 ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/06-relative-vs-absolute-path-anchor-tag/index.js */"./exercises/06-relative-vs-absolute-path-anchor-tag/index.js");
+__webpack_require__(/*! ./exercises/03-list-of-reasons/index.js */"./exercises/03-list-of-reasons/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://localhost:8080 */"../../home/gitpod/.nvm/versions/node/v10.15.3/lib/node_modules/breathecode-cli/node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 
 

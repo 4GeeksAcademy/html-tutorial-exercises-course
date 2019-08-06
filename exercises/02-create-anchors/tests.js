@@ -17,7 +17,7 @@ describe('<a> tag should exist', function () {
         expect(document.querySelector("a").innerHTML).toBe("Click me to search on google")
     })
 
-     it('<a href = https://www.google.com/ > exists', function () {
+     it('<a href = https://www.google.com/> exists', function () {
         expect(document.querySelector("a").href).toBe("https://www.google.com/")
     })
 
