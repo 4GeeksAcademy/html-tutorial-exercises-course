@@ -1,4 +1,4 @@
-## 📝 Instructions
+## Create anchor tag
 
 Add to the website body an anchor tag that says `Click me to search on google`
 
