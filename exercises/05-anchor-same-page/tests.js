@@ -27,6 +27,7 @@ describe('<a> tag should open in new window', function () {
         it('<a href> should point to <h2> id', function () {
             const a = document.querySelectorAll("a")
             const h2 = document.querySelectorAll("h2")
+            expect(document.querySelector("a")).toBeTruthy()
         for(let i=0; i<a.length;i++){
             if (i===0)
              expect(a[i].href).toEqual("http://localhost/" + "#"+h2[1].id)

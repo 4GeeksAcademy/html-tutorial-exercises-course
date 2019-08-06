@@ -2,7 +2,7 @@
 
 Here is the documentation for the video tag: http://lmgtfy.com/?q=html+video+tag
 
-Instructions:
+**Instructions:**
 
 Use the video tag to include this video into the website:
 https://assets.breatheco.de/apis/video/why-pair-programming
@@ -16,7 +16,8 @@ https://assets.breatheco.de/apis/video/why-pair-programming
 P.D: it will not hurt to watch the video.
 
 HINT: Chrome requires the use of attribute: autoplay muted like this:
-![<video muted autoplay>]()
+
+< video muted autoplay >
 
 
 

@@ -8,7 +8,7 @@ For example, to recreate this example you have to do the following:
 3.The first column containing an image with the attribute height="150"
 4.The second one with the attribute valign="top" to move the texto to the top of the cell and also add some text inside: you can use this tool to generate fake text that looks like real text: http://www.lipsum.com/
 
-Please follow the previous steps to recreate the example.
+**Please follow the previous steps to recreate the example.**
 
 
 ![demo](http://i.imgur.com/opTIFpg.png)
