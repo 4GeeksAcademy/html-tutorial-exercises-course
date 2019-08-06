@@ -1,4 +1,4 @@
-## Image with Text
+## `13` Image with Text
 
 Before CSS existed, using tables was the only way possible to do some website layouts, is a very similar process to creating layouts on MS Office.
 

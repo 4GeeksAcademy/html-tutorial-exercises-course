@@ -1,4 +1,4 @@
-#  Anchor in new window.
+# `06` Anchor in new window.
 
 Instructions:
 

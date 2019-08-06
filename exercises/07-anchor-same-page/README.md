@@ -1,4 +1,4 @@
-# Anchor same page.
+# `07` Anchor same page.
 
 Anchors are also capable to scroll the website to a specific element that we specify.
 

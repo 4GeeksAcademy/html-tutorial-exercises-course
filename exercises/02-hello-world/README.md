@@ -1,6 +1,6 @@
-## Hello World
+## `02` Hello World
 
-Instructions
+**Instructions:**
 
 1.Add the basic HTML structure for any website (doctype, html, head and body)
 
