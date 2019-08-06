@@ -1,14 +1,12 @@
-## Hello World
+## Hello without Head
 
-Instructions
+On the last exercise you had to add all the HTML basic structure of a website.
 
-1.Add the basic HTML structure for any website (doctype, html, head and body)
+Instructions:
 
-2.Add "Hello World" inside the title tag for the website.
+Do the same for this exercise, but don't include the HEAD tag.
+Add into the body an H1 heading with your name on it.
 
-Note
-The title is not going to show on the browser tab because this is an exercise and we don't have control over the entire Repl.it website.
+The result should look like this:
 
-Hint
-You can read about a typical website structure here
-https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
+![Link url](https://storage.googleapis.com/replit/images/1517598579435_329a4ee44a9f7c6c1fc5d51a94957830.png)
