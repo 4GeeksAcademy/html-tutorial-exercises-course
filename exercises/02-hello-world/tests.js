@@ -8,6 +8,17 @@ describe('basic HTML structure', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
+     it('order of HTML tags', function () {
+        let a = document.documentElement.innerHTML = html.toString()
+        let doctype = a.indexOf("<!DOCTYPE html>")
+        let html = a.indexOf("<html>")
+        console.log(doctype)
+        expect(a.indexOf("<!DOCTYPE html>")).toBe(0)
+        expect(a.indexOf("<html>")).toBeGreaterThan(doctype)
+
+
+    })
+
  it('<!DOCTYPE html> tag exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<!DOCTYPE html>")).not.toBe(-1)
@@ -23,7 +34,7 @@ describe('basic HTML structure', function () {
         it('<title> tag exists & innerHTML', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<title>")).not.toBe(-1)
-           expect(document.querySelector("title").innerHTML).toBeTruthy()
+           expect(document.querySelector("title").innerHTML).toBe("Hello World")
     })
       it('<body> tag exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
