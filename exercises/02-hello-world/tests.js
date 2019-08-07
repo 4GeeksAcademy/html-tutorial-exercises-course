@@ -9,9 +9,6 @@ describe('basic HTML structure', function () {
     afterEach(() => { jest.resetModules(); });
 
      it('order of HTML tags', function () {
-        //let a =  html
-        //let doctype = a.indexOf("<!DOCTYPE html>")
-        //let html = a.indexOf("<html>")
         let a = document.documentElement.innerHTML = html.toString()
         let b = a.indexOf("<!DOCTYPE html>")
         let c = a.indexOf("<html>")

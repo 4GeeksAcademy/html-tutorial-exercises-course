@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "34de027b8b6c26aab2d1";
+/******/ 	var hotCurrentHash = "f45c100b902aa385a13f";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -10575,10 +10575,10 @@ module.exports.formatError = function(err) {
 
 /***/ }),
 
-/***/ "./exercises/02-hello-world/index.js":
-/*!*******************************************!*\
-  !*** ./exercises/02-hello-world/index.js ***!
-  \*******************************************/
+/***/ "./exercises/03-hello-without-head/index.js":
+/*!**************************************************!*\
+  !*** ./exercises/03-hello-without-head/index.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10588,13 +10588,13 @@ module.exports.formatError = function(err) {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************!*\
-  !*** multi ./exercises/02-hello-world/index.js webpack-dev-server/client?http://localhost:8080 ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** multi ./exercises/03-hello-without-head/index.js webpack-dev-server/client?http://localhost:8080 ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./exercises/02-hello-world/index.js */"./exercises/02-hello-world/index.js");
+__webpack_require__(/*! ./exercises/03-hello-without-head/index.js */"./exercises/03-hello-without-head/index.js");
 module.exports = __webpack_require__(/*! webpack-dev-server/client?http://localhost:8080 */"../../home/gitpod/.nvm/versions/node/v10.15.3/lib/node_modules/breathecode-cli/node_modules/webpack-dev-server/client/index.js?http://localhost:8080");
 
 

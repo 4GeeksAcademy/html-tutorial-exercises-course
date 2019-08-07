@@ -8,6 +8,20 @@ describe('basic HTML structure', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
+         it('order of HTML tags', function () {
+        let a = document.documentElement.innerHTML = html.toString()
+        let b = a.indexOf("<!DOCTYPE html>")
+        let c = a.indexOf("<html>")
+        let f = a.indexOf("<body>")
+        let h = a.indexOf("<h1>")
+
+        expect(b).toBe(0)
+        expect(b).toBeLessThan(c)
+        expect(c).toBeLessThan(f)
+        expect(f).toBeLessThan(h)
+
+    })
+
  it('<!DOCTYPE html> tag exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<!DOCTYPE html>")).not.toBe(-1)
@@ -16,15 +30,12 @@ describe('basic HTML structure', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<html>")).not.toBe(-1)
     })
-        it('<head> cannot exists', function () {
+        it('<head> & <title> cannot exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<head>")).toBe(-1)
+            expect(a.indexOf("<title>")).toBe(-1)
     })
-        it('<title> tag exists & innerHTML', function () {
-     let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<title>")).not.toBe(-1)
-           expect(document.querySelector("title").innerHTML).toBeTruthy()
-    })
+
       it('<body> tag exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<body>")).not.toBe(-1)
