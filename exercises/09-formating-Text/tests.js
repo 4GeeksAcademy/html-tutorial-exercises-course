@@ -26,7 +26,7 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
 
 
         if (i===4){
-        expect(allSelectors[i].tagName).toBe("OL")
+        expect(allSelectors[i].tagName).toBe("ul")
         }
 
 
@@ -47,17 +47,17 @@ it('<h1> exists', function () {
     })
 
 
-     it('Two(2) <p> exist', function () {
-        expect(document.querySelectorAll("p").length).toBe(2)
+     it('Two(4) <p> exist', function () {
+        expect(document.querySelectorAll("p").length).toBe(4)
     })
 
 
-     it('Two(2) <strong> exist', function () {
-        expect(document.querySelectorAll("strong").length).toBe(2)
+     it('Two(1) <strong> exist', function () {
+        expect(document.querySelectorAll("strong").length).toBe(1)
     })
 
-    it('<ol> exist', function () {
-        expect(document.querySelectorAll("ol").length).toBeTruthy()
+    it('<ul> exist', function () {
+        expect(document.querySelectorAll("ul").length).toBeTruthy()
     })
     it('Three(3) <li> exist', function () {
         expect(document.querySelectorAll("li").length).toBe(3)

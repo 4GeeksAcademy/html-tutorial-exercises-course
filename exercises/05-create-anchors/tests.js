@@ -13,12 +13,18 @@ describe('<a> tag should exist', function () {
         expect(anchor).toBeTruthy()
     })
 
-     it('<a> innerHTML exists', function () {
+     it('<a> innerHTML exists and matches', function () {
         expect(document.querySelector("a").innerHTML).toBe("Click me to search on google")
     })
 
-     it('<a href = https://www.google.com/> exists', function () {
-        expect(document.querySelector("a").href).toBe("https://www.google.com/")
+     it('The url should be absolute and not relative', function () {
+         const anchor = document.querySelector("a").href;
+        expect(anchor.indexOf("http://") > -1 || anchor.indexOf("https://") > -1).toBe(true)
+    })
+
+     it('The url should point to google', function () {
+         const anchor = document.querySelector("a").href;
+        expect(anchor.indexOf("google.com") > 0).toBe(true)
     })
 
 });

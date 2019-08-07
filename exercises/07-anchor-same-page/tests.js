@@ -22,21 +22,21 @@ describe('<a> tag should open in new window', function () {
         for(let i=0; i<h2.length;i++){
              expect(h2[i].id).toBeTruthy()
         }
-    })
+    });
 
-        it('<a href> should point to <h2> id', function () {
-            const a = document.querySelectorAll("a")
-            const h2 = document.querySelectorAll("h2")
-            expect(document.querySelector("a")).toBeTruthy()
-        for(let i=0; i<a.length;i++){
-            if (i===0)
-             expect(a[i].href).toEqual("http://localhost/" + "#"+h2[1].id)
-             if (i===1)
-             expect(a[i].href).toEqual("http://localhost/" + "#"+h2[0].id)
+        it('The first anchor needs to point to the second h2', function () {
+            const a = document.querySelectorAll("a")[0];
+            const h2 = document.querySelectorAll("h2")[1];
+            expect(a).toBeTruthy();
+            expect(a.href).toEqual("http://localhost/" + "#"+h2.id)
+        });
 
-        }
+        it('The second anchor needs to point to the first h2', function () {
+            const a = document.querySelectorAll("a")[1];
+            const h2 = document.querySelectorAll("h2")[0];
+            expect(a).toBeTruthy();
+            expect(a.href).toEqual("http://localhost/" + "#"+h2.id)
+        });
 
 
-    })
-
-});
+    });
