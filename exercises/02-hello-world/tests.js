@@ -9,13 +9,21 @@ describe('basic HTML structure', function () {
     afterEach(() => { jest.resetModules(); });
 
      it('order of HTML tags', function () {
+        //let a =  html
+        //let doctype = a.indexOf("<!DOCTYPE html>")
+        //let html = a.indexOf("<html>")
         let a = document.documentElement.innerHTML = html.toString()
-        let doctype = a.indexOf("<!DOCTYPE html>")
-        let html = a.indexOf("<html>")
-        console.log(doctype)
-        expect(a.indexOf("<!DOCTYPE html>")).toBe(0)
-        expect(a.indexOf("<html>")).toBeGreaterThan(doctype)
+        let b = a.indexOf("<!DOCTYPE html>")
+        let c = a.indexOf("<html>")
+        let d = a.indexOf("<head>")
+        let e = a.indexOf("<title>")
+        let f = a.indexOf("<body>")
 
+        expect(b).toBe(0)
+        expect(b).toBeLessThan(c)
+        expect(c).toBeLessThan(d)
+        expect(d).toBeLessThan(e)
+         expect(e).toBeLessThan(f)
 
     })
 
