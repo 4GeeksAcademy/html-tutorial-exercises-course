@@ -1,12 +1,11 @@
 # `09` Formating Text
 
-
 The way word processing documents work is pretty standard, you always see the same stuff: Headings, bold text, paragraphs, quotes, etc.
 
 HTML was meant to replicate that exact behavior. Here is and example of a typical document that can be replicated with HTML:
 
+## 📝 Instructions
 
-**Instructions:
 Please write the code to replicate the exact same styles with pure html, use headings, paragraph, strong, blockquote, ol and il.**
 
 --------BEGIN OF THE EXAMPLE ------
