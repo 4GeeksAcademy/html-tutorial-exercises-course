@@ -3,6 +3,7 @@
 
 !.gitignore
 !.gitpod.yml
+!.gitpod.dockerfile.yml
 !.bc.json
 !README.md
 
