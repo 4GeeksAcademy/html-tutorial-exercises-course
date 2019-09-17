@@ -6,7 +6,7 @@ ports:
       onOpen: open-browser
 tasks:
     - command: >
-        bc run:exercises;
+        bc run:exercises -e=gitpod;
 
 github:
     prebuilds:
