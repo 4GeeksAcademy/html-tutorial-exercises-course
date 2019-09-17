@@ -3,7 +3,7 @@ image:
 
 ports:
     - port: 8080
-      onOpen: open-browser
+      onOpen: open-preview
 tasks:
     - command: >
         bc run:exercises -e=gitpod;
