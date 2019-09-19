@@ -11,12 +11,11 @@ describe('basic HTML structure', function () {
      it('order of HTML tags', function () {
         let a = document.documentElement.innerHTML = html.toString()
         let b = a.indexOf("<!DOCTYPE html>")
-        let c = a.indexOf("<html>")
+        let c = a.indexOf("<html")
         let d = a.indexOf("<head>")
         let e = a.indexOf("<title>")
         let f = a.indexOf("<body>")
 
-        expect(b).toBe(0)
         expect(b).toBeLessThan(c)
         expect(c).toBeLessThan(d)
         expect(d).toBeLessThan(e)
@@ -24,26 +23,26 @@ describe('basic HTML structure', function () {
 
     })
 
- it('<!DOCTYPE html> tag exists', function () {
+ it('<!DOCTYPE html> tag should exist', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<!DOCTYPE html>")).not.toBe(-1)
     })
-    it('<html> tag exists', function () {
+    it('<html> tag should exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<html>")).not.toBe(-1)
+           expect(a.indexOf("<html")).not.toBe(-1)
     })
-        it('<head> tag exists', function () {
+        it('<head> tag should exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<head>")).not.toBe(-1)
     })
-        it('<title> tag exists & innerHTML', function () {
+    it('<title> tag exists and the innerHTML needs to be "Hello World"', function () {
      let a = document.documentElement.innerHTML = html.toString()
            expect(a.indexOf("<title>")).not.toBe(-1)
            expect(document.querySelector("title").innerHTML).toBe("Hello World")
     })
       it('<body> tag exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<body>")).not.toBe(-1)
+           expect(a.indexOf("<body")).not.toBe(-1)
     })
 
 
