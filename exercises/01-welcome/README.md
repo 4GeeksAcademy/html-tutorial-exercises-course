@@ -1,7 +1,7 @@
 
 # `01` Welcome to the world of HTML 😆 !!
 
-Hello, my name is [Alejandro Sanchez](http://alesanchezr.com).
+Hello, my name is [Alejandro Sanchez](https://twitter.com/alesanchezr).
 
 I have prepared this exercises for anyone interested in learning HTML from scratch, we will go over the following concepts:
 
