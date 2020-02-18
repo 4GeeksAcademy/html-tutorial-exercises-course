@@ -1,9 +1,17 @@
-# `02` Hello World
+---
+tutorial: "https://www.youtube.com/watch?v=XMiG5UhV1n0"
+---
+# `02` Website Structure
 
 ## 📝 Instructions:
 
 1. Add the basic HTML structure for any website (doctype, html, head and body)
 2. Add "Hello World" inside the title tag for the website.
+
+```md
+⚠️️️️ Warning
+Note: The title of the website shows up on the website tab
+```
 
 ## 💡 Hint
 
