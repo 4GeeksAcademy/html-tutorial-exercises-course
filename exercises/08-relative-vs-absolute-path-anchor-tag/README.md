@@ -5,7 +5,7 @@ This is the typical code that you need to use an anchor tag into a website:
 ```html
 <a href="where/to/take/the/user">Click Me</a>
 ```
-When you add an `<a>` (anchor) tag into a website, you have to set the `href` property to the URL where you want that anchor to take the userss, that URL path can be absolute or relative:
+When you add an `<a>` (anchor) tag into a website, you have to set the `href` property to the URL where you want that anchor to take the users, that URL path can be absolute or relative:
 
 ## Relative Paths Examples:
 
@@ -28,7 +28,7 @@ The difference is that absolute paths take the user to a different website, rela
 
 For example: If you look at your URL bar right now, the url is something like:
 ```
-https://<url>/#06-anchor-in-new-window
+https://<url>/html-exercises
 ```
 
 ## 📝 Instructions
