@@ -4,11 +4,11 @@ const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
 
 jest.dontMock('fs');
 
- it('Add a opening strong tag <p>', function () {
+ it('Add a opening tag <p>', function () {
     let a = document.documentElement.innerHTML = html.toString()
     expect(a.indexOf("<p>")).not.toBe(-1)
 });
-it('Add a closing strong tag </p>', function () {
+it('Add a closing tag </p>', function () {
     let a = document.documentElement.innerHTML = html.toString()
     expect(a.indexOf("</p>")).not.toBe(-1)
 });

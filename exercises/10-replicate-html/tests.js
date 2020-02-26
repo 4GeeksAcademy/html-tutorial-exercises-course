@@ -49,10 +49,10 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
 
                 for(let i =0; i<allH2.length;i++){
                     if (i === 0){
-        expect(allH2[i].innerHTML).toBe("3 Reason you know you are learning")
+        expect(allH2[i].innerHTML).toBe("3 Reasons you know you are learning")
                     }
                     if (i === 1){
-        expect(allH2[i].innerHTML).toBe("3 Reason you know love are learning what you are learning")
+        expect(allH2[i].innerHTML).toBe("3 Reasons you know love are learning what you are learning")
                     }
                 }
       })
@@ -116,7 +116,7 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
       it('<a> tag and href Exist', function () {
           const a = document.querySelector("a")
          expect(a).toBeTruthy()
-         expect(a.href).toBe("https://www.google.com/")
+         expect(a.href.indexOf("http") > -1).toBe(true)
       })
 
 
