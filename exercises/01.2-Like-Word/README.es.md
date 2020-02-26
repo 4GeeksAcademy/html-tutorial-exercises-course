@@ -13,3 +13,7 @@ HTML fue creado inicialmente con el propósito de publicar documentos, es por es
 # 📝 Instrucciones
 
 Por favor agrega una etiqueta `<p>` a tu sitio web que diga: las etiquetas HTML son similares a los elementos de MS Word.
+
+# 💻 vista Previa
+
+![01.1 Preview HTML Exercises](https://ucarecdn.com/318fa9ba-0a29-4685-8292-1259c91c371b/ScreenShot20200225at75945PM.png)
