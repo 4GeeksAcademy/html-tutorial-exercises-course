@@ -1,3 +1,176 @@
 {
-    "language": "html"
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": {},
+    "webpack_template": null,
+    "disable_grading": true,
+    "onCompilerSuccess": "open-browser",
+    "language": "html",
+    "compiler": "html",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "01-welcome",
+            "title": "01-welcome",
+            "path": "exercises/01-welcome",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.1-Hello-World",
+            "title": "01.1-Hello-World",
+            "path": "exercises/01.1-Hello-World",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "01.2-Like-Word",
+            "title": "01.2-Like-Word",
+            "path": "exercises/01.2-Like-Word",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "02-Website-Structure",
+            "title": "02-Website-Structure",
+            "path": "exercises/02-Website-Structure",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "03-hello-without-head",
+            "title": "03-hello-without-head",
+            "path": "exercises/03-hello-without-head",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "04-list-of-reasons",
+            "title": "04-list-of-reasons",
+            "path": "exercises/04-list-of-reasons",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "05-create-anchors",
+            "title": "05-create-anchors",
+            "path": "exercises/05-create-anchors",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "06-anchor-in-new-window",
+            "title": "06-anchor-in-new-window",
+            "path": "exercises/06-anchor-in-new-window",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "07-anchor-same-page",
+            "title": "07-anchor-same-page",
+            "path": "exercises/07-anchor-same-page",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "08-relative-vs-absolute-path-anchor-tag",
+            "title": "08-relative-vs-absolute-path-anchor-tag",
+            "path": "exercises/08-relative-vs-absolute-path-anchor-tag",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "09-formating-Text",
+            "title": "09-formating-Text",
+            "path": "exercises/09-formating-Text",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "10-replicate-html",
+            "title": "10-replicate-html",
+            "path": "exercises/10-replicate-html",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "11-nested-tags",
+            "title": "11-nested-tags",
+            "path": "exercises/11-nested-tags",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "12-my-first-table",
+            "title": "12-my-first-table",
+            "path": "exercises/12-my-first-table",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "13-image-with-text",
+            "title": "13-image-with-text",
+            "path": "exercises/13-image-with-text",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "14-video-tag",
+            "title": "14-video-tag",
+            "path": "exercises/14-video-tag",
+            "translations": [
+                "es",
+                "us"
+            ]
+        },
+        {
+            "slug": "15-i-frame",
+            "title": "15-i-frame",
+            "path": "exercises/15-i-frame",
+            "translations": [
+                "es",
+                "us"
+            ]
+        }
+    ]
 }
