@@ -1,3 +1,6 @@
+---
+tutorial: "https://www.youtube.com/watch?v=oFswWx9ba14"
+---
 # `03` Hello sin Head
 
 En el último ejercicio tuviste que agregar toda la estructura básica HTML de un sitio web.
