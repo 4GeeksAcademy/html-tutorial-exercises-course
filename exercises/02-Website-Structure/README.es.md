@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=XMiG5UhV1n0"
+tutorial: "https://www.youtube.com/watch?v=9OB2RPWHYgw"
 ---
 # `02` Estructura de un Sitio Web
 
