@@ -1,3 +1,6 @@
+---
+tutorial: "https://www.youtube.com/watch?v=Mp4bF6rs3us"
+---
 # `04` Lista de 6 razones
 
 Para este ejercicio ya hemos agregado la estructura básica HTML.
