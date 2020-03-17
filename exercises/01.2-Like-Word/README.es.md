@@ -1,7 +1,7 @@
 ---
 tutorial: "https://www.youtube.com/watch?v=oFswWx9ba14"
 ---
-# `01.1` Como MS Word
+# `01.2` Como MS Word
 
 HTML fue creado inicialmente con el propósito de publicar documentos, es por eso que sus `<etiquetas>` son similares a los elementos típicos que ve en un documento:
 
