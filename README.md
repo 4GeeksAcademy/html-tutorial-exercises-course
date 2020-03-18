@@ -10,6 +10,20 @@ Complete selection of autograded html exercises, anyone interested in learning H
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-exercises.git)
 
+Hello, my name is [Alejandro Sanchez](https://twitter.com/alesanchezr), follow me on twitter for free coding courses and tutorials like this.
+
+I have prepared this exercises for anyone interested in learning HTML from scratch, we will go over the following concepts:
+
+1. Get familiar with most of the most popular HTML Tags.
+2. Using the tags together to create a simple HTML Website.
+3. Linking websites together using Anchors with Realive or Abolute paths.
+4. The HTML audio and video tag.
+
+### ➡️ incremental & ✔️ Autograded
+
+I've built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
+All have been automatically graded thanks to @haydavid23
+
 ## Manual installation (if you prefer not to use gitpod)
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
