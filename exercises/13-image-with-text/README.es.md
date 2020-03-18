@@ -1,3 +1,4 @@
+
 # `13` Imagen con Texto
 
 Antes de que existiera CSS, el uso de tablas era la única forma posible de hacer algunos diseños de sitios web, es un proceso muy similar a la creación de diseños en MS Office.
