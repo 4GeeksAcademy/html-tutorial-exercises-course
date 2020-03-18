@@ -1,8 +1,16 @@
 # `06` Anchor in new window.
 
+On the index.html file there is an anchor taking you to google.com like the following:
+
+```html
+<a href="http://google.com">Click me to search on google </a>
+```
+
+But... What if you what this anchor to open a **new window** instead of redirecting the user within the **same window**?
+
 ## 📝 Instructions
 
-There is an anchor taking you to google.com, please make it open a new window using the target attribute.
+Please make it open a new window using the target attribute.
 
 ## 💡 Hint
 

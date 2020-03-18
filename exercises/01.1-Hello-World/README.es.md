@@ -9,7 +9,9 @@ HTML es un languaje de etiquetas,lo que significa que todo lo que se escribe deb
 
 # 📝 Instrucciones
 
-Agrega esto a las etiquetas en el HTML de tu sitio web y crea tu sitio web para ver los resultados.
+Borra todo el cotenido actual de la pagina y agrega estás etiquetas en el HTML de tu sitio web y presiona "build" para ver los resultados.
+
+![Build](https://ucarecdn.com/36c44350-feee-4778-b350-f4755dbcc916/)
 
 # 💻 Vista Preview
 

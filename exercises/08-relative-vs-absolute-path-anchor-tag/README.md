@@ -1,6 +1,6 @@
 # `08` Relative vs Absolute Path
 
-This is the typical code that you need to use an anchor tag into a website:
+This is the typical code that you need to use an anchor tag:
 
 ```html
 <a href="where/to/take/the/user">Click Me</a>
@@ -10,14 +10,15 @@ When you add an `<a>` (anchor) tag into a website, you have to set the `href` pr
 ## Relative Paths Examples:
 
 ```html
-<a href="index.html">Take me to index.html</a>
-<a href="/graphics/image.png">Take me to index.html</a>
-<a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to index.html</a>
+<a href="index.html">Take me to index.html from the current directory</a>
+<a href="/graphics/image.png">Take me to index.html that is inside the /graphics/ directory</a>
+<a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to how-do-i-set-up-a-webpage.html</a>
 ```
 
-If you use relative paths, you have to assume that the initial part of the path is hidden, and is equal to the current path in which I'm standing right now (shown in the URL bar).
+If you use relative paths, you have to assume that the initial part of the path is hidden, and is equal to the current path in the URL bar.
 
 ## Absolute Paths
+
 ```html
 <a href="http://www.mysite.com">Click Me</a>
 <a href="http://www.mysite.com/graphics/image.png">Click Me</a>

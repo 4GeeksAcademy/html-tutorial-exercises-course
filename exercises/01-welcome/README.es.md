@@ -16,5 +16,6 @@ He preparado estos ejercicios para cualquier persona interesada en aprender HTML
 
 - He desarrollado los ejercicios de forma incremental, debes sentir el progreso poco a poco y, con suerte, la dificultad para aumentar entre ejercicios nunca será demasiado grande como para frustrarte.
 - Todos se han corregido automáticamente gracias a [@haydavid23](https://github.com/haydavid23)
+- Especial agradecimiento a Daniel Machote por las video-soluciones en español [@danimachota](https://twitter.com/danimachota)
 
 Haga clic en el enlace `siguiente` en la parte superior de estas instrucciones para comenzar con el primer ejercicio.

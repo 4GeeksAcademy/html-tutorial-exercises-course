@@ -10,9 +10,9 @@ Cuando agregas una etiqueta `<a>` (ancla) en un sitio web, debes establecer la p
 ## Ejemplos de rutas relativas:
 
 ```html
-<a href="index.html">Take me to index.html</a>
-<a href="/graphics/image.png">Take me to index.html</a>
-<a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to index.html</a>
+<a href="index.html">Llevame a index.html desde el directorio actual (en el url)</a>
+<a href="/graphics/image.png">Llevame a /graphics/images.png in importar el URL actual (solo el dominio es relevante y sera reutilizado)</a>
+<a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to /help/articles/how-do-i-set-up-a-webpage.html</a>
 ```
 
 Si usas rutas relativas, debes suponer que la parte inicial de la ruta está oculta y es igual a la ruta actual en la que estoy parado ahora (que se muestra en la barra de URL).

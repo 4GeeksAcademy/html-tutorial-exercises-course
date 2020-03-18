@@ -9,7 +9,9 @@ HTML is a markup language, meaning that everything you type must be wraped in op
 
 # 📝 Instructions
 
-Please add this to tags to your website HTML and build your website to see the results.
+Please `remove` the current website content and `add` this to tags to your website HTML and build your website to see the results.
+
+![Build](https://ucarecdn.com/107b659d-31a5-45a1-b4f2-8620536d0776/)
 
 # 💻 Preview
 

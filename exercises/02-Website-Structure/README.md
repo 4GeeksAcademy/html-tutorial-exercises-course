@@ -18,10 +18,11 @@ Note: The title of the website shows up on the website tab
 You can read about a typical website structure here
 https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
 
-```txt
 📎 Note
-
+```txt
 The title is not going to show on the content of the website, it will show on the browser tab.
 ```
+
+## 💻 Preview
 
 ![Website title example](https://ucarecdn.com/44b43372-1578-48a7-b5b5-441acb300277/)

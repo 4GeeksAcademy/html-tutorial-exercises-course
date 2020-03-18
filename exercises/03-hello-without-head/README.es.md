@@ -1,6 +1,3 @@
----
-tutorial: "https://www.youtube.com/watch?v=oFswWx9ba14"
----
 # `03` Hello sin Head
 
 En el último ejercicio tuviste que agregar toda la estructura básica HTML de un sitio web.
@@ -8,7 +5,7 @@ En el último ejercicio tuviste que agregar toda la estructura básica HTML de u
 ## 📝 Instrucciones:
 
 Haz lo mismo para este ejercicio, pero no incluyas la etiqueta HEAD.
-Agrega al cuerpo un titulo H1 con tu nombre.
+Agrega al `<body>` un titulo `H1` con tu nombre.
 
 El resultado debería verse así:
 

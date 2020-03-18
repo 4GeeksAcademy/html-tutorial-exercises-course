@@ -18,8 +18,12 @@ Nota: El título del sitio web aparece en la pestaña del sitio web (arriba en e
 Puedes leer sobre la estructura típica de un sitio web aquí
 https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
 
-```txt
 📎 Nota
 
+```txt
 El título no se mostrará en el contenido del sitio web, se mostrará en la pestaña del navegador.
 ```
+
+## 💻 Preview
+
+![Website title example](https://ucarecdn.com/44b43372-1578-48a7-b5b5-441acb300277/)
