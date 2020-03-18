@@ -10,7 +10,7 @@ Complete selection of autograded html exercises, anyone interested in learning H
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-exercises.git)
 
-Hello, my name is [Alejandro Sanchez](https://twitter.com/alesanchezr), follow me on twitter for free coding courses and tutorials like this.
+Hello, my name is Alejandro Sánchez [@alesanchezr](https://twitter.com/alesanchezr), follow me on twitter for free coding courses and tutorials like this.
 
 I have prepared this exercises for anyone interested in learning HTML from scratch, we will go over the following concepts:
 
