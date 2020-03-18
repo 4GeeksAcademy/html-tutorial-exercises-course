@@ -3,7 +3,7 @@
 </p>
 
 <p>
-    <h2 align="center"> HTML at 4Geeks Academy (beta) </h2>
+    <h2 align="center"> HTML Interactive Exercises at 4Geeks Academy</h2>
 </p>
 
 Complete selection of autograded html exercises, anyone interested in learning HTML!
