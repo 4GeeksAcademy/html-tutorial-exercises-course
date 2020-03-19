@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=ZHsw63Xdbw4"
+---
+
 # `12` My First Table
 
 ## 📝 Instructions
