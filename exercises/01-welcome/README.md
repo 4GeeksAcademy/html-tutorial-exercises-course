@@ -1,9 +1,9 @@
 ---
-intro: "https://www.youtube.com/watch?v=tVlYr0hRiRM"
+intro: "https://www.youtube.com/watch?v=Vd2dby9ind4"
 ---
 # `01` Welcome to the world of HTML 😆 !!
 
-Hello, my name is [Alejandro Sanchez](https://twitter.com/alesanchezr).
+Hello, my name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr).
 
 I have prepared this exercises for anyone interested in learning HTML from scratch, we will go over the following concepts:
 
