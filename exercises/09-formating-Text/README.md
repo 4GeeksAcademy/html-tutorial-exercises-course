@@ -1,4 +1,4 @@
-# `09` Formating Text
+# `09` Formatting Text
 
 The way word processing documents work is pretty standard, you always see the same stuff: Headings, bold text, paragraphs, quotes, etc.
 
