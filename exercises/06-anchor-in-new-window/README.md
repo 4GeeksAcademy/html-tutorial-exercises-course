@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=1JXOMalTLNo"
+---
+
 # `06` Anchor in new window.
 
 On the index.html file there is an anchor taking you to google.com like the following:
