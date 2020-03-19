@@ -6,8 +6,6 @@
     <h2 align="center"> HTML Interactive Exercises at 4Geeks Academy</h2>
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vd2dby9ind4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Complete selection of autograded html exercises, anyone interested in learning HTML!
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-exercises.git)
