@@ -1,5 +1,9 @@
 {
     "title": "HTML Interactive Course and Exercises",
     "description": "Learn the most popular HTML Tags and how to used them with real life interactive examples, automatic grading and video solutions",
-    "language": "html"
+    "language": "html",
+    "duration": 8,
+    "difficulty": "easy",
+    "video-solutions": true,
+    "graded": true
 }
