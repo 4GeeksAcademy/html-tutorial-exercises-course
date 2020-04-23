@@ -2,7 +2,7 @@
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1 align="center"> CSS Exercises Tutorial at 4Geeks Academy</h1>
+      <h1 align="center"> HTML5 Exercises Tutorial at 4Geeks Academy</h1>
       <p>Complete selection of autograded html exercises, anyone interested in learning HTML!</p>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/html-tutorial-exercises-course" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
