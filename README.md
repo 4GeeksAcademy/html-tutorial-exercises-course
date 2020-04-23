@@ -21,7 +21,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 <h4>Before we start... other related tutorials</h4>
 <ol>
-  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML← your are here now</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← your are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
