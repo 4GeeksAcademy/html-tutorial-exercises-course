@@ -1,28 +1,34 @@
-<p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
-</p>
+<table>
+  <tr>
+    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
+    <td>
+      <h1 align="center"> CSS Exercises Tutorial at 4Geeks Academy</h1>
+      <p>Complete selection of autograded html exercises, anyone interested in learning HTML!</p>
+      <img src="https://img.shields.io/github/last-commit/4geeksacademy/html-tutorial-exercises-course" />
+      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
+      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
+      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
+    </td>
+  </tr>
+</table>
 
-<p>
-    <h2 align="center"> HTML Interactive Exercises at 4Geeks Academy</h2>
-</p>
-
-Complete selection of autograded html exercises, anyone interested in learning HTML!
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
-
-Hello, my name is Alejandro Sánchez [@alesanchezr](https://twitter.com/alesanchezr), follow me on twitter for free coding courses and tutorials like this.
-
-I have prepared this exercises for anyone interested in learning HTML from scratch, we will go over the following concepts:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
 1. Get familiar with most of the most popular HTML Tags.
 2. Using the tags together to create a simple HTML Website.
 3. Linking websites together using Anchors with Realive or Abolute paths.
 4. The HTML audio and video tag.
 
-### ➡️ incremental & ✔️ Autograded
+<h4>Before we start... other related tutorials</h4>
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML← your are here now</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
+</ol>
 
-I've built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
-All have been automatically graded thanks to @haydavid23
+<h2>One-click installation</h2>
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
 
 ## Manual installation
 
