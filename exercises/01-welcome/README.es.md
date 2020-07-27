@@ -1,21 +1,29 @@
 ---
 intro: "https://www.youtube.com/watch?v=tVlYr0hRiRM"
 ---
-# `01` Bienvenido al mundo del HTML 😆 !!
+# `01`  Te damos la bienvenida al mundo del HTML 🖖🧑‍💻
 
 Hola, mi nombre es [Alejandro Sanchez](https://twitter.com/alesanchezr).
 
 He preparado estos ejercicios para cualquier persona interesada en aprender HTML desde cero, repasaremos los siguientes conceptos:
 
 1. Familiarizate con la mayoría de las etiquetas HTML más populares.
-2. Usando varias etiquetas juntas para crear un sitio web HTML simple.
+2. Usar varias etiquetas juntas para crear un sitio web HTML simple.
 3. Vinculación de sitios web mediante anclajes con rutas relativas o absolutas.
 4. La etiqueta HTML de audio y video.
 
-## ➡️ incremental & ✔️ Autocorregido
+## ➡️ Sobre los ejercicios
 
-- He desarrollado los ejercicios de forma incremental, debes sentir el progreso poco a poco y, con suerte, la dificultad para aumentar entre ejercicios nunca será demasiado grande como para frustrarte.
-- Todos se han corregido automáticamente gracias a [@haydavid23](https://github.com/haydavid23)
-- Especial agradecimiento a Daniel Machote por las video-soluciones en español [@danimachota](https://twitter.com/danimachota)
+- He desarrollado los ejercicios de forma incremental, así sentirás como vas aprendiendo poco a poco cosas nuevas.
+- ¡No te frustres! Preguntanos por Slack en el canal #public_support o en privado siguiendo [estos pasos](https://content.breatheco.de/es/how-to/ask) 
+**Estás aquí para aprender desde 0 y todo 4Geeks Academy está aquí para ayudarte.**
+- Algunos ejercicios se corrigen automáticamente. Entiende que hay diferentes maneras de llegar a una solución buena.
+- Lo importante de este prework es que le pierdas el miedo a la programación y te familiarices con el entorno.
 
-Haga clic en el enlace `siguiente` en la parte superior de estas instrucciones para comenzar con el primer ejercicio.
+
+Haz click en el enlace `siguiente` en la parte superior de estas instrucciones para comenzar con el primer ejercicio.
+
+
+## ➡️ Agradecimientos
+- Los ejercicios que se corrigen automáticamente es gracias a [@haydavid23](https://github.com/haydavid23)
+- Las video-soluciones en español son gracias a [@danimachota](https://twitter.com/danimachota)
