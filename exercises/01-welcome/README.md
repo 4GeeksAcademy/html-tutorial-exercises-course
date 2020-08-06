@@ -12,7 +12,7 @@ I have prepared this exercises for anyone interested in learning HTML from scrat
 3. Linking websites together using Anchors with Realive or Abolute paths.
 4. The HTML audio and video tag.
 
-## ➡️ Incremental
+## ➡️ About the exercises
 
 - I have developed the exercises in a incremental way in order to make you learn new concepts step by step. 
 - Don't get frustrated! Ask any question in the #public_support channel or by private message following [this steps](https://content.breatheco.de/es/how-to/ask). **You are here to learn from scratch and everyone in 4Geeks Academy is here to help you.**
