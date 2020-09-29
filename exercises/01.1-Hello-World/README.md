@@ -15,10 +15,10 @@ HTML is a markup language, meaning that everything you type must be wraped in op
 
 Please `remove` the current website content and `add` this to tags to your website HTML and build your website to see the results.
 
-![Build](https://ucarecdn.com/107b659d-31a5-45a1-b4f2-8620536d0776/)
+![Build](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/build.png?raw=true)
 
 # 💻 Preview
 
 You final website should be something like this:
 
-![Preview for 01.01 HTML Exercises](https://ucarecdn.com/04d1dd51-d2ba-47de-8c4f-43e7227a703e/ScreenShot20200225at75553PM.png)
+![Preview for 01.01 HTML Exercises](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/Screen%20Shot%202020-02-25%20at%207.55.53%20PM.png?raw=true)
