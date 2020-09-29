@@ -11,4 +11,4 @@ Por favor agrega al `<body>` una lista ordenada `<ol>` con 6 elementos, donde ca
 
 El resultado debería verse asi:
 
-![List of li's](http://i.imgur.com/753Gelf.png)
+![List of li's](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/04-list-of-reasons.png?raw=true)
