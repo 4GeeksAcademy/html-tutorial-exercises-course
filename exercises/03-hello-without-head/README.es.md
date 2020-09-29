@@ -9,4 +9,4 @@ Agrega al `<body>` un titulo `H1` con tu nombre.
 
 El resultado debería verse así:
 
-![Link url](https://storage.googleapis.com/replit/images/1517598579435_329a4ee44a9f7c6c1fc5d51a94957830.png)
+![Link url](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/03-hello-without-head.png?raw=true)
