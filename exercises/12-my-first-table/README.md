@@ -8,7 +8,7 @@ tutorial: "https://www.youtube.com/watch?v=ZHsw63Xdbw4"
 
 Create this table with HTML code:
 
-![demo](http://i.imgur.com/jeaIWYJ.png)
+![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/12-my-first-table-0.png?raw=true)
 
 Without using CSS, with just plain HTML you can add some basic styles to elements.
 Do the following tasks to play with the table format:
@@ -18,7 +18,7 @@ Do the following tasks to play with the table format:
 
 This should be the result:
 
-![demo](http://i.imgur.com/y02Cpvs.png)
+![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/12-my-first-table.png?raw=true)
 
 Use the style attribute inside the first tr tag to set height and border color.
 
