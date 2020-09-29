@@ -25,4 +25,4 @@ The title is not going to show on the content of the website, it will show on th
 
 ## 💻 Preview
 
-![Website title example](https://ucarecdn.com/44b43372-1578-48a7-b5b5-441acb300277/)
+![Website title example](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/02-website-structure.png?raw=true)
