@@ -8,4 +8,4 @@ HTML estaba destinado a replicar ese comportamiento. Aquí hay un ejemplo de un 
 
 Escribe el código para replicar exactamente los mismos estilos con html puro, usa headings, paragraph, strong, blockquote, il y ol.**
 
-![HTML preview](https://ucarecdn.com/142c5fbd-ca20-45fa-af96-8730277a959e/htmlpreview.png)
+![HTML preview](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/09-formating-text.png?raw=true)
