@@ -17,7 +17,7 @@ For example, to recreate this example you have to do the following:
 
 Please follow the previous steps to recreate the example.
   
-![demo](http://i.imgur.com/opTIFpg.png)
+![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/opTIFpg.png?raw=true)
 
 # 💡Hint
 
