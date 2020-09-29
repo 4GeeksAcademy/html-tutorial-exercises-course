@@ -12,4 +12,4 @@ HTML was meant to replicate that exact behavior. Here is and example of a typica
 
 Please write the code to replicate the exact same styles with pure html, use headings, paragraph, strong, blockquote, ol and il.**
 
-![HTML preview](https://ucarecdn.com/142c5fbd-ca20-45fa-af96-8730277a959e/htmlpreview.png)
+![HTML preview](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/09-formating-text.png?raw=true)
