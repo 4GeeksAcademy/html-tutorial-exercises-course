@@ -9,7 +9,7 @@ I have prepared this exercises for anyone interested in learning HTML from scrat
 
 1. Get familiar with most of the most popular HTML Tags.
 2. Using the tags together to create a simple HTML Website.
-3. Linking websites together using Anchors with Realive or Abolute paths.
+3. Linking websites together using Anchors with Relative or Abolute paths.
 4. The HTML audio and video tag.
 
 ## ➡️ About the exercises

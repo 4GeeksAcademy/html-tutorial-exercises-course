@@ -5,8 +5,8 @@ tutorial: "https://www.youtube.com/watch?v=9OB2RPWHYgw"
 
 ## 📝 Instrucciones:
 
-1. Agrega la estructura HTML básica para cualquier sitio web (doctype, html, head and body)
-2. Agrega "Hola mundo" dentro de la etiqueta del título del sitio web.
+1. Agrega la estructura HTML básica para cualquier sitio web (doctype, html, head y body)
+2. Agrega "Hello World" dentro de la etiqueta del título (title) del sitio web.
 
 ```md
 ⚠️️️️ Cuidado
@@ -24,6 +24,6 @@ https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
 El título no se mostrará en el contenido del sitio web, se mostrará en la pestaña del navegador.
 ```
 
-## 💻 Preview
+## 💻 Vista previa
 
 ![Website title example](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/02-website-structure.png?raw=true)
