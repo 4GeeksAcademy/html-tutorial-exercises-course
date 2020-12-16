@@ -16,7 +16,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 1. Get familiar with most of the most popular HTML Tags.
 2. Using the tags together to create a simple HTML Website.
-3. Linking websites together using Anchors with Realive or Abolute paths.
+3. Linking websites together using Anchors with Relative or Absolute paths.
 4. The HTML audio and video tag.
 
 <h4>Before we start... other related tutorials</h4>

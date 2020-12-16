@@ -1,12 +1,225 @@
 {
+    "port": 3000,
+    "address": "https://a14ed092-de72-4649-bb99-1749b9f02321.ws-eu03.gitpod.io",
+    "editor": "gitpod",
+    "configPath": {
+        "config": "bc.json",
+        "base": ".learn",
+        "exercises": "./exercises",
+        "output": ".learn/dist"
+    },
+    "outputPath": "./.learn/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": {},
+    "webpack_template": null,
+    "disable_grading": true,
+    "onCompilerSuccess": "open-browser",
+    "language": "html",
+    "compiler": "html",
+    "tester": "jest",
+    "actions": [
+        "build",
+        "test",
+        "reset"
+    ],
     "title": "Learn HTML Interactively",
     "preview": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course",
     "description": "Learn the most popular HTML Tags and how to used them with real life interactive examples, automatic grading and video solutions",
-    "language": "html",
     "intro": "https://www.youtube.com/watch?v=Vd2dby9ind4",
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": true
+    "graded": true,
+    "session": 1023063562356825200,
+    "exercises": [
+        {
+            "slug": "01-welcome",
+            "title": "01-welcome",
+            "done": false,
+            "path": "exercises/01-welcome",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": false
+        },
+        {
+            "slug": "01.1-Hello-World",
+            "title": "01.1-Hello-World",
+            "done": false,
+            "path": "exercises/01.1-Hello-World",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "01.2-Like-Word",
+            "title": "01.2-Like-Word",
+            "done": false,
+            "path": "exercises/01.2-Like-Word",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "02-Website-Structure",
+            "title": "02-Website-Structure",
+            "done": false,
+            "path": "exercises/02-Website-Structure",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "03-hello-without-head",
+            "title": "03-hello-without-head",
+            "done": false,
+            "path": "exercises/03-hello-without-head",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "04-list-of-reasons",
+            "title": "04-list-of-reasons",
+            "done": false,
+            "path": "exercises/04-list-of-reasons",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "05-create-anchors",
+            "title": "05-create-anchors",
+            "done": false,
+            "path": "exercises/05-create-anchors",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "06-anchor-in-new-window",
+            "title": "06-anchor-in-new-window",
+            "done": false,
+            "path": "exercises/06-anchor-in-new-window",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "07-anchor-same-page",
+            "title": "07-anchor-same-page",
+            "done": false,
+            "path": "exercises/07-anchor-same-page",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "08-relative-vs-absolute-path-anchor-tag",
+            "title": "08-relative-vs-absolute-path-anchor-tag",
+            "done": false,
+            "path": "exercises/08-relative-vs-absolute-path-anchor-tag",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "09-formating-Text",
+            "title": "09-formating-Text",
+            "done": false,
+            "path": "exercises/09-formating-Text",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "10-replicate-html",
+            "title": "10-replicate-html",
+            "done": false,
+            "path": "exercises/10-replicate-html",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "11-nested-tags",
+            "title": "11-nested-tags",
+            "done": false,
+            "path": "exercises/11-nested-tags",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "12-my-first-table",
+            "title": "12-my-first-table",
+            "done": false,
+            "path": "exercises/12-my-first-table",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "13-image-with-text",
+            "title": "13-image-with-text",
+            "done": false,
+            "path": "exercises/13-image-with-text",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "14-video-tag",
+            "title": "14-video-tag",
+            "done": false,
+            "path": "exercises/14-video-tag",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        },
+        {
+            "slug": "15-i-frame",
+            "title": "15-i-frame",
+            "done": false,
+            "path": "exercises/15-i-frame",
+            "translations": [
+                "es",
+                "us"
+            ],
+            "graded": true
+        }
+    ]
 }
