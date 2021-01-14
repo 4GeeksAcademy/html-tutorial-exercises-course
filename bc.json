@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://a14ed092-de72-4649-bb99-1749b9f02321.ws-eu03.gitpod.io",
+    "address": "https://a14ed092-de72-4649-bb99-1749b9f02321.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -94,17 +94,6 @@
             "title": "04-list-of-reasons",
             "done": false,
             "path": "exercises/04-list-of-reasons",
-            "translations": [
-                "es",
-                "us"
-            ],
-            "graded": true
-        },
-        {
-            "slug": "05-create-anchors",
-            "title": "05-create-anchors",
-            "done": false,
-            "path": "exercises/05-create-anchors",
             "translations": [
                 "es",
                 "us"
