@@ -15,7 +15,7 @@ When you add an `<a>` (anchor) tag into a website, you have to set the `href` pr
 
 ```html
 <a href="index.html">Take me to index.html from the current directory</a>
-<a href="/graphics/image.png">Take me to index.html that is inside the /graphics/ directory</a>
+<a href="/graphics/image.png">Take me to image.png that is inside the /graphics/ directory</a>
 <a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to how-do-i-set-up-a-webpage.html</a>
 ```
 
