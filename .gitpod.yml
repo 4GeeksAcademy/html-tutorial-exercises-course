@@ -5,8 +5,7 @@ ports:
     - port: 3000
       onOpen: open-preview
 tasks:
-    - command: >
-        bc run --disable_grading -l html;
+    - command: learnpack start --disableGrading
 
 github:
     prebuilds:

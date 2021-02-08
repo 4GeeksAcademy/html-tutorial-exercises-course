@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
+    <td><img src="https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/a62022a2fac894991818f34ae9792a6e5bc2b7b9/.learn/assets/logo.ico?raw=true"></td>
     <td>
       <h1 align="center"> HTML5 Exercises Tutorial at 4Geeks Academy</h1>
       <p>Complete selection of autograded html exercises, anyone interested in learning HTML!</p>
@@ -32,21 +32,30 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 ## Manual installation
 
-1. Download the exercises (clone or zip).
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
 
-2. Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+
 ```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-html
 ```
+
+2. Download this particular exercises using learnpack and `cd` into the folder:
+
+```
+$ learnpack download html-tutorial-exercises-course
+$ cd html-tutorial-exercises-course
+```
+
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ breathecode run
+$ learnpack start
 ```
+
+Node: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
