@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/a62022a2fac894991818f34ae9792a6e5bc2b7b9/.learn/assets/logo.ico?raw=true"></td>
+    <td><img src="https://raw.githubusercontent.com/4GeeksAcademy/html-tutorial-exercises-course/master/.learn/assets/logo.ico"></td>
     <td>
       <h1 align="center"> HTML5 Exercises Tutorial at 4Geeks Academy</h1>
       <p>Complete selection of autograded html exercises, anyone interested in learning HTML!</p>
