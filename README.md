@@ -1,16 +1,19 @@
-<table>
-  <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td>
+
+  
+<img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32">
+
       <h1 align="center"> HTML5 Exercises Tutorial at 4Geeks Academy</h1>
+      
+      <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises/blob/master/.learn/assets/HTML-badge.png?raw=true"></a>
+      
       <p>Complete selection of autograded html exercises, anyone interested in learning HTML!</p>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/html-tutorial-exercises-course" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
       <a href="https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
-    </td>
-  </tr>
-</table>
+   
+
+
 
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
