@@ -2,14 +2,17 @@
 
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/learnpack/html-tutorial-exercises-course/blob/master/HTML-badge.png"></a>
 
-      Complete selection of autograded html exercises, anyone interested in learning HTML!
       
       
-      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
-      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
+By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/javascript-arrays-exercises-tutorial/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 
+![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial)
+[![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
+[![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
+
+Complete selection of autograded html exercises, anyone interested in learning HTML!
+      
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
 
 1. Get familiar with most of the most popular HTML Tags.
