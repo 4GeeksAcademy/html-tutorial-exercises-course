@@ -11,5 +11,5 @@ La etiqueta `<iframe>` es increíble, te permite insertar un sitio web dentro de
 Por favor Agrega un iframe de 300x200 sin bordes que apunte a esta url:
 https://www.youtube.com/embed/hFQiSDiysWs
 
-P.D: No dolerá ver el video ;)
+P.D: Ver el video no te hará daño ;)
 
