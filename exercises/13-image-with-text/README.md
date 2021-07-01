@@ -11,7 +11,7 @@ For example, to recreate this example you have to do the following:
 1. Create a table with the attribute border="0".
 2. Add row (tr) with 2 columns (td) inside.
 3. The first column containing an image with the attribute height="150". 
-4. The second one with the attribute valign="top" to move the texto to the top of the cell and also add some text inside: you can use this tool to generate fake text that looks like real text: http://www.lipsum.com/
+4. The second one with the attribute valign="top" to move the text to the top of the cell and also add some text inside: you can use this tool to generate fake text that looks like real text: http://www.lipsum.com/
   
 # 📝Instructions 
 

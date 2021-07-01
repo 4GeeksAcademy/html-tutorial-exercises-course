@@ -12,10 +12,10 @@ Por ejemplo, para recrear este ejemplo, debes hacer lo siguiente:
 
 # 📝 Instrucciones
 
-Siga los pasos anteriores para recrear el ejemplo.
+Sigue los pasos anteriores para recrear el ejemplo.
 
 ![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/opTIFpg.png?raw=true)
 
 # 💡Hint
 
-Puedes usar esto http://www.lipsum.com/ para texto falso.
+Puedes usar esto http://www.lipsum.com/ para el texto falso.
