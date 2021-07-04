@@ -20,6 +20,7 @@ P.D: it will not hurt to watch the video.
 ## 💡 Hint
 
 Chrome requires the use of attribute: autoplay muted like this:
+
 ```html
 <video muted autoplay>
 
