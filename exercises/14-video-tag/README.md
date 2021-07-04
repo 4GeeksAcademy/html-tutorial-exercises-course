@@ -11,15 +11,16 @@ Here is the documentation for the video tag: http://lmgtfy.com/?q=html+video+tag
 Use the video tag to include this video into the website:
 https://assets.breatheco.de/apis/video/why-pair-programming
 
-1. The video needs to cover the whole 100% of website.
+1. The video needs to cover the whole website(100%).
 2. The video should play automatically
-3. The video should have NO CONTROLS play, pause, etc.
+3. The video should have NO CONTROLS: play, pause, etc.
 
 P.D: it will not hurt to watch the video.
 
 ## 💡 Hint
 
 Chrome requires the use of attribute: autoplay muted like this:
+
 ```html
 <video muted autoplay>
 

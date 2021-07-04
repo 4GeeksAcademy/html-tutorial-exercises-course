@@ -33,7 +33,7 @@ https://<url>/html-exercises
 
 ## 📝 Instrucciones
 
-Por favor crea un ancla con una ruta relativa que lleve al usuario al tercer ejercicio: `03`.
+Por favor crea un ancla con una ruta relativa que lleve al usuario al ejercicio `03`.
 Tendrás que encontrar esa url de ese ejercicio y hacer el enlace de anclaje a él utilizando una ruta relativa.
 
 ## 💡 Pista
