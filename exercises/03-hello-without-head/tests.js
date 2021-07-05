@@ -32,8 +32,8 @@ describe('basic HTML structure', function () {
     })
         it('<head> & <title> cannot exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<head>")).toBe(-1)
-            expect(a.indexOf("<title>")).toBe(-1)
+           expect(a.indexOf("<head>")).not.toBe(-1)
+            expect(a.indexOf("<title>")).not.toBe(-1)
     })
 
       it('<body> tag exists', function () {
