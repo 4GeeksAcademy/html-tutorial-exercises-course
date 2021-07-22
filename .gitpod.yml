@@ -5,6 +5,10 @@ ports:
     - port: 3000
       onOpen: ignore
 
+vscode:
+  extensions:
+    - learnpack.learnpack-vscode
+    
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
