@@ -3,9 +3,7 @@ image:
 
 ports:
     - port: 3000
-      onOpen: open-preview
-tasks:
-    - command: learnpack start --disableGrading
+      onOpen: ignore
 
 github:
     prebuilds:
