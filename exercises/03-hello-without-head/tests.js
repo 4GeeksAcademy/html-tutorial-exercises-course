@@ -15,7 +15,6 @@ describe('basic HTML structure', function () {
         let f = a.indexOf("<body>")
         let h = a.indexOf("<h1>")
 
-        expect(b).toBe(0)
         expect(b).toBeLessThan(c)
         expect(c).toBeLessThan(f)
         expect(f).toBeLessThan(h)
