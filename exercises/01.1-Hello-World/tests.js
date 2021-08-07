@@ -12,11 +12,11 @@ it('Add a closing strong tag </strong>', function () {
     let a = document.documentElement.innerHTML = html.toString()
     expect(a.indexOf("</strong>")).not.toBe(-1)
 });
- it('Add an opening strong tag <span>', function () {
+ it('Add an opening span tag <span>', function () {
     let a = document.documentElement.innerHTML = html.toString()
     expect(a.indexOf("<span>")).not.toBe(-1)
 });
-it('Add a closing strong tag </span>', function () {
+it('Add a closing span tag </span>', function () {
     let a = document.documentElement.innerHTML = html.toString()
     expect(a.indexOf("</span>")).not.toBe(-1)
 });
