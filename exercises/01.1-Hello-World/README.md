@@ -13,7 +13,7 @@ HTML is a markup language, meaning that everything you type must be wraped in op
 
 # 📝 Instructions
 
-Please `remove` the current website content and `add` this to tags to your website HTML and build your website to see the results.
+Please `remove` the current website content and `add` this two tags to your website HTML and build your website to see the results.
 
 ![Build](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/build.png?raw=true)
 
