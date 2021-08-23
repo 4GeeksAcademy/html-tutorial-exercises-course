@@ -3,11 +3,12 @@ image:
 
 ports:
     - port: 3000
-      onOpen: open-preview
-tasks:
-    - command: >
-        bc run --disable_grading -l html;
+      onOpen: ignore
 
+vscode:
+  extensions:
+    - learnpack.learnpack-vscode
+    
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)

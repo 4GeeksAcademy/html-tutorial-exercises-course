@@ -4,7 +4,7 @@ HTML was initially created for the purpose of publishing documents, that is why 
 
 | Tag name | Use case |
 | -------- | -------- |
-| `<p>`    | For adding paragraphs |
+| `<p>`    | To add paragraphs |
 | `<strong>`    | Text in bold (stronger) |
 | `<h1>`    | Heading with the most importance (bigger) |
 | `<h2>`    | Heading with the second importance (smaller) |
