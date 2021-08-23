@@ -38,8 +38,8 @@ https://<url>/html-exercises
 
 ## 📝 Instructions
 
-Please create a anchor with a relative path that takes the user to the third exercise: `03`.
-You will have to find that url of that exercise and make the anchor link to it using a relative path.
+Please create a anchor with a relative path that takes the user to the exercise `03`.
+You will have to find the url of that exercise and make the anchor link to it using a relative path.
 
 ## 💡 Hint
 

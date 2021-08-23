@@ -8,14 +8,14 @@ Por ejemplo, para recrear este ejemplo, debes hacer lo siguiente:
 1. Cree una tabla con el atributo border = "0"
 2. Agrega la fila (tr) con 2 columnas (td) dentro.
 3. La primera columna contiene una imagen con el atributo height = "150"
-4. El segundo con el atributo valign = "top" para mover el texto a la parte superior de la celda y también agregar texto dentro: puedes usar esta herramienta para generar texto falso que se parece a texto real: http://www.lipsum.com/
+4. El segundo con el atributo valign = "top" para mover el texto a la parte superior de la celda y también agregar texto dentro: puedes usar esta herramienta para generar texto falso parecido a un texto real: http://www.lipsum.com/
 
 # 📝 Instrucciones
 
-Siga los pasos anteriores para recrear el ejemplo.
+Sigue los pasos anteriores para recrear el ejemplo.
 
 ![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/opTIFpg.png?raw=true)
 
 # 💡Hint
 
-Puedes usar esto http://www.lipsum.com/ para texto falso.
+Puedes usar esto http://www.lipsum.com/ para el texto falso.

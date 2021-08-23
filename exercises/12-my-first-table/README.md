@@ -13,8 +13,9 @@ Create this table with HTML code:
 Without using CSS, with just plain HTML you can add some basic styles to elements.
 Do the following tasks to play with the table format:
 
-1.Add a width attribute to the table of 100% and a border of 1.
-2.Add to the tr tag inside of the thead tag a heigh of 40.
+1. Add a width attribute to the table of 100% and a border of 1.
+
+2. Add to the tr tag inside of the thead tag a height of 40.
 
 This should be the result:
 
