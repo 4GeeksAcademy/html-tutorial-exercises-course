@@ -12,9 +12,9 @@
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": false,
+    "graded": true,
     "config": {
-        "disableGrading": true,
+        "disableGrading": false,
         "editor": {
             "version": "1.0.70"
         }
