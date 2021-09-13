@@ -47,12 +47,12 @@ it('<h1> exists', function () {
     })
 
 
-     it('Two(4) <p> exist', function () {
-        expect(document.querySelectorAll("p").length).toBe(4)
+     it('Two <p> tags should exist', function () {
+        expect(document.querySelectorAll("p").length).toBe(2)
     })
 
 
-     it('Two(1) <strong> exist', function () {
+     it('One <strong> tag should exist', function () {
         expect(document.querySelectorAll("strong").length).toBe(1)
     })
 
