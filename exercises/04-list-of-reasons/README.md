@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=IH1hAxMGRcw"
 
 For this exercise we have aded the HTML basic structure already.
 
-## 📝 Instructions
+## 📝 Instructions:
 
 Please add into the `<body>` an ordered list `<ol>` with 6 items, each item being a reason to become a web developer.
 

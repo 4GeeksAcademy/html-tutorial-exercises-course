@@ -7,7 +7,8 @@ Para hacer esto, debes asignar una ID al elemento que deseas desplazarte y, a co
 ```html
 <a href="#element_id"></a>
 ```
-## 💡 Pista
+## 💡 Pista:
 
 - Crea 2 anclajes, uno que desplaza al usuario al final del sitio web y otro que lo envía al comienzo del sitio web.
+
 - La única forma de usar anclas como esta, es con la "ID" de los elementos, no hay otra forma.
