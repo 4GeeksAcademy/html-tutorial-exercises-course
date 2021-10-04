@@ -8,7 +8,7 @@ The way word processing works in documents is pretty standard, you always see th
 
 HTML was meant to replicate that exact behavior. Here is and example of a typical document that can be replicated with HTML:
 
-![HTML preview](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/09-formating-text.png?raw=true)
+![HTML preview](../../.learn/assets/09-formating-text.png?raw=true)
 
 ## 📝 Instructions:
 
