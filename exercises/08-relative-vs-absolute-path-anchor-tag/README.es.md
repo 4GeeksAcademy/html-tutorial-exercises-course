@@ -30,7 +30,7 @@ La diferencia es que las *rutas absolutas* llevan al usuario a un sitio web dife
 Por ejemplo: Si miras tu barra de URL en este momento, la URL es algo así como:
 
 ```
-https://<url>/html-exercises
+https://red-bonobo-8a1jexm0.ws-us18.gitpod.io/
 ```
 
 ## 📝 Instrucciones:
