@@ -14,4 +14,5 @@ To do that you have assign an ID to the element you want to scroll to, and then,
 ## 💡 Hint
 
 - Create 2 anchors, one that scrolls the user to the end of the website and another one that sends the user to the beginning of the website.
+
 - The only way so use anchors like this, is with the "ID" of the elements, there is no other way.

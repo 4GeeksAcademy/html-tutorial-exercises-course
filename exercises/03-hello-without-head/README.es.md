@@ -5,6 +5,7 @@ En el último ejercicio tuviste que agregar toda la estructura básica HTML de u
 ## 📝 Instrucciones:
 
 Haz lo mismo en este ejercicio, pero no incluyas la etiqueta HEAD.
+
 Agrega al `<body>` un titulo `H1` con tu nombre.
 
 El resultado debería verse así:

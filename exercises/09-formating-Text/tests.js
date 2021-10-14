@@ -45,14 +45,13 @@ it('<h1> exists', function () {
     it('<blockquote> exists', function () {
         expect(document.querySelector("blockquote")).toBeTruthy()
     })
-
-
-     it('Two(4) <p> exist', function () {
-        expect(document.querySelectorAll("p").length).toBe(4)
+    
+    it('You should have 3 <p> tags', function () {
+        expect(document.querySelectorAll("p").length).toBe(3)
     })
 
 
-     it('Two(1) <strong> exist', function () {
+     it('You should have 1 <strong> tag', function () {
         expect(document.querySelectorAll("strong").length).toBe(1)
     })
 

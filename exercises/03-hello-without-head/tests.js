@@ -11,11 +11,10 @@ describe('basic HTML structure', function () {
          it('order of HTML tags', function () {
         let a = document.documentElement.innerHTML = html.toString()
         let b = a.indexOf("<!DOCTYPE html>")
-        let c = a.indexOf("<html>")
+        let c = a.indexOf("<html")
         let f = a.indexOf("<body>")
         let h = a.indexOf("<h1>")
 
-        expect(b).toBe(0)
         expect(b).toBeLessThan(c)
         expect(c).toBeLessThan(f)
         expect(f).toBeLessThan(h)
@@ -28,12 +27,12 @@ describe('basic HTML structure', function () {
     })
     it('<html> tag exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<html>")).not.toBe(-1)
+           expect(a.indexOf("<html")).not.toBe(-1)
     })
         it('<head> & <title> cannot exists', function () {
      let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<head>")).not.toBe(-1)
-            expect(a.indexOf("<title>")).not.toBe(-1)
+           expect(a.indexOf("<head>")).toBe(-1)
+            expect(a.indexOf("<title>")).toBe(-1)
     })
 
       it('<body> tag exists', function () {
