@@ -7,7 +7,7 @@ HTML es un languaje de etiquetas,lo que significa que todo lo que se escribe deb
 <strong>Hola, Yo tambien soy un texto pero en negrita</strong>
 ```
 
-# 📝 Instrucciones
+## 📝 Instrucciones:
 
 `Elimina` todo el cotenido actual de la página y `agrega` estás etiquetas en el HTML de tu sitio web y presiona "build" para ver los resultados.
 

@@ -13,10 +13,10 @@ HTML fue creado inicialmente para publicar documentos, es por eso que sus `<etiq
 | `<h2>`    | Subtitulos (más pequeños)|
 | `<a>`    | Links o enlaces (anchors) |
 
-# 📝 Instrucciones
+## 📝 Instrucciones:
 
 Por favor agrega una etiqueta `<p>` a tu sitio web que diga: las etiquetas HTML son similares a los elementos de MS Word.
 
-# 💻 Vista Previa
+## 💻 Vista Previa:
 
 ![01.1 Preview HTML Exercises](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/01.2-Like-Word.png?raw=true)

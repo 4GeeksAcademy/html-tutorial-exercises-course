@@ -9,10 +9,10 @@ En el index.html de este ejercicio hay un anchor (link) que te lleva a google.co
 
 ¿Qué propiedad deberiamos agregar a este link si quisiéramos que se abriera en una pestaña nueva en lugar de redirigir al usuario?
 
-## 📝 Instrucciones
+## 📝 Instrucciones:
 
 Haz que el link (anchor) que abra una nueva ventana utilizando el atributo target.
 
-## 💡 Pista
+## 💡 Pista:
 
 - Busca en google cómo hacer que un link o ancla se abra en una nueva pestaña o ventana.

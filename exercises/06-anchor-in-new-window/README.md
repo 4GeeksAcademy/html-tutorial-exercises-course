@@ -12,7 +12,7 @@ On the index.html file there is an anchor taking you to google.com like the foll
 
 But... What if you what this anchor to open a **new window** instead of redirecting the user within the **same window**?
 
-## 📝 Instructions
+## 📝 Instructions:
 
 Please make it open a new window using the target attribute.
 
