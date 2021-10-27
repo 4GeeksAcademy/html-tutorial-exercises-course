@@ -29,11 +29,6 @@ If you use relative paths, you have to assume that the initial part of the path 
 
 The difference is that absolute paths take the user to a different website, relative paths take the user to the same website but in a different directory or path.
 
-For example: If you look at your URL bar right now, the url is something like:
-```
-https://<url>/html-exercises
-```
-
 ## 📝 Instructions
 
 Please modify the relative path that the img tag has and add the absolute path to that image.
