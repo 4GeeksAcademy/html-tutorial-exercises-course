@@ -5,7 +5,7 @@ const configFile = fs.readFileSync(path.resolve('./.learn', './config.json'));
 
 jest.dontMock('fs');
 
-describe('The absolute path to the image should be the correct one', function () {
+describe('The absolute path to the image should contain the entire URL', function () {
     beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
     afterEach(() => { jest.resetModules(); });
 
