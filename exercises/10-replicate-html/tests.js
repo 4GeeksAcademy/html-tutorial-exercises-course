@@ -46,29 +46,15 @@ describe('Format the exact same styles with pure html, use h1 headings, paragrap
     it('<h2> tag & innerHTML Exist', function () {
         const allH2 = document.querySelectorAll("h2")
         expect(allH2.length).toBe(2)
-
-        for (let i = 0; i < allH2.length; i++) {
-            if (i === 0) {
-                expect(allH2[i].innerHTML).toBe("3 Reasons you know you are learning")
-            }
-            if (i === 1) {
-                expect(allH2[i].innerHTML).toBe("3 Reasons you know love are learning what you are learning")
-            }
-        }
+        expect(allH2[0].innerHTML).toBe("3 reasons you know you are learning")
+        expect(allH2[1].innerHTML).toBe("3 reasons you know love what you are learning")
     })
 
     it('All <p> tags and innerHTML Exist', function () {
         const allP = document.querySelectorAll("P")
         expect(allP.length).toBe(2)
-
-        for (let i = 0; i < allP.length; i++) {
-            if (i === 0) {
-                expect(allP[i].innerHTML).toBe(`We are going to explain in this pharagraph the 3 most common signs that you should look into yourself to recognize if you are learning.`)
-            }
-            if (i === 1) {
-                expect(allP[i].innerHTML).toBe(`If you cant sleep, what better than watching videos of cats? <a href=\"https://www.google.com\">click here</a>`)
-            }
-        }
+        expect(allP[0].innerHTML).toBe(`We are going to explain in this pharagraph the 3 most common signs that you should look into yourself to recognize if you are learning.`)
+        expect(allP[1].innerHTML).toBe(`If you can't sleep, what better than watching videos of cats? <a href="https://www.google.com">click here</a>`)
     })
 
 
