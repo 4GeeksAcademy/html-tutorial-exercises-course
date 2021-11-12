@@ -8,6 +8,6 @@ HTML estaba destinado a replicar ese comportamiento. Aquí hay un ejemplo de un 
 
 ## 📝 Instrucciones:
 
-1. Escribe el código para replicar exactamente los mismos estilos con html puro, usa headings, paragraph, strong, blockquote, il y ol.
+1. Escribe el código para replicar exactamente los mismos estilos con html puro, usa headings, paragraph, strong, blockquote, ul y li.
 
 
