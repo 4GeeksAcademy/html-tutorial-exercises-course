@@ -34,8 +34,8 @@ The difference is that *absolute paths* take the user to a different website, *r
 
 For example: If you look at your URL bar right now, the url is something like:
 
-```
-https://<url>/html-exercises
+```html
+https://pink-quail-kdj8kmjc.ws-us18.gitpod.io/
 ```
 
 ## 📝 Instructions
