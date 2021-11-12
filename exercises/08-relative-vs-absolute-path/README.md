@@ -27,22 +27,19 @@ If you use relative paths, you have to assume that the initial part of the path 
 <a href="http://www.mysite.com/help/articles/how-do-i-set-up-a-webpage.html">Click Me</a>
 ```
 
-The difference is that absolute paths take the user to a different website, relative paths take the user to the same website but in a different directory or path.
-
-For example: If you look at your URL bar right now, the url is something like:
-```
-https://<url>/html-exercises
-```
+The difference is that absolute paths contain the whole url because normally they are used to take the user to a different website, relative path's don't contain the first part of the URL (the domain name) but they can only redirect the user to different parts of the same website.
 
 ## 📝 Instructions
 
-Please modify the relative path that the img tag has and add the absolute path to that image.
+Start by building (click the build button) the current website, if you open the build you will see an image displaying.
+
+Please modify the src property of image and convert the URL to an absolute URL. Make sure the image is still displaying correctly after you make your changes.
 
 ## 💡 Hint
 
 + Your absolute path should start with this: {{publicUrl}}
 
-+ You can build it, do right click on the image, click on 'Copy Image Address' and look at the absolute path of the image.
++ If you build the exercise, open the website, and right click on the image, the context menu will show an option 'Copy Image Address' that will copy it's absolute URL into your clipboard.
 
 + Here is a video explaining the difference between relative and absolute
 https://www.youtube.com/watch?v=ephId3mYu9o
