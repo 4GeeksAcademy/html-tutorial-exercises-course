@@ -17,4 +17,4 @@ HTML es un languaje de etiquetas,lo que significa que todo lo que se escribe deb
 
 El resultado debería verse de la siguiente manera:
 
-![Preview for 01.01 HTML Exercises](../../.learn/assets/Screen%20Shot%202020-02-25%20at%207.55.53%20PM.png?raw=true)
+![Preview for 01.1 HTML Exercises](../../.learn/assets/preview-01.1.png?raw=true)
