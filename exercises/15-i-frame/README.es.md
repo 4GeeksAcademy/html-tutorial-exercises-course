@@ -8,7 +8,7 @@ La etiqueta `<iframe>` es increíble, te permite insertar un sitio web dentro de
 
 ## 📝 Instrucciones:
 
-Por favor Agrega un iframe de 300x200 sin bordes que apunte a esta url:
+1. Agrega un iframe de 300x200 sin bordes que apunte a esta url:
 https://www.youtube.com/embed/hFQiSDiysWs
 
 P.D: Ver el video no te hará daño ;)

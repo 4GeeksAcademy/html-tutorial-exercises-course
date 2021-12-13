@@ -1,4 +1,4 @@
-# `03` Hello sin Head
+# `03` Hello without Head
 
 En el último ejercicio tuviste que agregar toda la estructura básica HTML de un sitio web.
 
@@ -6,8 +6,8 @@ En el último ejercicio tuviste que agregar toda la estructura básica HTML de u
 
 Haz lo mismo en este ejercicio, pero no incluyas la etiqueta HEAD.
 
-Agrega al `<body>` un titulo `H1` con tu nombre.
+1. Agrega al `<body>` un titulo `H1` con tu nombre.
 
-El resultado debería verse así:
+## Resultado esperado:
 
-![Link url](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/03-hello-without-head.png?raw=true)
+![Link url](../../.learn/assets/03-hello-without-head.png?raw=true)

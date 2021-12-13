@@ -14,7 +14,7 @@ But... What if you what this anchor to open a **new window** instead of redirect
 
 ## 📝 Instructions:
 
-Please make it open a new window using the target attribute.
+1. Please make it open a new window using the target attribute.
 
 ## 💡 Hint
 
