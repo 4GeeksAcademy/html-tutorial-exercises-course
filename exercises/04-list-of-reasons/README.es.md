@@ -11,4 +11,4 @@ Para este ejercicio ya hemos agregado la estructura básica HTML.
 
 ## Resultado esperado:
 
-![List of li's](..7../.learn/assets/04-list-of-reasons.png?raw=true)
+![List of li's](../../.learn/assets/04-list-of-reasons.png?raw=true)
