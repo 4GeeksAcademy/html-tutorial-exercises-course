@@ -13,7 +13,7 @@ El link debe llevar al usuario a la url. [http://google.com](http://google.com) 
 
 + La url dada es una ruta ABSOLUTA porque comienza con "http", eso significa que le está diciendo al navegador que va a llevar al usuario FUERA de tu sitio web.
 
-+ Lee sobre rutas absolute vs relative aqui: http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/
++ Lee sobre rutas absolutas vs relativas aqui: http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/
 
 ## Resultado esperado:
 
