@@ -22,6 +22,7 @@ This should be the result:
 ![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/12-my-first-table.png?raw=true)
 
 Use the style attribute inside the first tr tag to set height and border color.
+
 ## 💡 Hint:
 
-+ don't use CSS! use basic HTML attributes in the tags.
++ don't use CSS! use basic HTML attributes in the tags. You can only use inline-styling for the background color.

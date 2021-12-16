@@ -22,4 +22,4 @@ Usa el atributo de estilo dentro de la primera etiqueta `tr` para establecer la 
 
 ## 💡 Pista:
 
-+ ¡no uses CSS! use atributos HTML básicos en las etiquetas.
++ ¡no uses CSS! use atributos HTML básicos en las etiquetas. Puedes usar inline-styling solo para el color de fondo.
