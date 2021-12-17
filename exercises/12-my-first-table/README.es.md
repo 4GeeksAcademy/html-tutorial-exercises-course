@@ -10,9 +10,11 @@ Sin usar CSS, con HTML simple puedes agregar algunos estilos básicos a los elem
 
 Realiza las siguientes tareas para jugar con el formato de tabla:
 
-1. Agrega un atributo `width` a la tabla de 100% y un borde de `1`.
+1. Agrega el atributo `width` a la tabla de 100% y un borde de `1` (Usa solo atributos HTML básicos en las etiquetas).
 
-2. Agrega a la etiqueta tr dentro de la etiqueta `thead` una altura de `40`.
+2. Agrega a la etiqueta `tr` dentro de la etiqueta `thead` una altura de `40` (Usa inline styling para ello).
+
+3. Agrega a la etiqueta `tr`, un color de fondo rojo (Usa inline styling para ello).
 
 Este deberia ser el resultado:
 
@@ -22,4 +24,4 @@ Usa el atributo de estilo dentro de la primera etiqueta `tr` para establecer la 
 
 ## 💡 Pista:
 
-+ ¡no uses CSS! use atributos HTML básicos en las etiquetas. Puedes usar inline-styling solo para el color de fondo.
++ ¡no uses CSS! use atributos HTML básicos en las etiquetas. Puedes usar inline-styling solo para el color de fondo y la altura del `tr`.

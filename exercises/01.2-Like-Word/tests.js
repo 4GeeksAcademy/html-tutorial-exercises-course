@@ -13,7 +13,7 @@ it('Add a closing tag </p>', function () {
     expect(a.indexOf("</p>")).not.toBe(-1)
 });
  it('Add "HTML tags are similar to MS Word elements" between the <p> cosing tags → <p>HERE</p> ', function () {
-     let a = document.documentElement.innerHTML = html.toString()
-    const _regex = /<p>\s*HTML\s*tags\s*are\s*similar\s*to\s*MS\s*Word\s*elements\s*<\/p>$/;
-    expect(_regex.test(a)).toBe(true);
+    let p = document.querySelector("P")
+    const _regex = /\s*HTML\s*tags\s*are\s*similar\s*to\s*MS\s*Word\s*elements\s*/gm;
+    expect(_regex.test(p.innerHTML)).toBe(true);
 });
