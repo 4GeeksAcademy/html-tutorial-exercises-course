@@ -4,7 +4,7 @@
 
 Crea esta tabla con código HTML:
 
-![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/12-my-first-table-0.png?raw=true)
+![demo](../../.learn/assets/12-my-first-table-0.png?raw=true)
 
 Sin usar CSS, con HTML simple puedes agregar algunos estilos básicos a los elementos.
 
@@ -16,7 +16,7 @@ Realiza las siguientes tareas para jugar con el formato de tabla:
 
 Este deberia ser el resultado:
 
-![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/12-my-first-table.png?raw=true)
+![demo](../../.learn/assets/12-my-first-table.png?raw=true)
 
 Usa el atributo de estilo dentro de la primera etiqueta `tr` para establecer la altura y el color del borde.
 

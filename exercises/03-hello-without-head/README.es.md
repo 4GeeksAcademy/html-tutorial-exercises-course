@@ -10,4 +10,4 @@ Agrega al `<body>` un titulo `H1` con tu nombre.
 
 El resultado debería verse así:
 
-![Link url](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/03-hello-without-head.png?raw=true)
+![Link url](../../.learn/assets/03-hello-without-head.png?raw=true)

@@ -13,4 +13,4 @@ Add into the body an H1 heading with your name on it.
 
 The result should look like this:
 
-![Link url](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/03-hello-without-head.png?raw=true)
+![Link url](../../.learn/assets/03-hello-without-head.png?raw=true)

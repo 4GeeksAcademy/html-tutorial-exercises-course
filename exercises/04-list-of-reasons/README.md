@@ -12,4 +12,4 @@ Please add into the `<body>` an ordered list `<ol>` with 6 items, each item bein
 
 The result should look like this:
 
-![List of li's](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/04-list-of-reasons.png?raw=true)
+![List of li's](../../.learn/assets/04-list-of-reasons.png?raw=true)

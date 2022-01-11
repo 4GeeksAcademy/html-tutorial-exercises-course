@@ -19,4 +19,4 @@ Por favor agrega una etiqueta `<p>` a tu sitio web que diga: las etiquetas HTML 
 
 ## 💻 Vista Previa:
 
-![01.1 Preview HTML Exercises](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/01.2-Like-Word.png?raw=true)
+![01.1 Preview HTML Exercises](../../.learn/assets/01.2-Like-Word.png?raw=true)

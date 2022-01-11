@@ -16,7 +16,7 @@ Nota: El título del sitio web aparece en la pestaña del sitio web (arriba en e
 
 ## 💡 Pista:
 
-Puedes leer sobre la estructura típica de un sitio web aquí
++ Puedes leer sobre la estructura típica de un sitio web aquí
 https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
 
 ### 📎 Nota
