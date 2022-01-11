@@ -1,4 +1,4 @@
-# `06` Anclaje en una nueva ventana.
+# `06` Anchor in a new window
 
 
 En el index.html de este ejercicio hay un anchor (link) que te lleva a google.com:
@@ -11,7 +11,7 @@ En el index.html de este ejercicio hay un anchor (link) que te lleva a google.co
 
 ## 📝 Instrucciones:
 
-Haz que el link (anchor) que abra una nueva ventana utilizando el atributo target.
+1. Haz que el link (anchor) que abra una nueva ventana utilizando el atributo target.
 
 ## 💡 Pista:
 

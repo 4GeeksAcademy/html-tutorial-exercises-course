@@ -17,11 +17,12 @@ Do the following tasks to play with the table format:
 
 2. Add to the tr tag inside of the `thead` tag a height of `40`.
 
-This should be the result:
-
-![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/12-my-first-table.png?raw=true)
-
 Use the style attribute inside the first tr tag to set height and border color.
+
 ## 💡 Hint:
 
 + don't use CSS! use basic HTML attributes in the tags.
+
+## Expected result:
+
+![demo](../../.learn/assets/12-my-first-table.png?raw=true)

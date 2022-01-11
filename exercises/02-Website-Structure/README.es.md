@@ -1,7 +1,7 @@
 ---
 tutorial: "https://www.youtube.com/watch?v=9OB2RPWHYgw"
 ---
-# `02` Estructura de un Sitio Web
+# `02` Website Structure
 
 ## 📝 Instrucciones:
 
@@ -27,4 +27,4 @@ El título no se mostrará en el contenido del sitio web, se mostrará en la pes
 
 ## 💻 Vista previa:
 
-![Website title example](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/02-website-structure.png?raw=true)
+![Website title example](../../.learn/assets/02-website-structure.png?raw=true)

@@ -2,7 +2,7 @@
 
 ## 📝 Instrucciones
 
-Juguemos con algunas etiquetas anidadas, sigue las siguientes instrucciones:
+1. Juguemos con algunas etiquetas anidadas, sigue las siguientes instrucciones:
 
 | Instrucción | Como debe visualizarse  | 
 | ----------  | ----------------------  |

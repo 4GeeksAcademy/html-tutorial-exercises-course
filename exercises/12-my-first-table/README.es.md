@@ -1,4 +1,4 @@
-# `12` Mi Primera Tabla
+# `12` My first table
 
 ## 📝 Instrucciones:
 
@@ -14,12 +14,12 @@ Realiza las siguientes tareas para jugar con el formato de tabla:
 
 2. Agrega a la etiqueta tr dentro de la etiqueta `thead` una altura de `40`.
 
-Este deberia ser el resultado:
-
-![demo](../../.learn/assets/12-my-first-table.png?raw=true)
-
 Usa el atributo de estilo dentro de la primera etiqueta `tr` para establecer la altura y el color del borde.
 
 ## 💡 Pista:
 
 + ¡no uses CSS! use atributos HTML básicos en las etiquetas.
+
+## Resultado esperado:
+
+![demo](../../.learn/assets/12-my-first-table.png?raw=true)

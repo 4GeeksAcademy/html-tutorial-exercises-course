@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=_sLqC-C-rvE"
 
 ## 📝 Instructions
 
-Let's play with some nested tags, please follow the following instructions:
+1. Let's play with some nested tags, please follow the following instructions:
 
 | Instructions                          | How it should look                      |
 | ------------------------------------  | --------------------------------------- |

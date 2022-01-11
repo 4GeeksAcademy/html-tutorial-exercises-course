@@ -12,7 +12,7 @@ HTML was initially created for the purpose of publishing documents, that is why 
 
 ## 📝 Instructions:
 
-Please add a `<p>` tag to your website that says: HTML tags are similar to MS Word elements.
+1. Please add a `<p>` tag to your website that says: HTML tags are similar to MS Word elements.
 
 ## 💻 Preview:
 

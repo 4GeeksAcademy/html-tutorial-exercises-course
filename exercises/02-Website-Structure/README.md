@@ -16,7 +16,7 @@ Note: The title of the website shows up on the website tab
 
 ## 💡 Hint
 
-You can read about a typical website structure here
++ You can read about a typical website structure here
 https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
 
 ### 📎 Note:
@@ -27,4 +27,4 @@ The title is not going to show on the content of the website, it will show on th
 
 ## 💻 Preview:
 
-![Website title example](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/02-website-structure.png?raw=true)
+![Website title example](../../.learn/assets/02-website-structure.png?raw=true)
