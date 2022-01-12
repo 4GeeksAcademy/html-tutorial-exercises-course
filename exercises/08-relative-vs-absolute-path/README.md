@@ -40,7 +40,7 @@ If you use **relative paths**, you have to assume that the initial part of the p
 
 ## 💡 Hint:
 
-+ Your absolute path should start with this: `{{publicUrl}}`
++ Your absolute path should start with this: {{publicUrl}}
 
 + If you build the exercise, open the website, and right click on the image, the context menu will show an option 'Copy Image Address' that will copy it's absolute URL into your clipboard.
 
