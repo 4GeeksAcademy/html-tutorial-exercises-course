@@ -39,7 +39,7 @@ Si usas **rutas relativas** , tienes que asumir que la parte inicial de la ruta 
 
 ## 💡 Pista:
 
-+ Tu ruta absoluta debe comenzar con esto: `{{publicUrl}}`
++ Tu ruta absoluta debe comenzar con esto: {{publicUrl}}
 
 + Si construyes (`build`) el ejercicio, abre el sitio web y haz un clic derecho en la imagen, el menú contextual mostrará una opción 'Copiar dirección de imagen' que copiará tu URL absoluta en tu portapapeles.
 
