@@ -21,8 +21,4 @@ HTML is a markup language, meaning that everything you type must be wraped in op
 
 You final website should be something like this:
 
-<<<<<<< HEAD
-![Preview for 01.01 HTML Exercises](../../.learn/assets/Screen%20Shot%202020-02-25%20at%207.55.53%20PM.png?raw=true)
-=======
 ![Preview for 01.1 HTML Exercises](../../.learn/assets/preview-01.1.png?raw=true)
->>>>>>> 032a38241417b77114981c8a50d8349b908cd65f
