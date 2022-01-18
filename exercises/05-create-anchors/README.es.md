@@ -17,4 +17,4 @@ El link debe llevar al usuario a la url. [http://google.com](http://google.com) 
 
 ## Resultado esperado:
 
-![Link url](http://i.imgur.com/GGj8vBu.png)
+![image](../,,/.learn/assets/05-create-anchors.png)
