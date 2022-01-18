@@ -18,4 +18,4 @@ Read about absolute vs relative paths here: http://www.coffeecup.com/help/articl
 
 ## Expected result:
 
-![image](../,,/.learn/assets/05-create-anchors.png)
+![image](../../.learn/assets/05-create-anchors.png)
