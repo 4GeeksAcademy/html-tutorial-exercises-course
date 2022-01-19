@@ -16,13 +16,13 @@ For example, to recreate this example you have to do the following:
 
 4. The second one with the attribute `valign="top"` to move the text to the top of the cell and also add some text inside: you can use this tool to generate fake text that looks like real text: http://www.lipsum.com/
   
-# 📝Instructions: 
+## 📝 Instructions: 
 
-Please follow the previous steps to recreate the example.
+1. Please follow the previous steps to recreate the example.
   
-![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/opTIFpg.png?raw=true)
+![demo](../../.learn/assets/opTIFpg.png?raw=true)
 
-# 💡Hint:
+## 💡Hint:
 
 + You can use https://www.lipsum.com/ for fake text.
 

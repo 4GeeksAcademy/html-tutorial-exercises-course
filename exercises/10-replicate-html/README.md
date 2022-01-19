@@ -6,9 +6,9 @@ tutorial: "https://www.youtube.com/watch?v=NIm_BplpzR0"
 
 ## 📝 Instructions:
 
-This is a picture of an HTML document was made here on G. Please code the needed HTML to replicate the picture:
+1. This is a picture of an HTML document was made here on G. Please code the needed HTML to replicate the picture:
 
-![demo](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/10-replicate-html.png?raw=true)
+![demo](../../.learn/assets/10-replicate-html.png?raw=true)
 
 ## 💡 Hint
 
