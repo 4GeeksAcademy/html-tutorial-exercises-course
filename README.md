@@ -7,7 +7,7 @@
 By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 
-![last commit](https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial)
+<img alt="last commit" src="https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial" class="text-center" />
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://breatheco.de)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
