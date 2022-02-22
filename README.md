@@ -6,10 +6,11 @@
       
 By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
-
+<p>
 <img alt="last commit" src="https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial" class="text-center" />
 <img alt="last commit" src="https://img.shields.io/badge/build_by-Developers-blue" class="text-center" />
 <img alt="last commit" src="https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter" class="text-center" />
+</p>
 
 Complete selection of autograded html exercises, anyone interested in learning HTML!
       
