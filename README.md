@@ -33,11 +33,11 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 There are two ways to run the exercises: Immediatly gitpod (recomended) or locally in your computer (requires installation).
 
-### Open immediatly with Gitpod (one-click)
+### A) Open immediatly with Gitpod (one-click)
 
 This exercises are configured to [easily open in gitpod by clicking here](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git).
 
-### Manual installation
+### B) Manual installation
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
 
