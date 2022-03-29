@@ -17,8 +17,11 @@ Complete selection of autograded html exercises, anyone interested in learning H
 Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
  
 1. Get familiar with most of the most popular HTML Tags.
+
 2. Using the tags together to create a simple HTML Website.
+
 3. Linking websites together using Anchors with Relative or Absolute paths.
+
 4. The HTML audio and video tag.
 
 #### Before we start... other related tutorials
@@ -35,7 +38,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 ## Manual installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -76,8 +79,10 @@ Each exercise is a small react application containing the following files:
  
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) ✅ (documentation) 📖
+
 2. [David Hay (haydavid23)](https://github.com/haydavid23), contribution: (test) ⚠️
+
 3. [Daniel Machota (@d4rkm0nst3r)](https://github.com/d4rkm0nst3r), contribution: (build-tutorial) ✅, Translation 🌍
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
