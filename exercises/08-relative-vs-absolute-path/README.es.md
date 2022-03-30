@@ -43,4 +43,4 @@ Si usas **rutas relativas** , tienes que asumir que la parte inicial de la ruta 
 
 + Si construyes (`build`) el ejercicio, abre el sitio web y haz un clic derecho en la imagen, el menú contextual mostrará una opción 'Copiar dirección de imagen' que copiará tu URL absoluta en tu portapapeles.
 
-+ Aquí hay un video que explica [la diferencia entre rutas relativas y absolutas](https://www.youtube.com/watch?v=ephId3mYu9o)
++ Aquí hay un video que explica la diferencia entre rutas relativas y absolutas [https://www.youtube.com/watch?v=ephId3mYu9o](https://www.youtube.com/watch?v=ephId3mYu9o)

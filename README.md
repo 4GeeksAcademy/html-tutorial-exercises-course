@@ -16,12 +16,15 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 <!-- endhide -->
 
 1. Get familiar with most of the most popular HTML Tags.
+
 2. Using the tags together to create a simple HTML Website.
+
 3. Linking websites together using Anchors with Relative or Absolute paths.
+
 4. The HTML audio and video tag.
 
-<!-- hide -->
-<h4>Before we start... other related tutorials</h4>
+#### Before we start... other related tutorials
+
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← your are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
@@ -39,7 +42,7 @@ This exercises are configured to [easily open in gitpod by clicking here](https:
 
 ### B) Manual installation
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```
 $ npm i learnpack -g
@@ -62,7 +65,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Node: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
@@ -80,8 +83,10 @@ Each exercise is a small react application containing the following files:
  
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) ✅ (documentation) 📖
+
 2. [David Hay (haydavid23)](https://github.com/haydavid23), contribution: (test) ⚠️
+
 3. [Daniel Machota (@d4rkm0nst3r)](https://github.com/d4rkm0nst3r), contribution: (build-tutorial) ✅, Translation 🌍
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
