@@ -1,5 +1,5 @@
 # Tutorial de Ejercicios de HTML5 de 4Geeks Academy
-
+<!-- hide -->
 <a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/learnpack/html-tutorial-exercises-course/blob/master/HTML-badge.png"></a>
 
       
@@ -14,8 +14,9 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ¡Selección completa de ejercicios html autograduados para cualquier persona interesada en aprender HTML!
 
-
 ¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter] (https://twitter.com/alesanchezr) si tienes alguna pregunta. 
+
+<!-- endhide -->
 
 ### Aprenderás los siguientes conceptos:
  
@@ -27,6 +28,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 4. La etiqueta HTML de audio y video.
 
+<!-- hide -->
 #### Antes de empezar... otros tutoriales relacionados
 
 <ol>
@@ -34,6 +36,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
+<!-- endhide -->
 
 ## Instalación en un clic
 
