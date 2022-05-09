@@ -13,6 +13,7 @@
     "difficulty": "easy",
     "video-solutions": true,
     "graded": false,
+    "disabledActions": ["test"],
     "config": {
         "disableGrading": true,
         "editor": {
