@@ -7,7 +7,7 @@ En el index.html de este ejercicio hay un anchor (link) que te lleva a google.co
 <a href="http://google.com">Click me to search on google </a>
 ```
 
-¿Qué propiedad deberiamos agregar a este link si quisiéramos que se abriera en una pestaña nueva en lugar de redirigir al usuario?
+¿Qué propiedad deberíamos agregar a este link si quisiéramos que se abriera en una pestaña nueva en lugar de redirigir al usuario?
 
 ## 📝 Instrucciones:
 

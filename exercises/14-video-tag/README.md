@@ -21,7 +21,7 @@ P.D. it wouldn't hurt to watch the video!
 
 ## 💡 Hint:
 
-+ Chrome requires the use of attribute: autoplay muted like this:
++ Chrome requires the use of the attribute: autoplay muted like this:
 
 ```html
 <video muted autoplay>

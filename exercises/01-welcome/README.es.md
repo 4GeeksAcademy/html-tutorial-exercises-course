@@ -19,7 +19,7 @@ He preparado estos ejercicios para cualquier persona interesada en aprender HTML
 
 - He desarrollado los ejercicios de forma incremental, así sentirás como vas aprendiendo poco a poco cosas nuevas.
 
-- ¡No te frustres! Preguntanos por Slack en el canal #public_support o en privado siguiendo [estos pasos](https://content.breatheco.de/es/how-to/ask) 
+- ¡No te frustres! Pregúntanos por Slack en el canal #public_support o en privado siguiendo [estos pasos](https://content.breatheco.de/es/how-to/ask) 
 
 **Estás aquí para aprender desde 0 y todo 4Geeks Academy está aquí para ayudarte.**
 

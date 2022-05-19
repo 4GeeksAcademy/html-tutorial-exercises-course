@@ -4,7 +4,7 @@ Antes de que existiera CSS, el uso de tablas era la única forma posible de hace
 
 Por ejemplo, para recrear este ejemplo, debes hacer lo siguiente:
 
-1. Cree una tabla con el atributo `border = "0"`
+1. Crea una tabla con el atributo `border = "0"`
 
 2. Agrega la fila (`tr`) con 2 columnas (`td`) dentro.
 

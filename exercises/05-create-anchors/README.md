@@ -8,7 +8,7 @@ tutorial: "https://www.youtube.com/watch?v=hVatMB5GaWA"
 
 1. Add to the website body an anchor tag that says `Click me to search on google`
 
-The anchor should takes the user to the url [http://google.com](http://google.com) when clicked.
+The anchor should take the user to the url [http://google.com](http://google.com) when clicked.
 
 ## 💡 Hint:
 
