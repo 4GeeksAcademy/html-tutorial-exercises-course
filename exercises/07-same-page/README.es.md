@@ -1,4 +1,4 @@
-# `07` Anchor same page
+# `07` Same Page
 
 Las anclas (links) también son capaces de desplazar el sitio web a un elemento específico que especificamos.
 

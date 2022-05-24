@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=s0WhMNU8qZ0"
 ---
 
-# `01.1` Hello World
+# `01` Hello World
 
 HTML is a markup language, meaning that everything you type must be wraped in opening and closing `<tags>` like this:
 

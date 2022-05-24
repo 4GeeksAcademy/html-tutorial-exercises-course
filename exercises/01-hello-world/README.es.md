@@ -1,4 +1,4 @@
-# `01.1` Hello World
+# `01` Hello World
 
 HTML es un languaje de markup, lo que significa que todo lo que se escribe debe estar encerrado en `<tags>` (etiquetas) de apertura y cierre como esta:
 

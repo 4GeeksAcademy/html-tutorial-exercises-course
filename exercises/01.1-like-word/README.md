@@ -1,4 +1,4 @@
-# `01.2` Like MS Word
+# `01.1` Like Word
 
 HTML was initially created for the purpose of publishing documents, that is why its `<tags>` are similar to the typical elements you see in a document:
 

@@ -1,7 +1,7 @@
 ---
 tutorial: "https://www.youtube.com/watch?v=oFswWx9ba14"
 ---
-# `01.2` Like MS Word
+# `01.1` Like Word
 
 HTML fue creado inicialmente para publicar documentos, es por eso que sus `<etiquetas>` (tags) son similares a los elementos típicos que ves en un documento:
 

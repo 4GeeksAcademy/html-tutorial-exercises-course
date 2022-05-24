@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=hVatMB5GaWA"
 ---
 
-# `05` Create anchor or link
+# `05` Create anchors 
 
 ## 📝 Instructions:
 

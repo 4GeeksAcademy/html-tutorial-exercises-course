@@ -1,4 +1,4 @@
-# `06` Anchor in a new window
+# `06` New Window
 
 
 En el index.html de este ejercicio hay un anchor (link) que te lleva a google.com:

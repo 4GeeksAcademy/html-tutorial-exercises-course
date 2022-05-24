@@ -1,7 +1,9 @@
 ---
 intro: "https://www.youtube.com/watch?v=tVlYr0hRiRM"
 ---
-# `01`  Te damos la bienvenida al mundo del HTML 🖖🧑‍💻
+# `00` Welcome
+
+Te damos la bienvenida al mundo de HTML 🖖🧑‍💻
 
 Hola, mi nombre es [Alejandro Sanchez](https://twitter.com/alesanchezr).
 
