@@ -6,12 +6,25 @@ tutorial: "https://www.youtube.com/watch?v=xSCGPQCzYw4"
 
 On the last exercise you had to add all the HTML basic structure of a website.
 
+Do the same for this exercise, but don't include the `<head>` tag.
+
 ## 📝 Instructions:
 
-Do the same for this exercise, but don't include the HEAD tag.
+1. Add into the `<body>` an `H1` heading with your name on it.
 
-1. Add into the body an H1 heading with your name on it.
-
-## Expected result:
+## 💻 Expected result:
 
 ![Link url](../../.learn/assets/03-hello-without-head.png?raw=true)
+
+## 💡 Hint:
+
++ The structure should look something like this:
+
+```md
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1><!--The name goes here--></h1>
+	</body>
+</html>
+```

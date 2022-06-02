@@ -5,16 +5,25 @@ tutorial: "https://www.youtube.com/watch?v=wlxmFujzAIs"
 
 ## 📝 Instrucciones:
 
-1. Agrega al cuerpo del sitio web una etiqueta (tag) link o anclaje que diga `Click aqui para buscar en google`
+1. Agrega al `<body>` del sitio web un anchor `<a>` (link) tag que diga: `Haz clic aquí para buscar en google`
 
-El link debe llevar al usuario a la url. [http://google.com](http://google.com) cuando haga click.
+## 💻 Resultado Esperado:
 
-## 💡 Pista:
+![image](../../.learn/assets/05-create-anchors.es.png)
 
-+ La url dada es una ruta ABSOLUTA porque comienza con "http", eso significa que le está diciendo al navegador que va a llevar al usuario FUERA de tu sitio web.
+## 💡 Pistas:
 
-+ Lee sobre rutas absolutas vs relativas aqui: http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/
++ Tu código debería de ser algo así:
 
-## Resultado esperado:
+```md
+<a href="url">--Tu texto--</a>
+```
 
-![image](../../.learn/assets/05-create-anchors.png)
++ El link debe llevar al usuario a la url [http://google.com](http://google.com) cuando haga clic.
+
++ Lee sobre rutas absolutas vs relativas aquí: [http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
+
+
+## 🔎 Importante:
+
++ La `url` dada es una ruta ABSOLUTA porque comienza con "http", eso significa que le está diciendo al navegador que va a llevar al usuario FUERA de tu sitio web.

@@ -1,13 +1,13 @@
 ---
 intro: "https://www.youtube.com/watch?v=tVlYr0hRiRM"
 ---
-# `00` Welcome
+# Welcome!
+  
+Te damos la bienvenida al mundo del HTML 🖖🧑‍💻
 
-Te damos la bienvenida al mundo de HTML 🖖🧑‍💻
+## 💬 Fundamentos: 
 
-Hola, mi nombre es [Alejandro Sanchez](https://twitter.com/alesanchezr).
-
-He preparado estos ejercicios para cualquier persona interesada en aprender HTML desde cero, repasaremos los siguientes conceptos:
+Hemos preparado estos ejercicios para cualquier persona interesada en aprender HTML desde cero. Durante este curso, repasaremos los siguientes conceptos:
 
 1. Familiarizarse con la mayoría de las etiquetas HTML más populares.
 
@@ -17,23 +17,33 @@ He preparado estos ejercicios para cualquier persona interesada en aprender HTML
 
 4. La etiqueta HTML de audio y video.
 
-## ➡️ Sobre los ejercicios
+## Lecturas Útiles:
 
-- He desarrollado los ejercicios de forma incremental, así sentirás como vas aprendiendo poco a poco cosas nuevas.
++ [https://www.w3schools.com/html/html_intro.asp](https://www.w3schools.com/html/html_intro.asp)
 
-- ¡No te frustres! Pregúntanos por Slack en el canal #public_support o en privado siguiendo [estos pasos](https://content.breatheco.de/es/how-to/ask) 
++ [https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
-**Estás aquí para aprender desde 0 y todo 4Geeks Academy está aquí para ayudarte.**
+## Video Útil:
 
-- Algunos ejercicios se corrigen automáticamente. Por favor comprende que hay diferentes maneras de llegar a una solución correcta.
++ [https://youtu.be/10GHKjgQIR0](https://youtu.be/10GHKjgQIR0)
 
-- Lo importante de este prework es que le pierdas el miedo a la programación y te familiarices con el entorno.
+## Colaboradores:
 
-Haz click en el botón `next` en la parte superior de estas instrucciones para comenzar con el primer ejercicio.
+Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
+1. [Alejandro Sánchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentación) :book:
 
-## ➡️ Agradecimientos:
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribución: (programador) :computer:, (build-tests) :warning:
 
-- Los ejercicios que se corrigen automáticamente es gracias a [@haydavid23](https://github.com/haydavid23).
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (traducción) :earth_africa:
 
-- Las video-soluciones en español son gracias a [@danimachota](https://twitter.com/danimachota).
+Este proyecto sigue las especificaciones: [all-contributors](https://github.com/kentcdodds/all-contributors). 
+
+¡Todas las contribuciones son bienvenidas!
+
+> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificuldad entre los ejercicios nunca sea tan grande como para frustrarte.
+
+Nota: ¡No te frustres! Pregúntanos por Slack en el canal #public_support o en privado siguiendo [estos pasos](https://content.breatheco.de/es/how-to/ask). 
+
+➡️ Haz clic en `next` arriba de estas instrucciones para empezar con el primer ejercicio...
+

@@ -1,6 +1,6 @@
 # `01.1` Like Word
 
-HTML was initially created for the purpose of publishing documents, that is why its `<tags>` are similar to the typical elements you see in a document:
+HTML was initially created with the purpose of publishing documents, that is why its `<tags>` are similar to the typical elements you see in a document:
 
 | Tag name | Use case |
 | -------- | -------- |
@@ -14,6 +14,6 @@ HTML was initially created for the purpose of publishing documents, that is why 
 
 1. Please add a `<p>` tag to your website that says: HTML tags are similar to MS Word elements.
 
-## 💻 Preview:
+## 💻 Expected Result:
 
 ![01.1 Preview HTML Exercises](../../.learn/assets/01.2-Like-Word.png?raw=true)

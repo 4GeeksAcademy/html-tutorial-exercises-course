@@ -1,13 +1,13 @@
 ---
 intro: "https://www.youtube.com/watch?v=Vd2dby9ind4"
 ---
-# `00` Welcome
+# Welcome!
 
 Welcome to the world of HTML 🖖🧑‍💻
 
-Hello, my name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr).
+## 💬 Fundamentals:
 
-I have prepared this exercises for anyone interested in learning HTML from scratch, we will go over the following concepts:
+We have prepared these exercises for anyone interested in learning HTML from scratch. During this course we will go over the following concepts:
 
 1. Get familiar with most of the most popular HTML Tags.
 
@@ -17,23 +17,35 @@ I have prepared this exercises for anyone interested in learning HTML from scrat
 
 4. The HTML audio and video tag.
 
-## ➡️ About the exercises
+## Useful Readings:
 
-- I have developed the exercises in a incremental way in order to make you learn new concepts step by step. 
++ [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
-- Don't get frustrated! Ask any question in the #public_support channel or by private message following [this steps](https://content.breatheco.de/es/how-to/ask). 
++ [https://www.w3schools.com/html/html_intro.asp](https://www.w3schools.com/html/html_intro.asp)
 
-**You are here to learn from scratch and everyone in 4Geeks Academy is here to help you.**
+## Useful Video:
+
++ [https://youtu.be/u0OeZfIfBRI](https://youtu.be/u0OeZfIfBRI)
+
+## Contributors:
+
+Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+
+2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
+
+3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (translator) :earth_africa:
+
+This project follows these specifications: [all-contributors](https://github.com/kentcdodds/all-contributors)
+
+Contributions of any kind are welcome!
+
+> 🔹 We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
+
+Note: Don't get frustrated! Ask any question in the #public_support channel or by private message following [this steps](https://content.breatheco.de/es/how-to/ask). 
+
+➡️ Click the `next` button on the top of these instructions to begin with the first exercise...
 
 
-- Some assignments are automatically corrected. Please understand that there are several ways to find the correct answer. 
 
-- The main point of this prework is that you become more confident with programming and get used to the environment.
-
-Click the `next` link on the top of these instructions to begin with the first exercise.
-
-## ➡️ Acknowledge:
-
-- Exercises that are automatically corrected are thanks to [@haydavid23](https://github.com/haydavid23).
-
-- The video solutions have been translated to spanish thanks to [@d4rkm0nst3r](https://github.com/d4rkm0nst3r).

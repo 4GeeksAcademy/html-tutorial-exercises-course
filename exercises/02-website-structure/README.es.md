@@ -9,22 +9,27 @@ tutorial: "https://www.youtube.com/watch?v=9OB2RPWHYgw"
 
 2. Agrega "Hello World" dentro de la etiqueta del título (title) del sitio web.
 
-```md
-⚠️️️️ Cuidado
-Nota: El título del sitio web aparece en la pestaña del sitio web (arriba en el navegador)
-```
-
-## 💡 Pista:
-
-+ Puedes leer sobre la estructura típica de un sitio web aquí
-https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure
-
-### 📎 Nota
-
-```txt
-El título no se mostrará en el contenido del sitio web, se mostrará en la pestaña del navegador.
-```
-
-## 💻 Vista previa:
+## 💻 Resultado Esperado:
 
 ![Website title example](../../.learn/assets/02-website-structure.png?raw=true)
+
+## 💡 Pistas:
+
++ La estructura debería de verse algo asi:
+
+```md
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> <!--Aquí irá el título--> </title>
+	</head>
+</html>
+```
+
++ Puedes leer sobre la estructura típica de un sitio web aquí: [https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure](https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure)
+ 
+## 🔎 Importante:
+
++ El título del sitio web aparece en la pestaña del sitio web (arriba en el navegador).
+
+
