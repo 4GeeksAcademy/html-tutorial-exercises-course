@@ -18,4 +18,4 @@ To do that, you have to assign an `ID` to the element you want to scroll to, and
 
 ## 💡 Hint:
 
-+ The only way so use anchors like this, is with the "`ID`" of the elements, there is no other way.
++ The only way to use anchors like this, is with the "`ID`" of the elements, there is no other way.
