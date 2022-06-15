@@ -13,10 +13,9 @@
     "difficulty": "easy",
     "video-solutions": true,
     "graded": false,
-    "config": {
-        "disableGrading": true,
-        "editor": {
-            "version": "1.0.72"
-        }
+    "disabledActions": ["test"],
+    "disableGrading": true,
+    "editor": {
+        "version": "1.0.73"
     }
 }
