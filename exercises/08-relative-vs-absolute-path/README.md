@@ -1,14 +1,16 @@
 # `08` Relative vs Absolute Path
 
-This is the typical code that you need to use an image tag:
+This is the typical code you need to use an image `<tag>`:
 
 ```html
 <img src="where/to/get/the/image" />
 ```
 
-When you add an `<img />` (image) tag into a website, you have to set the `src` property to the URL where you want to take that image from, that URL path can be **absolute or relative**:
+When you add an `<img />` (image) tag into a website, you have to set the `src` property to the URL where you want to take that image from. That URL path can be: **absolute or relative**.
 
 ## Relative Paths Examples:
+
+Relative paths are only used to indicate directory order. They do not contain the first part of the URL (the domain name) and can only redirect the user to different parts of the same website.
 
 ```html
 <img src="../../.learn/assets/rigo-baby.jpg" />
@@ -17,9 +19,11 @@ When you add an `<img />` (image) tag into a website, you have to set the `src` 
 <a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to how-do-i-set-up-a-webpage.html</a>
 ```
 
-If you use **relative paths**, you have to assume that the initial part of the path is hidden, and is equal to the current path in the URL bar.
+> Note: If you use **relative paths** , you have to assume that the initial part of the path is hidden and equal to the current path in the URL bar.
 
 ## Absolute Paths Examples:
+
+Absolute paths also include the domain name. They contain the full URL because they are typically used to take the user to a different website.
 
 ```html
 <img src="https://github.com/learnpack/html-tutorial-exercises-course/raw/master/HTML-badge.png" />
@@ -28,17 +32,15 @@ If you use **relative paths**, you have to assume that the initial part of the p
 <a href="http://www.mysite.com/help/articles/how-do-i-set-up-a-webpage.html">Click Me</a>
 ```
 
-**Absolute paths** contain the whole url because normally they are used to take the user to a different website. 
-
-**Relative paths** don't contain the first part of the URL (the domain name) and they can only redirect the user to different parts of the same website.
-
 ## 📝 Instructions:
 
-1. Start by **building** (click the build button) the current website, if you open the build you will see an image displaying.
+1. Start by **building** (click the `build` button) the current website, when it opens you will see an image displaying.
 
-2. Please modify the `src` property of image and convert the URL to an absolute URL. Make sure the image is still displaying correctly after you make your changes.
+2. Please modify the `src` property of image and convert it to an absolute URL.
 
-## 💡 Hint:
+>Note: Make sure the image is still displaying correctly after you make your changes.
+
+## 💡 Hints:
 
 + Your absolute path should start with this: {{publicUrl}}
 

@@ -4,25 +4,43 @@ tutorial: "https://www.youtube.com/watch?v=QUoq-uQf6As"
 
 # `13` Image with Text
 
-Before CSS existed, using tables was the only way possible to do some website layouts, is a very similar process to creating layouts on MS Office.
+Before `CSS` existed, using tables was the only way possible to do some website layouts. It is a very similar process to creating layouts on MS Office.
 
-For example, to recreate this example you have to do the following:
+Now, let's recreate an example similar to this:
 
-1. Create a table with the attribute `border="0"`.
+![demo](../../.learn/assets/opTIFpg.png?raw=true)
 
-2. Add row (`tr`) with 2 columns (`td`) inside.
-
-3. The first column has to contain an image with the attribute `height="150"`. 
-
-4. The second one with the attribute `valign="top"` to move the text to the top of the cell and also add some text inside: you can use this tool to generate fake text that looks like real text: http://www.lipsum.com/
-  
 ## 📝 Instructions: 
 
-1. Please follow the previous steps to recreate the example.
-  
-![demo](../../.learn/assets/opTIFpg.png?raw=true)
+1. Create a `<table>` with attribute `border = "0"`.
+
+```html
+<table border="X"></table>
+```
+
+2. Add the `<tr>` row with 2 `<td>` columns inside.
+
+```html
+<table border="X">
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+```
+
+3. The first column (`<td>`), contains an image with the attribute `height = "150"`.
+
+```html
+<td height="X"><img src="url"/></td>
+```
+
+4. The second column (`<td>`), contains the paragraph along with the `valign = "top"` attribute (this is used to move the text to the top of the cell and also add text inside).
+
+```html
+<td valign="X">aquí va el párrafo</td>
+``` 
 
 ## 💡Hint:
 
-+ You can use https://www.lipsum.com/ for fake text.
-
++ You can choose your fake text on this page: [http://www.lipsum.com/](http://www.lipsum.com/)

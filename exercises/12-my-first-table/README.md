@@ -4,28 +4,85 @@ tutorial: "https://www.youtube.com/watch?v=ZHsw63Xdbw4"
 
 # `12` My First Table
 
-## 📝 Instructions
-
-Create this table with HTML code:
+We are going to create a data table with only HTML code. This will carry the following information:
 
 ![demo](../../.learn/assets/12-my-first-table-0.png?raw=true)
 
-Without using CSS, with just plain HTML you can add some basic styles to elements.
-Do the following tasks to play with the table format:
+Without using `CSS`, with plain `HTML` you can add some basic styling to elements.
 
-1. Add a `width` attribute to the `table` of 100% and a border of `1`.
+We are going to practice doing the following tasks to play with the table format. Are you ready? 😉
 
-2. Add to the `tr` tag inside of the `thead` tag a height of `40` (Use inline styling for it).
+## 📝 Instructions:
 
-3. Add to the `tr` tag a red background color (Use inline styling for it).
+1. Add a `width` attribute of 100% to the `<table>` and a `border` of `1` (Use only basic HTML attributes in tags).
 
-Use the style attribute inside the first tr tag to set height and border color.
+```html
+<table width="X" border="X"></table>
+```
 
-## 💡 Hint:
+2. Inside the `<table>` tag, add the `<thead>` tag.
 
-+ don't use CSS! use basic HTML attributes in the tags.
+```html
+<table width="X" border="X">
+		<thead></thead>
+</table>
+```
 
-## Expected result:
+3. Now that we have the `<thead>` tag, we are going to create another `<tr>` tag inside, to which we are going to assign a `height` of `40` and a red `background-color` .
+
+```html
+<table width="X" border="X">
+		<thead>
+            <tr height="X" style="background-color:X"></tr>
+        </thead>
+</table>
+```
+
+4. Inside that `<tr>`, we are going to make 3 `<th>` to form the cells of our table with the information that we are going to request.
+
+```html
+<table width="X" border="X">
+		<thead>
+            <tr height="X" style="background-color:X">
+                <th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+            </tr>
+        </thead>
+</table>
+```
+
+5. Finally, below the `<table>` tag we are going to repeat our `<tr>` 3 more times to complete the 3 missing columns and rows of our table. (Remember to fill them with the information from the first box)
+
+```html
+<tr>
+	<th>Name</th>
+	<th>Last Name</th>
+	<th>Phone Number</th>
+</tr>
+<tr>
+	<th>Name</th>
+	<th>Last Name</th>
+	<th>Phone Number</th>
+</tr>
+<tr>
+	<th>Name</th>
+	<th>Last Name</th>
+	<th>Phone Number</th>
+</tr>
+```
+
+## Expected Result:
 
 ![demo](../../.learn/assets/12-my-first-table.png?raw=true)
+
+## 💡 Hints:
+
++ After each step click `build`, to make sure everything is going well.
+
++ You can copy the code blocks so you don't have to type them 3 more times, just remember to change the information in the cells.
+
++ Don't use CSS! use basic HTML attributes in tags.
+
+
 
