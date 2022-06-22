@@ -1,10 +1,10 @@
 # `01` Hello World
 
-HTML es un languaje de markup, lo que significa que todo lo que se escribe debe estar encerrado en `<tags>` (etiquetas) de apertura y cierre, como estas:
+HTML es un lenguaje de markup, lo que significa que todo lo que se escribe debe estar encerrado en `<tags>` (etiquetas) de apertura y cierre, como estas:
 
 ```html
 <span>Hola, Yo soy un texto</span>
-<strong>Hola, Yo tambien soy un texto pero en negrita</strong>
+<strong>Hola, Yo también soy un texto pero en negrita</strong>
 ```
 
 ## 📝 Instrucciones:
