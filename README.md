@@ -37,9 +37,9 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 ## 🌱 How to start
 
-There are two ways to run the exercises: Immediatly gitpod (recomended) or locally in your computer (requires installation).
+There are two ways to run the exercises: Immediately in gitpod (recommended) or locally in your computer (requires installation).
 
-### A) Open immediatly with Gitpod (one-click)
+### A) Open immediately with Gitpod (one-click)
 
 This exercises are configured to easily open in gitpod.
 

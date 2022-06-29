@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=B-ge0ggbm7Y"
 ---
 
-# `15` iframe
+# `15` Iframe
 
 The `<iframe>` tag is amazing, it lets you insert a website inside a website. Youtube uses the iframe tag to let you insert youtube videos in your own website.
 
