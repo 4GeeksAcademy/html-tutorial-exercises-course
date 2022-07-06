@@ -14,5 +14,5 @@ The `<iframe>` tag is amazing! It let's you insert a website inside a website. A
 <iframe width="X" height="X" src="here goes the URL"></iframe>
 ```
 
->Note: Watching the video won't hurt you 😉
+> Note: Watching the video won't hurt you 😉
 

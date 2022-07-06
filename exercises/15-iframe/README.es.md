@@ -15,5 +15,5 @@ tutorial: "https://www.youtube.com/watch?v=70WeW1uGIs4"
 <iframe width="X" height="X" src="aquí va la URL"></iframe>
 ```
 
->Nota: Ver el video no te hará daño 😉
+> Nota: Ver el video no te hará daño 😉
 
