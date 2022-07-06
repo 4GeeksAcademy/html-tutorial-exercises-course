@@ -8,7 +8,7 @@ This is the typical code you need to use an image tag:
 
 When you add an `<img />` (image) tag into a website, you have to set the `src` property to the URL where you want to take that image from. That URL path can be: **absolute or relative**.
 
-## Relative Paths Examples:
+## Relative Paths:
 
 Relative paths are only used to indicate directory order. They do not contain the first part of the URL (the domain name) and can only redirect the user to different parts of the same website.
 
@@ -21,7 +21,7 @@ Relative paths are only used to indicate directory order. They do not contain th
 
 > Note: If you use **relative paths**, you have to assume that the initial part of the path is hidden and equal to the current path in the URL bar.
 
-## Absolute Paths Examples:
+## Absolute Paths:
 
 Absolute paths include the domain name. They contain the full URL because they are typically used to take the user to a different website.
 
@@ -44,6 +44,6 @@ Absolute paths include the domain name. They contain the full URL because they a
 
 + Your absolute path should start with this: {{publicUrl}}
 
-+ If you build the exercise, open the website, and right click on the image, the context menu will show an option 'Copy Image Address' that will copy it's absolute URL into your clipboard.
++ If you build the exercise, open the website, and right click on the image, the context menu will show an option with this text 'Copy Image Address' that will copy it's absolute URL into your clipboard.
 
 + Here is a video explaining the difference between relative and absolute paths [https://www.youtube.com/watch?v=ephId3mYu9o](https://www.youtube.com/watch?v=ephId3mYu9o)

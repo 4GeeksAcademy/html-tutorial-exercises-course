@@ -8,6 +8,8 @@ tutorial: "https://www.youtube.com/watch?v=hVatMB5GaWA"
 
 1. Add to the website `<body>` an anchor `<a>` tag that says: `Click me to search on google`
 
+2. The anchor (`<a>`) should take the user to the url [http://google.com](http://google.com) when it is clicked.
+
 ## 💻 Expected Result:
 
 ![image](../../.learn/assets/05-create-anchors.png)
@@ -19,8 +21,6 @@ tutorial: "https://www.youtube.com/watch?v=hVatMB5GaWA"
 ```md
 <a href="url">--your text--</a>
 ```
-
-+ The anchor (`<a>`) should take the user to the url [http://google.com](http://google.com) when it is clicked.
 
 + Read about absolute vs relative paths here: [http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
 

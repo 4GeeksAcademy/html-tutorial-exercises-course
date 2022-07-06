@@ -25,13 +25,13 @@ Ahora, vamos a recrear un ejemplo similar a este:
 </table>
 ```
 
-3. La primera columna (`<td>`), contiene una imagen con el atributo `height = "150"`.
+3. La primera columna (`<td>`) debe tener el atributo `width="25%"`, este elemento debe contener una imagen con el atributo `width="100%"` (Puedes escoger cualquier imagen de google).
 
 ```html
-<td height="X"><img src="url"/></td>
+<td width="X"><img width="X" src="url"/></td>
 ```
 
-4. La segunda columna (`<td>`), contiene el párrafo junto con el atributo `valign = "top"` (este sirve para mover el texto a la parte superior de la celda y también agregar texto dentro).
+4. La segunda columna (`<td>`), contiene el párrafo junto con el atributo `valign="top"` (este sirve para mover el texto a la parte superior de la celda y también agregar texto dentro).
 
 ```html
 <td valign="X">aquí va el párrafo</td>

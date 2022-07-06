@@ -48,24 +48,50 @@ Vamos a practicar realizando las siguientes tareas para jugar con el formato de 
 </table>
 ```
 
-5. Por último, debajo del tag `<table>` vamos a repetir 3 veces mas nuestros `<tr>` para completar las 3 columnas y filas faltantes de nuestra tabla. (Recuerda llenarlas con la información de primer cuadro)
+5. Agrega la etiqueta `<tbody>` al final del `<table>`, justo después del `<thead>`.
 
 ```html
-<tr>
-	<th>Name</th>
-	<th>Last Name</th>
-	<th>Phone Number</th>
-</tr>
-<tr>
-	<th>Name</th>
-	<th>Last Name</th>
-	<th>Phone Number</th>
-</tr>
-<tr>
-	<th>Name</th>
-	<th>Last Name</th>
-	<th>Phone Number</th>
-</tr>
+<table width="X" border="X">
+		<thead>
+            <tr height="X" style="background-color:X">
+                <th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+            </tr>
+        </thead>
+		<tbody></tbody>
+</table>
+```
+
+6. Por último, agrega 3 `<tr>` adentro del `<tbody>` para completar las 3 columnas y filas faltantes de nuestra tabla. (Recuerda llenarlas con la información de primer cuadro)
+
+```html
+<table width="X" border="X">
+		<thead>
+            <tr height="X" style="background-color:X">
+                <th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+            </tr>
+        </thead>
+		<tbody>
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+		</tbody>
+</table>
 ```
 
 ## Resultado Esperado:

@@ -6,10 +6,12 @@ tutorial: "https://www.youtube.com/watch?v=HkJtj2618YU"
 
 Anchors (`<a>`) are also capable to scroll the user through the website to a specific element within it.
 
-To do that, you have to assign an `ID` to the element you want to scroll to, and then, set the `URL` of the anchor `<a>` to that `ID` you have assigned before, prepended by a "`#`" character, like this:
+To do that, you have to assign an `id` to the element you want to scroll to, and then, set the `URL` of the anchor `<a>` to that `id` you have assigned before, prepended by a "`#`" character, like this:
 
 ```html
-<a href="#element_id"></a>
+<a href="#element_id">This anchor will take you to the div</a>
+
+<div id="element_id">Hello I'm the div</div>
 ```
 
 ## 📝 Instructions:
@@ -18,4 +20,6 @@ To do that, you have to assign an `ID` to the element you want to scroll to, and
 
 ## 💡 Hint:
 
-+ The only way to use anchors like this, is with the "`ID`" of the elements, there is no other way.
++ The only way to use anchors like this, is with the `id` of the elements, there is no other way.
+
++ You have to add an `id` to the `<h2>` tags, in order to redirect the user to them with the anchor
