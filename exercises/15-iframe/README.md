@@ -4,12 +4,15 @@ tutorial: "https://www.youtube.com/watch?v=B-ge0ggbm7Y"
 
 # `15` Iframe
 
-The `<iframe>` tag is amazing, it lets you insert a website inside a website. Youtube uses the iframe tag to let you insert youtube videos in your own website.
+The `<iframe>` tag is amazing! It let's you insert a website inside a website. An example of this is Youtube, it uses the `<iframe>` tag to allow you to insert videos from this platform on your own website.
 
-## 📝 Instructions
+## 📝 Instructions:
 
-1. Please add an iframe of 300x200 without any borders that points to this url:
-https://www.youtube.com/embed/hFQiSDiysWs
+1. Add an `<iframe>` with a `width` of `300` and a `height` of `200`. Make it point to this url: [https://www.youtube.com/embed/hFQiSDiysWs](https://www.youtube.com/embed/hFQiSDiysWs)
 
-P.D: It will not hurt to watch the video ;)
+```html
+<iframe width="X" height="X" src="here goes the URL"></iframe>
+```
+
+> Note: Watching the video won't hurt you 😉
 

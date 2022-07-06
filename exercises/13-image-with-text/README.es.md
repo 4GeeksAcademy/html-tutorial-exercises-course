@@ -1,23 +1,42 @@
 # `13` Image with Text
 
-Antes de que existiera CSS, el uso de tablas era la única forma posible de hacer algunos diseños de sitios web, es un proceso muy similar a la creación de diseños en MS Office.
+Antes de que existiera `CSS`, el uso de tablas era la única forma posible de hacer algunos diseños de sitios web. Es un proceso muy similar a la creación de diseños en MS Office.
 
-Por ejemplo, para recrear este ejemplo, debes hacer lo siguiente:
-
-1. Crea una tabla con el atributo `border = "0"`
-
-2. Agrega la fila (`tr`) con 2 columnas (`td`) dentro.
-
-3. La primera columna contiene una imagen con el atributo `height = "150"`.
-
-4. El segundo con el atributo `valign = "top"` para mover el texto a la parte superior de la celda y también agregar texto dentro: puedes usar esta herramienta para generar texto falso parecido a un texto real: http://www.lipsum.com/
-
-## 📝 Instrucciones:
-
-1. Sigue los pasos anteriores para recrear este ejemplo:
+Ahora, vamos a recrear un ejemplo similar a este:
 
 ![demo](../../.learn/assets/opTIFpg.png?raw=true)
 
-## 💡 Hint:
+## 📝 Instrucciones:
 
-+ Puedes usar esto http://www.lipsum.com/ para el texto falso.
+1. Crea un `<table>` con el atributo `border = "0"`.
+
+```html
+<table border="X"></table>
+```
+
+2. Agrega la fila `<tr>` con 2 columnas `<td>` dentro.
+
+```html
+<table border="X">
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+```
+
+3. La primera columna (`<td>`), contiene una imagen con el atributo `height = "150"`.
+
+```html
+<td height="X"><img src="url"/></td>
+```
+
+4. La segunda columna (`<td>`), contiene el párrafo junto con el atributo `valign = "top"` (este sirve para mover el texto a la parte superior de la celda y también agregar texto dentro).
+
+```html
+<td valign="X">aquí va el párrafo</td>
+```
+
+## 💡 Pista:
+
++ Puedes elegir tu texto falso en esta página: [http://www.lipsum.com/](http://www.lipsum.com/)

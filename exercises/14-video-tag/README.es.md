@@ -1,26 +1,27 @@
 # `14`  Video tag
 
-Aquí está la documentación para la etiqueta de video: http://lmgtfy.com/?q=html+video+tag
+El tag de `<video>` se utiliza para incluir un contenido de video dentro de un documento.
+
+> Nota: Aquí puedes leer sobre los tags de video: [http://lmgtfy.com/?q=html+video+tag](http://lmgtfy.com/?q=html+video+tag)
 
 ## 📝 Instrucciones:
 
-Use la etiqueta de video para incluir este video en el sitio web:
-https://assets.breatheco.de/apis/video/why-pair-programming
+1. Usa el tag `<video>` para incluir este video en el sitio web: [https://assets.breatheco.de/apis/video/why-pair-programming] (copia y pega la URL que esta dentro de los corchetes).
 
-1. El video debe cubrir todo el sitio web (el 100%).
+2. El video debe cubrir todo el sitio web, para ello vamos a aplicarle un `width="100%` y un `height="100%`.
 
-2. El video debe reproducirse automáticamente
+3. El video debe reproducirse automáticamente, haz uso del atributo: `muted autoplay`.
 
-3. El video NO DEBE tener controles: play, pausa, etc.
+> Nota: El video NO DEBE tener controles: play, pausa, etc.
 
-P.D. ¡No está de más ver el video!
-## 💡 Pista
+## 💡 Pistas:
 
-+ Chrome requiere el uso del atributo: `muted autoplay`:
++ Algo así deberia de ser tu código.
 
 ```html
-<video muted autoplay>
-
+<video width="X" height="X" muted autoplay>
+	<source src="aquí va la URL del video"/>
+</video>
 ```
 
-+ Lee más sobre esto aquí: https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome
++ Lee más sobre esto aquí: [https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome](https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome).

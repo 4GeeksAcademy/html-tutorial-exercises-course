@@ -9,7 +9,7 @@ tutorial: "https://www.youtube.com/watch?v=wlxmFujzAIs"
 
 ## 💻 Resultado Esperado:
 
-![image](../../.learn/assets/05-create-anchors.es.png)
+![image](../../.learn/assets/05-create-anchors-es.png)
 
 ## 💡 Pistas:
 
