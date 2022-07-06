@@ -15,6 +15,7 @@
     "graded": false,
     "disabledActions": ["test"],
     "disableGrading": true,
+    "autoPlay": false,
     "editor": {
         "version": "1.0.73"
     }
