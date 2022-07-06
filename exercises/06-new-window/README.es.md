@@ -10,7 +10,7 @@ En el `index.html` de este ejercicio hay un anchor (`<a>`) que te lleva a `googl
 
 ## 📝 Instrucciones:
 
-1. Haz que el anchor (`<a>`) abra una nueva ventana utilizando el atributo `target`.
+1. Investiga cómo hacer para que el anchor (`<a>`) abra el link en una nueva ventana.
 
 ## 💡 Pistas:
 
@@ -19,5 +19,7 @@ En el `index.html` de este ejercicio hay un anchor (`<a>`) que te lleva a `googl
 ```md
 <a href="url" target="_blank">--Tu texto--</a> 
 ```
+
++ Debes usar la propiedad `target`.
 
 + Puedes leer cómo hacer que un link se abra en una nueva pestaña o ventana aquí: [https://www.freecodecamp.org/espanol/news/como-usar-html-para-abrir-un-link-en-un-tab-nuevo/](https://www.freecodecamp.org/espanol/news/como-usar-html-para-abrir-un-link-en-un-tab-nuevo/)

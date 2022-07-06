@@ -6,11 +6,13 @@ El tag de `<video>` se utiliza para incluir un contenido de video dentro de un d
 
 ## 📝 Instrucciones:
 
-1. Usa el tag `<video>` para incluir este video en el sitio web: [https://assets.breatheco.de/apis/video/why-pair-programming] (copia y pega la URL que esta dentro de los corchetes).
+1. Usa el tag `<video>` para incluir este video en el sitio web: [copia y pega la URL que esta dentro de los corchetes](https://assets.breatheco.de/apis/video/why-pair-programming).
 
-2. El video debe cubrir todo el sitio web, para ello vamos a aplicarle un `width="100%` y un `height="100%`.
+2. El video debe cubrir todo el sitio web, para ello vamos a aplicarle un `width="100%"` y un `height="100%"`.
 
-3. El video debe reproducirse automáticamente, haz uso del atributo: `muted autoplay`.
+3. El video debe reproducirse automáticamente, haz uso del atributo: `autoplay`.
+
+4. El video debe estar silenciado al principio, utiliza el atributo: `muted`.
 
 > Nota: El video NO DEBE tener controles: play, pausa, etc.
 

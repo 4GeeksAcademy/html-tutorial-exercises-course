@@ -52,24 +52,50 @@ We are going to practice doing the following tasks to play with the table format
 </table>
 ```
 
-5. Finally, below the `<table>` tag we are going to repeat our `<tr>` 3 more times to complete the 3 missing columns and rows of our table. (Remember to fill them with the information from the first box)
+5. Add the `<tbody>` on the bottom of the `<table>` tag, right after the `<thead>` tag.
 
 ```html
-<tr>
-	<th>Name</th>
-	<th>Last Name</th>
-	<th>Phone Number</th>
-</tr>
-<tr>
-	<th>Name</th>
-	<th>Last Name</th>
-	<th>Phone Number</th>
-</tr>
-<tr>
-	<th>Name</th>
-	<th>Last Name</th>
-	<th>Phone Number</th>
-</tr>
+<table width="X" border="X">
+		<thead>
+            <tr height="X" style="background-color:X">
+                <th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+            </tr>
+        </thead>
+		<tbody></tbody>
+</table>
+```
+
+6. Finally, create 3 `<tr>` in the `<tbody>` to complete the 3 missing columns and rows of our table. (Remember to fill them with the information from the first box)
+
+```html
+<table width="X" border="X">
+		<thead>
+            <tr height="X" style="background-color:X">
+                <th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+            </tr>
+        </thead>
+		<tbody>
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+		</tbody>
+</table>
 ```
 
 ## Expected Result:
@@ -83,6 +109,3 @@ We are going to practice doing the following tasks to play with the table format
 + You can copy the code blocks so you don't have to type them 3 more times, just remember to change the information in the cells.
 
 + Don't use CSS! use basic HTML attributes in tags.
-
-
-

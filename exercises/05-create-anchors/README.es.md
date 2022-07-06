@@ -7,6 +7,8 @@ tutorial: "https://www.youtube.com/watch?v=wlxmFujzAIs"
 
 1. Agrega al `<body>` del sitio web un anchor `<a>` (link) tag que diga: `Haz clic aquí para buscar en google`
 
+2. El link del anchor (`<a>`) debe llevar al usuario a la url [http://google.com](http://google.com) cuando haga clic.
+
 ## 💻 Resultado Esperado:
 
 ![image](../../.learn/assets/05-create-anchors-es.png)
@@ -18,8 +20,6 @@ tutorial: "https://www.youtube.com/watch?v=wlxmFujzAIs"
 ```md
 <a href="url">--Tu texto--</a>
 ```
-
-+ El link debe llevar al usuario a la url [http://google.com](http://google.com) cuando haga clic.
 
 + Lee sobre rutas absolutas vs relativas aquí: [http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
 

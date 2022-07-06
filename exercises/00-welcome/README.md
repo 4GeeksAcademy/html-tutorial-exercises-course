@@ -43,9 +43,6 @@ Contributions of any kind are welcome!
 
 > 🔹 We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
 
-Note: Don't get frustrated! Ask any question in the #public_support channel or by private message following [this steps](https://content.breatheco.de/es/how-to/ask). 
+Note: Don't get frustrated! Ask any question in the #public-support-full-stack channel of Slack or by private message following [these steps](https://content.breatheco.de/how-to/ask/). 
 
 ➡️ Click the `next` button on the top of these instructions to begin with the first exercise...
-
-
-

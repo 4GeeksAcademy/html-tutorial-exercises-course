@@ -10,11 +10,13 @@ The `<video>` tag is used to include video content within a document.
 
 ## 📝 Instructions:
 
-1. Use the `<video>` tag to include this video on the website: [https://assets.breatheco.de/apis/video/why-pair-programming] (copy and paste the URL inside the brackets).
+1. Use the `<video>` tag to include this video on the website: [copy and paste the URL inside the brackets](https://assets.breatheco.de/apis/video/why-pair-programming).
 
-2. The video must cover the entire website, for this we are going to apply a `width="100%` and a `height="100%`.
+2. The video must cover the entire website, for this we are going to apply a `width="100%"` and a `height="100%"`.
 
-3. The video should play automatically, make use of the attribute: `autoplay muted`.
+3. The video should play automatically, make use of the attribute: `autoplay`.
+
+4. Make use of the attribute `muted` in order to play the video without any sound.
 
 > Note: The video MUST NOT have controls: play, pause, etc.
 
@@ -23,7 +25,7 @@ The `<video>` tag is used to include video content within a document.
 + Something like this should be your code.
 
 ```html
-<video width="X" height="X" muted autoplay>
+<video width="X" height="X" autoplay muted>
 	<source src="here goes the URL of the video"/>
 </video>
 ```

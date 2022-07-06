@@ -14,7 +14,7 @@ What property should we add to this `<a>` anchor, if we wanted it to open in a *
 
 ## 📝 Instructions:
 
-1. Make the anchor (`<a>`) open a new window using the `target` attribute.
+1. Search how to make the anchor (`<a>`) open the link in a new window.
 
 ## 💡 Hints:
 
@@ -23,5 +23,7 @@ What property should we add to this `<a>` anchor, if we wanted it to open in a *
 ```md
 <a href="url" target="_blank">--Your text--</a> 
 ```
+
++ You have to use the `target` property.
 
 + Read more about how to make an anchor open in a new tab or window here: [https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/)

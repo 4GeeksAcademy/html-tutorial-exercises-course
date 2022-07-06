@@ -15,8 +15,8 @@ HTML fue creado inicialmente para publicar documentos, es por eso que sus `<tags
 
 ## 📝 Instrucciones:
 
-1. Agrega una etiqueta `<p>` a tu sitio web que diga: las etiquetas HTML son similares a los elementos de MS Word.
+1. Agrega una etiqueta `<p>` a tu sitio web que diga: `HTML tags are similar to MS Word elements`.
 
 ## 💻 Resultado Esperado:
 
-![01.1 Preview HTML Exercises](../../.learn/assets/01.2-Like-Word.es.png?raw=true)
+![01.1 Preview HTML Exercises](../../.learn/assets/01.2-Like-Word.png?raw=true)

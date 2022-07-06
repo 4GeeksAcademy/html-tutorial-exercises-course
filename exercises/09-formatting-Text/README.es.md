@@ -8,6 +8,10 @@ HTML estaba destinado a replicar ese comportamiento. Aquí hay un ejemplo de un 
 
 ## 📝 Instrucciones:
 
-1. Escribe el código para replicar exactamente los mismos estilos con html puro, usa headings (encabezados), paragraph (párrafo), strong (negritas), blockquote (citas en bloque), ul y li.
+1. Escribe el código para replicar exactamente la imagen anterior con los mismos estilos usando html puro, usa headings (encabezados), paragraph (párrafo), strong (negritas), blockquote (citas en bloque), ul y li.
 
+## 💡 Pistas:
 
++ No debes modificar nada de CSS.
+
++ Para el caso del `<blockquote>`, los estilos están aplicados en el mismo archivo, no debes modificarlos tampoco.

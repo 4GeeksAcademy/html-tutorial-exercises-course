@@ -8,7 +8,7 @@ Este es el código típico que necesitas para usar la etiqueta de imagen:
 
 Cuando agregas un tag de `<img />` (imagen) en un sitio web, tienes que establecer la propiedad `src` en la URL de donde deseas tomar esa imagen. Esa ruta del URL puede ser: **absoluta o relativa**.
 
-## Ejemplos de Rutas Relativas:
+## Rutas Relativas:
 
 Las rutas relativas se utilizan únicamenete para indicar el orden de directorios. No contienen la primera parte de la URL (el nombre de dominio) y solo pueden redirigir al usuario a diferentes partes del mismo sitio web.
 
@@ -21,7 +21,7 @@ Las rutas relativas se utilizan únicamenete para indicar el orden de directorio
 
 > Nota: Si usas **rutas relativas** , tienes que asumir que la parte inicial de la ruta está oculta y es igual a la ruta actual en la barra de URL.
 
-## Ejemplos de Rutas Absolutas:
+## Rutas Absolutas:
 
 Las rutas absolutas incluyen también el nombre del dominio. Contienen la URL completa porque normalmente se utilizan para llevar al usuario a un sitio web diferente.
 
