@@ -1,6 +1,6 @@
 # `08` Relative vs Absolute Path
 
-This is the typical code you need to use an image `<tag>`:
+This is the typical code you need to use an image tag:
 
 ```html
 <img src="where/to/get/the/image" />
@@ -19,11 +19,11 @@ Relative paths are only used to indicate directory order. They do not contain th
 <a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to how-do-i-set-up-a-webpage.html</a>
 ```
 
-> Note: If you use **relative paths** , you have to assume that the initial part of the path is hidden and equal to the current path in the URL bar.
+> Note: If you use **relative paths**, you have to assume that the initial part of the path is hidden and equal to the current path in the URL bar.
 
 ## Absolute Paths Examples:
 
-Absolute paths also include the domain name. They contain the full URL because they are typically used to take the user to a different website.
+Absolute paths include the domain name. They contain the full URL because they are typically used to take the user to a different website.
 
 ```html
 <img src="https://github.com/learnpack/html-tutorial-exercises-course/raw/master/HTML-badge.png" />
@@ -38,7 +38,7 @@ Absolute paths also include the domain name. They contain the full URL because t
 
 2. Please modify the `src` property of image and convert it to an absolute URL.
 
->Note: Make sure the image is still displaying correctly after you make your changes.
+> Note: Make sure the image is still displaying correctly after you make your changes.
 
 ## 💡 Hints:
 

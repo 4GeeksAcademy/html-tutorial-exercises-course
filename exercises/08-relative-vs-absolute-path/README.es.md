@@ -1,6 +1,6 @@
 # `08` Relative vs Absolute Path
 
-Este es el código típico que necesitas para usar `<tag>` de imagen: 
+Este es el código típico que necesitas para usar la etiqueta de imagen: 
 
 ```html
 <img src="where/to/get/the/image" />
@@ -38,7 +38,7 @@ Las rutas absolutas incluyen también el nombre del dominio. Contienen la URL co
 
 2. Modifica la propiedad `src` de la imagen y conviertela en una URL absoluta.
 
->Nota: Asegúrate de que la imagen aún se muestre correctamente después de realizar los cambios.
+> Nota: Asegúrate de que la imagen aún se muestre correctamente después de realizar los cambios.
 
 ## 💡 Pistas:
 

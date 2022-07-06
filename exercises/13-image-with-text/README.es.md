@@ -2,7 +2,7 @@
 
 Antes de que existiera `CSS`, el uso de tablas era la única forma posible de hacer algunos diseños de sitios web. Es un proceso muy similar a la creación de diseños en MS Office.
 
-Ahora, vamos a recrear une ejemplo similar a este:
+Ahora, vamos a recrear un ejemplo similar a este:
 
 ![demo](../../.learn/assets/opTIFpg.png?raw=true)
 
@@ -37,6 +37,6 @@ Ahora, vamos a recrear une ejemplo similar a este:
 <td valign="X">aquí va el párrafo</td>
 ```
 
-## 💡 Hint:
+## 💡 Pista:
 
 + Puedes elegir tu texto falso en esta página: [http://www.lipsum.com/](http://www.lipsum.com/)

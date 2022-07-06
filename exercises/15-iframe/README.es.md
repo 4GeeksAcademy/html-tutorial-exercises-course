@@ -9,7 +9,7 @@ tutorial: "https://www.youtube.com/watch?v=70WeW1uGIs4"
 ## 📝 Instrucciones:
 
 1. Agrega un `<iframe>` con un `width` de `300` y un `heigth` de `200`. Haz que apunte a esta url:
-[https://www.youtube.com/embed/hFQiSDiysWs]
+[https://www.youtube.com/embed/hFQiSDiysWs](https://www.youtube.com/embed/hFQiSDiysWs)
 
 ```html
 <iframe width="X" height="X" src="aquí va la URL"></iframe>

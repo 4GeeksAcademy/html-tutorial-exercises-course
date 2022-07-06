@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=fHTYfMkxPpQ"
 
 The `<video>` tag is used to include video content within a document.
 
->Note: You can read about video tags here: [http://lmgtfy.com/?q=html+video+tag](http://lmgtfy.com/?q=html+video+tag)
+> Note: You can read about video tags here: [http://lmgtfy.com/?q=html+video+tag](http://lmgtfy.com/?q=html+video+tag)
 
 ## 📝 Instructions:
 
@@ -16,7 +16,7 @@ The `<video>` tag is used to include video content within a document.
 
 3. The video should play automatically, make use of the attribute: `autoplay muted`.
 
->Note: The video MUST NOT have controls: play, pause, etc.
+> Note: The video MUST NOT have controls: play, pause, etc.
 
 ## 💡 Hints:
 

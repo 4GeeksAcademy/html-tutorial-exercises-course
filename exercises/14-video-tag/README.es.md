@@ -2,7 +2,7 @@
 
 El tag de `<video>` se utiliza para incluir un contenido de video dentro de un documento.
 
->Nota: Aquí puedes leer sobre los tags de video: [http://lmgtfy.com/?q=html+video+tag](http://lmgtfy.com/?q=html+video+tag)
+> Nota: Aquí puedes leer sobre los tags de video: [http://lmgtfy.com/?q=html+video+tag](http://lmgtfy.com/?q=html+video+tag)
 
 ## 📝 Instrucciones:
 
@@ -12,7 +12,7 @@ El tag de `<video>` se utiliza para incluir un contenido de video dentro de un d
 
 3. El video debe reproducirse automáticamente, haz uso del atributo: `muted autoplay`.
 
->Nota: El video NO DEBE tener controles: play, pausa, etc.
+> Nota: El video NO DEBE tener controles: play, pausa, etc.
 
 ## 💡 Pistas:
 
