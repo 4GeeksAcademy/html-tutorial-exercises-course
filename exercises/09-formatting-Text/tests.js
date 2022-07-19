@@ -50,11 +50,6 @@ it('<h1> exists', function () {
         expect(document.querySelectorAll("p").length).toBe(3)
     })
 
-
-     it('You should have 1 <strong> tag', function () {
-        expect(document.querySelectorAll("strong").length).toBe(1)
-    })
-
     it('<ul> exist', function () {
         expect(document.querySelectorAll("ul").length).toBeTruthy()
     })

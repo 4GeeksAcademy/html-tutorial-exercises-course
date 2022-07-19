@@ -12,7 +12,7 @@ HTML was meant to replicate that exact behavior. Here is and example of a typica
 
 ## 📝 Instructions:
 
-1. Please write the code to replicate the exact same styles of the previous image with pure html, use headings, paragraph, strong, blockquote, ul and li.
+1. Please write the code to replicate the exact same styles of the previous image with pure html, use headings, paragraph, blockquote, ul and li.
 
 ## 💡 Hints:
 
