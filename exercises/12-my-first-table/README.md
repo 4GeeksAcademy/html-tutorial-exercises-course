@@ -80,19 +80,19 @@ We are going to practice doing the following tasks to play with the table format
         </thead>
 		<tbody>
 			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
+				<td>Name</td>
+				<td>Last Name</td>
+				<td>Phone Number</td>
 			</tr>
 			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
+				<td>Name</td>
+				<td>Last Name</td>
+				<td>Phone Number</td>
 			</tr>
 			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
+				<td>Name</td>
+				<td>Last Name</td>
+				<td>Phone Number</td>
 			</tr>
 		</tbody>
 </table>

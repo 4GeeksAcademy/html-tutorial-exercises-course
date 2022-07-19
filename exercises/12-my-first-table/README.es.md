@@ -76,19 +76,19 @@ Vamos a practicar realizando las siguientes tareas para jugar con el formato de 
         </thead>
 		<tbody>
 			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
+				<td>Name</td>
+				<td>Last Name</td>
+				<td>Phone Number</td>
 			</tr>
 			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
+				<td>Name</td>
+				<td>Last Name</td>
+				<td>Phone Number</td>
 			</tr>
 			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
+				<td>Name</td>
+				<td>Last Name</td>
+				<td>Phone Number</td>
 			</tr>
 		</tbody>
 </table>
