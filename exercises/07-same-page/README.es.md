@@ -5,9 +5,9 @@ Los anchors (`<a>`) también son capaces de desplazar al usuario en un sitio web
 Para hacer esto, debes asignar un `id` (identificación) al elemento que deseas desplazarte, y luego, establecer la `URL` del anchor (`<a>`) a esa `id` que asignateste anteriormente, precedida por un carácter "`#`", como este:
 
 ```html
-<a href="#element_id"></a>
+<a href="#element_id">Este anchor te desplazará al div</a>
 
-<div id="element_id"></div>
+<div id="element_id">Hola soy el div</div>
 ```
 ## 📝 Instrucciones:
 
