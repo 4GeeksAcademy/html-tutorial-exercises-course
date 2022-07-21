@@ -78,8 +78,6 @@ console.log(document.querySelectorAll("h1,h2,p,i,a"))
         expect(p).toBeTruthy()
         const words = p.innerHTML.split(" ")
         expect(words.length).toBeGreaterThan(19)
-        // expect(anchorInnerHtml[3].localName).toBe("p")
-        // expect(anchorInnerHtml[3].innerHTML).toBe("\n\t\t\t\tThis exercises seem boring, but I have to do them anyway because the more I practice the less my brain forgets, at least for the first\n\t\t\t\t4 days.\n\t\t\t")
     })
 
     })
