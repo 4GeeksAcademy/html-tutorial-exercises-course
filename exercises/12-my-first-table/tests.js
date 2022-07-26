@@ -18,7 +18,7 @@ describe('Replicate Nested Tag Example', function () {
     it('The first row of the table should have red background and a height of 40px', function () {
         const allTR = document.querySelectorAll("tr")
         expect(allTR[0].style.backgroundColor).toBe("red")
-        expect(allTR[0].style.height).toBe("40px")
+        expect(allTR[0].getAttribute('height')).toBe("40")
     })
 
     it('All <tr> tags exists (They should be 4)', function () {
