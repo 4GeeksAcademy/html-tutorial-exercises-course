@@ -53,32 +53,31 @@ console.log(document.querySelectorAll("h1,h2,p,i,a"))
     })
 
       it('<h1> innerHTML', function () {
-          for(let i=0;i<document.querySelectorAll("h1").length;i++){
-              if (i===0){
-        expect(document.querySelectorAll("h1")[i].innerHTML).toBe("Hello world.<i> italic word.</i>")
-              }
-               if (i===1){
-        expect(document.querySelectorAll("h1")[i].innerHTML).toBe(`
-			Hello world.
-			<p>Italic word.</p>
-		`)
-              }
-          }
+        const h1 = document.querySelectorAll("h1");
+        expect(h1[0].innerHTML).toContain("Hello world.")
+        const i = h1[0].querySelector("i");
+        expect(i).toBeTruthy();
+        expect(i.innerHTML).toContain("Italic word")
+
+        expect(h1[1]).toBeTruthy();
+        const p = h1[1].querySelector("p")
+        expect(p).toBeTruthy();
+        expect(p.innerHTML).toBe("Italic word.")
     })
 
     it('<a> href', function () {
         expect(document.querySelector("a").href).toBeTruthy()})
 
      it('<a> inner HTML', function () {
+        const anchor = document.querySelector("a");
+        expect(anchor).toBeTruthy();
+        const h2 = anchor.querySelector("h2")
+        expect(h2).toBeTruthy()
+        expect(h2.innerHTML).toBe("Hello")
+        const p = anchor.querySelector("p")
+        expect(p).toBeTruthy()
+        const words = p.innerHTML.split(" ")
+        expect(words.length).toBeGreaterThan(19)
+    })
 
-        expect(document.querySelector("a").innerHTML).toBe(`<h2>Hello</h2>
-			<p>
-				This exercises seem boring, but I have to do them anyway because the more I practice the less my brain forgets, at least for the first
-				4 days.
-			</p>`)
-
-
-        })
-
-
-});
+    })
