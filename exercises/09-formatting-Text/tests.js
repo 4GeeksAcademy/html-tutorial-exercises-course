@@ -1,81 +1,42 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-
-
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
-describe('Format the exact same styles with pure html, use h1 headings, paragraph, strong, blockquote, ol and il', function () {
+it('You should create an <h1> tag inside the <body>.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-    beforeEach(() => { document.documentElement.innerHTML = html.toString()});
-    afterEach(() => { jest.resetModules(); });
+    let h1 = body.querySelector("h1");
+    expect(h1).toBeTruthy();
+})
 
-   it('Order of html tags', function () {
-       const allSelectors = document.querySelectorAll("p, h1, ol,li,blockquote")
-       let arr = [5,6,7]
-       for(let i =0;i<allSelectors;i++){
-           if (i===1 && i===3)
-        expect(allSelectors[i].tagName).toStrictEqual("P")
+it('You should create 3 <p> tags inside the <body>.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-       if (arr[i]=== i)
-        expect(allSelectors[i].tagName).toStrictEqual("LI")
+    let p = body.querySelectorAll("p");
+    // It is greater than one because this problem can be solved with two or three p tags
+    expect(p.length).toBeGreaterThan(1);
+})
 
-        if(i===2)
-        expect(allSelectors[i].tagName).toStrictEqual("BLOCKQUOTE")
+it('You should create a <blockquote> tag inside the <body>.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
+    let blockquote = body.querySelector("blockquote");
+    expect(blockquote).toBeTruthy();
+})
 
-        if (i===4){
-        expect(allSelectors[i].tagName).toBe("ul")
-        }
+it('You should create a <ul> with 3 <li> inside tag.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
+    let ul = body.querySelector("ul");
+    expect(ul).toBeTruthy();
 
-         if (i===0){
-        expect(allSelectors[i].tagName).toBe("H1")
-         }
-       }
-    })
-
-
-
-it('<h1> exists', function () {
-        expect(document.querySelector("h1")).toBeTruthy()
-    })
-
-    it('<blockquote> exists', function () {
-        expect(document.querySelector("blockquote")).toBeTruthy()
-    })
-    
-    it('You should have 3 <p> tags', function () {
-        expect(document.querySelectorAll("p").length).toBe(3)
-    })
-
-    it('<ul> exist', function () {
-        expect(document.querySelectorAll("ul").length).toBeTruthy()
-    })
-    it('Three(3) <li> exist', function () {
-        expect(document.querySelectorAll("li").length).toBe(3)
-    })
-
-
-      it('<h1> innerHTML exist', function () {
-        expect(document.querySelector("h1").innerHTML).toBeTruthy()
-    })
-
-        it('<blockquote> innerHTML exist', function () {
-        expect(document.querySelector("blockquote").innerHTML).toBeTruthy()
-    })
-
-     it('<p> innerHTML exist', function () {
-         const allP = document.querySelectorAll("p")
-         for (let i=0; i<allP.length;i++){
-        expect(allP[i].innerHTML).toBeTruthy()
-         }
-    })
-    it('<li> innerHTML exist', function () {
-        const allLI = document.querySelectorAll("li")
-        for (let i=0; i<allLI.length;i++){
-        expect(allLI[i].innerHTML).toBeTruthy()
-        }
-    })
-});
+    let lis = ul.querySelectorAll("li");
+    expect(lis.length).toBe(3);
+})

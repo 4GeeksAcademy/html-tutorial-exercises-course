@@ -6,7 +6,7 @@ Haz lo mismo en este ejercicio, pero no incluyas la etiqueta `<head>`.
 
 ## 📝 Instrucciones:
 
-1. Agrega al `<body>` un título `H1` con tu nombre.
+1. Agrega al `<body>` un título `<h1>` con tu nombre.
 
 ## 💻 Resultado esperado:
 

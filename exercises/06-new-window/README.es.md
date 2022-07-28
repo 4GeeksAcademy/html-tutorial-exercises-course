@@ -1,6 +1,6 @@
 # `06` New Window
 
-En el `index.html` de este ejercicio hay un anchor (`<a>`) que te lleva a `google.com`:
+En el `index.html` de este ejercicio hay un anchor (`<a>`) que te lleva a `"https://google.com"`:
 
 ```html
 <a href="http://google.com">Click me to search on google </a>

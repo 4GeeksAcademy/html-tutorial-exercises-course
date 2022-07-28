@@ -1,72 +1,67 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-
-
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
+it('You should create a <table> tag inside the <body>.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-describe('image with text', function () {
-    beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
-    afterEach(() => { jest.resetModules(); });
+    let table = body.querySelector("table");
+    expect(table).toBeTruthy();
+})
 
+it('The <table> tag should have border="0".', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
+    let table = body.querySelector("table");
+    expect(table).toBeTruthy();
 
- it('order of HTML tag', function () {
+    expect(table.border).toBe("0");
+})
 
-const allSelectors = document.querySelectorAll("TABLE,TD,TR,IMG");
-console.log(allSelectors)
-for(let i=0;i<allSelectors.length;i++){
-    if (i===0){
-        expect(allSelectors[i].tagName).toStrictEqual("TABLE")
-}
-if (i===1){
-    expect(allSelectors[i].tagName).toStrictEqual("TR")
-}
-if (i===2){
-    expect(allSelectors[i].tagName).toStrictEqual("TD")
-}
-if (i===3){
-    expect(allSelectors[i].tagName).toStrictEqual("IMG")
-}
-if (i===4){
-    expect(allSelectors[i].tagName).toStrictEqual("TD")
-}
+it('The <table> tag should have a <tr> tag inside.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-}
+    let table = body.querySelector("table");
+    expect(table).toBeTruthy();
 
-    })
+    let tr = table.querySelector("tr");
+    expect(tr).toBeTruthy();
+})
 
+it('The <tr> tag should have 2 <td> tags inside.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
- it('table tag & border exist', function () {
-     const tableTag= document.querySelector("TABLE")
-      expect(tableTag).toBeTruthy()
-      expect(tableTag.border).toBe("0")
+    let table = body.querySelector("table");
+    expect(table).toBeTruthy();
 
- })
+    let tr = table.querySelector("tr");
+    expect(tr).toBeTruthy();
 
+    let tds = tr.querySelectorAll("td");
+    expect(tds.length).toBe(2);
+})
 
-it('<tr> tag exists', function () {
-        expect(document.querySelector("TR")).toBeTruthy()
-    })
-it('<td> tags,innerHTML & valign exists', function () {
-    const allTD = document.querySelectorAll("TD")
-        expect(allTD.length).toBe(2)
-        for(let i=0;i<allTD.length;i++){
-            if (i===1){
-                expect(allTD[i].vAlign).toBe("top")
-               expect(allTD[i].innerHTML).toBeTruthy()
-            }
-        }
-    })
+it('The first <td> tag should have an <img> tag inside, and a width of "25%".', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
+    let table = body.querySelector("table");
+    expect(table).toBeTruthy();
 
- it('<img> tag, src & height exists', function () {
-     const imgTag = document.querySelector("img")
-        expect(imgTag).toBeTruthy()
-        expect(imgTag.src).toBeTruthy()
-        expect(imgTag.height).toBe(150)
-    })
+    let tr = table.querySelector("tr");
+    expect(tr).toBeTruthy();
 
-});
+    let td = tr.querySelectorAll("td")[0];
+    expect(td).toBeTruthy();
+    expect(td.width).toBe("25%")
+
+    let img = td.querySelector("img");
+    expect(img).toBeTruthy();
+})

@@ -4,7 +4,7 @@ Antes de que existiera `CSS`, el uso de tablas era la única forma posible de ha
 
 Ahora, vamos a recrear un ejemplo similar a este:
 
-![demo](../../.learn/assets/opTIFpg.png?raw=true)
+![demo](../../.learn/assets/13-images-with-text-2.png?raw=true)
 
 ## 📝 Instrucciones:
 
@@ -25,7 +25,9 @@ Ahora, vamos a recrear un ejemplo similar a este:
 </table>
 ```
 
-3. La primera columna (`<td>`) debe tener el atributo `width="25%"`, este elemento debe contener una imagen con el atributo `width="100%"` (Puedes escoger cualquier imagen de google).
+3. La primera columna (`<td>`) debe tener el atributo `width="25%"`, este elemento debe contener una imagen con el atributo `width="100%"`.
+
+    Utiliza esta imagen: `"../../.learn/assets/13-images-with-text.jpg"`
 
 ```html
 <td width="X"><img width="X" src="url"/></td>

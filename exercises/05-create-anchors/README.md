@@ -4,11 +4,15 @@ tutorial: "https://www.youtube.com/watch?v=hVatMB5GaWA"
 
 # `05` Create anchors 
 
+On this lesson you are going to start using the attributes of tags. The attributes allow you to provide additional information about HTML elements.
+
+Some attributes that you are going to use a lot are: `href`, `src`, `placeholder`, and there are many more.
+
 ## 📝 Instructions:
 
-1. Add to the website `<body>` an anchor `<a>` tag that says: `Click me to search on google`
+1. Add to the website `<body>` an anchor `<a>` tag that says: `"Click me to search on google"`
 
-2. The anchor (`<a>`) should take the user to the url [http://google.com](http://google.com) when it is clicked.
+2. The anchor (`<a>`) should take the user to the url [https://google.com](https://google.com) when it is clicked (Use the `href` attribute).
 
 ## 💻 Expected Result:
 
@@ -21,6 +25,8 @@ tutorial: "https://www.youtube.com/watch?v=hVatMB5GaWA"
 ```md
 <a href="url">--your text--</a>
 ```
+
++ Read about the `href` attribute: [https://www.w3schools.com/tags/att_a_href.asp](https://www.w3schools.com/tags/att_a_href.asp)
 
 + Read about absolute vs relative paths here: [http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
 
