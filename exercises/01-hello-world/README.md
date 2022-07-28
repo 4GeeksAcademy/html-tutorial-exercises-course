@@ -22,3 +22,7 @@ HTML is a markup language, meaning that everything you type must be wraped in op
 Your final website should be something like this:
 
 ![Preview for 01.1 HTML Exercises](../../.learn/assets/preview-01.1.png?raw=true)
+
+## 💡 Hint:
+
++ You only have to remove what the file already has and paste the code from the instructions.

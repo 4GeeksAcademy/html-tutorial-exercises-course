@@ -14,4 +14,24 @@ This is an image of an HTML document that was made here.
 
 ## 💡 Hint:
 
-+ You have to use `<h1>`, `<h2>`, `<ul>`, `<ol>`, `<li>`, `<p>`, `<a>` tags.
++ You have to use `<h1>`, `<h2>`, `<ul>`, `<ol>`, `<li>`, `<p>` tags.
+
++ Here is the text so you don't have to type it:
+
+```md
+The learning essay
+
+3 signals you know you are learning
+
+Here are the 3 most common signs that shows you are learning
+
++ You are able to complete the exercises by yourself.
++ You understand what the teacher is talking about.
++ You are able to have conversations about the topic.
+
+3 reasons you love what you are learning
+
++ Time passes fast.
++ You are anxious to finish this exercise and start the next one.
++ Is 12am and you don't want to go to sleep.
+```

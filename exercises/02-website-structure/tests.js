@@ -1,63 +1,43 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
+document.documentElement.innerHTML = html.toString()
 
 jest.dontMock('fs');
 
- it('<!DOCTYPE html> tag should exist', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-        expect(a.indexOf("<!DOCTYPE html>")).not.toBe(-1)
+it('You should create an <html> tag.', function () {
+    let html = document.querySelector("html")
+    expect(html).toBeTruthy();
 })
-it('<html> tag should exists', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-        expect(a.indexOf("<html")).not.toBe(-1)
+
+it('You should create a <head> tag inside the <html> tag.', function () {
+    let html = document.querySelector("html");
+    expect(html).toBeTruthy();
+
+    let head = html.querySelector("head");
+    expect(head).toBeTruthy();
 })
-it('<head> tag should exists', function () {
-let a = document.documentElement.innerHTML = html.toString()
-    expect(a.indexOf("<head>")).not.toBe(-1)
+
+it('You should create a <title> tag inside the <head> tag.', function () {
+    let html = document.querySelector("html");
+    expect(html).toBeTruthy();
+
+    let head = html.querySelector("head");
+    expect(head).toBeTruthy();
+
+    let title = head.querySelector("title");
+    expect(title).toBeTruthy();
 })
-it('<title> tag exists and the innerHTML needs to be "Hello World"', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-        expect(a.indexOf("<title>")).not.toBe(-1)
-        expect(document.querySelector("title").innerHTML).toBe("Hello World")
+
+it('The <title> tag should have "Hello World" as value.', function () {
+    let html = document.querySelector("html");
+    expect(html).toBeTruthy();
+
+    let head = html.querySelector("head");
+    expect(head).toBeTruthy();
+
+    let title = head.querySelector("title");
+    expect(title).toBeTruthy();
+
+    expect(title.innerHTML.toLowerCase()).toContain("hello world");
 })
-it('<body> tag exists', function () {
-let a = document.documentElement.innerHTML = html.toString()
-    expect(a.indexOf("<body")).not.toBe(-1)
-})
-    
-    describe('basic HTML structure', function () {
-        beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
-        afterEach(() => { jest.resetModules(); });
-        
-        it('The DOCTYPE needs to be added begore the <html> tag', function () {
-            let a = document.documentElement.innerHTML = html.toString()
-            let b = a.indexOf("DOCTYPE")
-            let c = a.indexOf("<html")
-            
-            expect(b).toBeLessThan(c)
-        })
-        it('The <head> tag needs to be added imidialty after the html opening tag', function () {
-            let a = document.documentElement.innerHTML = html.toString()
-            let c = a.indexOf("<html")
-            let d = a.indexOf("<head>")
-            
-            expect(c).toBeLessThan(d)
-        })
-        it('The <title> opening and closing tags need to be added inside the <head></head> tags', function () {
-            let a = document.documentElement.innerHTML = html.toString()
-            let d = a.indexOf("<head>")
-            let e = a.indexOf("<title>")
-            
-            expect(d).toBeLessThan(e)
-        })
-        it('The <body> opening tag needs to be added immediately after the </header> closing tag', function () {
-            let a = document.documentElement.innerHTML = html.toString()
-            let e = a.indexOf("</head>")
-            let f = a.indexOf("<body>")
-            
-            expect(e).toBeLessThan(f)
-        })
-    });
-        
-        

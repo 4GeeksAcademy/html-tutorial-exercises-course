@@ -10,7 +10,7 @@ Do the same for this exercise, but don't include the `<head>` tag.
 
 ## 📝 Instructions:
 
-1. Add into the `<body>` an `H1` heading with your name on it.
+1. Add into the `<body>` an `<h1>` heading with your name on it.
 
 ## 💻 Expected result:
 

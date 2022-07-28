@@ -12,6 +12,7 @@ HTML fue creado inicialmente para publicar documentos, es por eso que sus `<tags
 | `<h1>`    | Títulos con mayor importancia (más grandes) |
 | `<h2>`    | Subtítulos (más pequeños)|
 | `<a>`    | Links o enlaces (anchors) |
+| `<ul>`   | Listas Desordenadas  |
 
 ## 📝 Instrucciones:
 

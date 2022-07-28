@@ -28,7 +28,7 @@ We are going to practice doing the following tasks to play with the table format
 </table>
 ```
 
-3. Now that we have the `<thead>` tag, we are going to create another `<tr>` tag inside, to which we are going to assign a `height` of `40` and a red `background-color` .
+3. Now that we have the `<thead>` tag, we are going to create another `<tr>` tag inside, to which we are going to assign a `height` of `40px` and a red `background-color` .
 
 ```html
 <table width="X" border="X">

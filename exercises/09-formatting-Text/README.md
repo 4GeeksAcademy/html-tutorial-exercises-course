@@ -19,3 +19,25 @@ HTML was meant to replicate that exact behavior. Here is and example of a typica
 + You should not add any CSS.
 
 + For the `<blockquote>` case, the stylings have been already applied in the same file.
+
++ You should add the `<br />` tag inside the blockqoute in order to add a line break.
+
++ You can use this text so you don't have to type all that boring stuff:
+
+```md
+This will be your heading
+
+The you start talking about some interesting stuff that nobody want to read
+
+Then you can quote someone to add credibility:
+
+A quotation is a handy thing to have about, saving one the trouble of thinking
+
+- A.A. Milne, If I May
+
+After all, new generations have this things in common:
+
++ Don't like to read long texts.
++ Have the spawn of attention of a bird.
++ Skip long paragraphs straight to the bullet points.
+```

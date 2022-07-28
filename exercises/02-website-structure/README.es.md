@@ -21,12 +21,15 @@ tutorial: "https://www.youtube.com/watch?v=9OB2RPWHYgw"
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> <!--Aquí irá el título--> </title>
+		<title> <!-- El titulo va aqui --> </title>
 	</head>
+	<body>
+
+	</body>
 </html>
 ```
 
-+ Puedes leer sobre la estructura típica de un sitio web aquí: [https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure](https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure)
++ Puedes leer sobre la estructura típica de un sitio web aquí: [https://4geeks.com/es/lesson/what-is-html-learn-html-es](https://4geeks.com/es/lesson/what-is-html-learn-html-es)
  
 ## 🔎 Importante:
 

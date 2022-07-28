@@ -8,7 +8,7 @@ The `<iframe>` tag is amazing! It let's you insert a website inside a website. A
 
 ## 📝 Instructions:
 
-1. Add an `<iframe>` with a `width` of `300` and a `height` of `200`. Make it point to this url: [https://www.youtube.com/embed/hFQiSDiysWs](https://www.youtube.com/embed/hFQiSDiysWs)
+1. Add an `<iframe>` with a `width` of `300px` and a `height` of `200px`. Make it point to this url: [https://www.youtube.com/embed/hFQiSDiysWs](https://www.youtube.com/embed/hFQiSDiysWs)
 
 ```html
 <iframe width="X" height="X" src="here goes the URL"></iframe>

@@ -1,83 +1,42 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
+it('You should create an <h1> tag with an <i> tag inside.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
+    let h1 = body.querySelector("h1");
+    expect(h1).toBeTruthy();
+    
+    let i = h1.querySelector("i");
+    expect(i).toBeTruthy();
+})
 
-describe('Replicate Nested Tag Example', function () {
+it('You should create a <p> tag with a <strong> tag inside.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-    beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
-    afterEach(() => { jest.resetModules(); });
+    let p = body.querySelector("p");
+    expect(p).toBeTruthy();
 
-    it('Order of html tags', function () {
-           const allSelectors = document.querySelectorAll("h1,h2,p,i,a");
-console.log(document.querySelectorAll("h1,h2,p,i,a"))
-        for(let i=0;i<allSelectors.length;i++){
-            if (i===0 || i===2){
-        expect(allSelectors[i].tagName).toStrictEqual("H1")
-            }
-         if(i===5){
-        expect(allSelectors[i].tagName).toStrictEqual("H2")
-       }
-        if(i===3){
-        expect(allSelectors[i].tagName).toStrictEqual("P")
-       }
-         if(i===1){
-        expect(allSelectors[i].tagName).toStrictEqual("I")
-       }
-         if(i===4){
-        expect(allSelectors[i].tagName).toStrictEqual("A")
-       }
-    }
+    let strong = p.querySelector("strong");
+    expect(strong).toBeTruthy();
+})
 
-    })
+it('You should create an <a> tag with an <h2> and a <p> tags inside.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
- it('<h1> tag exists', function () {
+    let a = body.querySelector("a");
+    expect(a).toBeTruthy();
 
-        expect(document.querySelectorAll("h1").length).toBe(2)
-    })
-     it('<i> tag exists', function () {
-        expect(document.querySelector("i")).toBeTruthy()
-    })
-    it('<h2> tag exists', function () {
-        expect(document.querySelector("h2")).toBeTruthy()
-    })
-     it('<p> tag exists', function () {
-        expect(document.querySelectorAll("p").length).toBe(2)
-    })
-     it('<a> tag exists', function () {
-        expect(document.querySelector("a")).toBeTruthy()
-    })
+    let h2 = a.querySelector("h2");
+    expect(h2).toBeTruthy();
 
-      it('<h1> innerHTML', function () {
-        const h1 = document.querySelectorAll("h1");
-        expect(h1[0].innerHTML).toContain("Hello world.")
-        const i = h1[0].querySelector("i");
-        expect(i).toBeTruthy();
-        expect(i.innerHTML).toContain("Italic word")
-
-        expect(h1[1]).toBeTruthy();
-        const p = h1[1].querySelector("p")
-        expect(p).toBeTruthy();
-        expect(p.innerHTML).toBe("Italic word.")
-    })
-
-    it('<a> href', function () {
-        expect(document.querySelector("a").href).toBeTruthy()})
-
-     it('<a> inner HTML', function () {
-        const anchor = document.querySelector("a");
-        expect(anchor).toBeTruthy();
-        const h2 = anchor.querySelector("h2")
-        expect(h2).toBeTruthy()
-        expect(h2.innerHTML).toBe("Hello")
-        const p = anchor.querySelector("p")
-        expect(p).toBeTruthy()
-        const words = p.innerHTML.split(" ")
-        expect(words.length).toBeGreaterThan(19)
-    })
-
-    })
+    let p = a.querySelector("p");
+    expect(p).toBeTruthy();
+})

@@ -23,10 +23,13 @@ tutorial: "https://www.youtube.com/watch?v=XMiG5UhV1n0"
 	<head>
 		<title> <!--The title goes here--> </title>
 	</head>
+	<body>
+
+	</body>
 </html>
 ```
 
-+ You can read about a typical website structure here: [https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure](https://content.breatheco.de/lesson/what-is-html-learn-html#page-structure)
++ You can read about a typical website structure here: [https://4geeks.com/lesson/what-is-html-learn-html#page-structure](https://4geeks.com/lesson/what-is-html-learn-html#page-structure)
 
 ## 🔎 Important:
 

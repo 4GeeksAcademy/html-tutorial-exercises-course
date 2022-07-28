@@ -1,20 +1,31 @@
 # `07` Same Page
 
-Los anchors (`<a>`) también son capaces de desplazar al usuario en un sitio web, hacía un elemento específico dentro de él.
+Las etiquetas anchor `<a>`, también son capaces de redirigir al usuario a diferentes secciones de nuestra página web.
 
-Para hacer esto, debes asignar un `id` (identificación) al elemento que deseas desplazarte, y luego, establecer la `URL` del anchor (`<a>`) a esa `id` que asignateste anteriormente, precedida por un carácter "`#`", como este:
+Para hacerlo, debemos identificar la otra sección asignándole un `id` (atributo de todos los elementos de HTML).
+
+Luego, debemos agregar un `#` seguido del `id` de la sección, en el atributo `href`, de esta manera: `href="#id-name"`.
+
+Todo junto debe verse algo así:
 
 ```html
-<a href="#element_id">Este anchor te desplazará al div</a>
+<a href="#element_id">Este anchor te llevara para el div</a>
 
-<div id="element_id">Hola soy el div</div>
+<div id="element_id">Hola yo soy el div</div>
 ```
+
+En este ejercicio, hay dos `<h2>` (El `upperSide` y el `lowerSide`). Por otro lado, hay un `<a>` que te lleva al `<h2>` de abajo.
+
+Ncesitamos que crees otro `<a>` al final del archivo, que te lleve al `<h2>` que se encuentra al inicio.
+
 ## 📝 Instrucciones:
 
-1. Crea dos anchors `<a>`, uno que desplace al usuario al **final** del sitio web y otro que lo envíe al **comienzo** del sitio web.
+1. Observa la estructura y cómo funciona el `<a>` que te lleva hacia abajo.
 
-## 💡 Pista:
+2. Crea otro anchor `<a>` al final del archivo que te lleve al `<h2>` del inicio.
 
-+ La única forma de usar anchors como esta, es con la `id` de los elementos, no hay otra forma.
+## 💡 Pistas:
 
-+ Debes agregarle un `id` a ambas etiquetas `<h2>` para poder redirigir al usuario con los anchors `<a>`.
++ La única forma de usar anchors como esta, es con el `id` de los elementos, no hay otra forma.
+
++ Debes agregarle un `id` a ambas etiquetas `<h2>` para poder redirigir al usuario con los anchors `<a>` (En este caso ya está hecho).
