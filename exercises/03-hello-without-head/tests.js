@@ -1,48 +1,43 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
-describe('basic HTML structure', function () {
-    beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
-    afterEach(() => { jest.resetModules(); });
+it('You should create an <html> tag.', function () {
+    let html = document.querySelector("html")
+    expect(html).toBeTruthy();
+})
 
-         it('order of HTML tags', function () {
-        let a = document.documentElement.innerHTML = html.toString()
-        let b = a.indexOf("<!DOCTYPE html>")
-        let c = a.indexOf("<html")
-        let f = a.indexOf("<body>")
-        let h = a.indexOf("<h1>")
+it('You should create a <body> tag inside the <html> tag.', function () {
+    let html = document.querySelector("html");
+    expect(html).toBeTruthy();
 
-        expect(b).toBeLessThan(c)
-        expect(c).toBeLessThan(f)
-        expect(f).toBeLessThan(h)
+    let body = html.querySelector("body");
+    expect(body).toBeTruthy();
+})
 
-    })
+it('You should create an <h1> tag inside the <body> tag.', function () {
+    let html = document.querySelector("html");
+    expect(html).toBeTruthy();
 
- it('<!DOCTYPE html> tag exists', function () {
-     let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<!DOCTYPE html>")).not.toBe(-1)
-    })
-    it('<html> tag exists', function () {
-     let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<html")).not.toBe(-1)
-    })
-        it('<head> & <title> cannot exists', function () {
-     let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<head>")).toBe(-1)
-            expect(a.indexOf("<title>")).toBe(-1)
-    })
+    let body = html.querySelector("body");
+    expect(body).toBeTruthy();
 
-      it('<body> tag exists', function () {
-     let a = document.documentElement.innerHTML = html.toString()
-           expect(a.indexOf("<body>")).not.toBe(-1)
-    })
-     it('<h1> tag exists with your name', function () {
-     let a = document.querySelector("h1")
-           expect(a.innerHTML).toBeTruthy()
-    })
+    let h1 = body.querySelector("h1");
+    expect(h1).toBeTruthy();
+})
 
+it('The <h1> tag should have your name as value (It shouldn\'t be empty).', function () {
+    let html = document.querySelector("html");
+    expect(html).toBeTruthy();
 
-});
+    let body = html.querySelector("body");
+    expect(body).toBeTruthy();
+
+    let h1 = body.querySelector("h1");
+    expect(h1).toBeTruthy();
+
+    expect(h1.innerHTML).not.toBe("");
+})

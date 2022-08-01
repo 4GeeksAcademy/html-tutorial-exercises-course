@@ -1,33 +1,47 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
-
-
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
+it('You should create a <video> tag inside the <body>.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-describe('video tag', function () {
-    beforeEach(() => { document.documentElement.innerHTML = html.toString(); });
-    afterEach(() => { jest.resetModules(); });
+    let video = body.querySelector("video");
+    expect(video).toBeTruthy();
+})
 
-it('<video> tag exist', function () {
+it('The <video> tag should have width and height of "100%".', function () {
+  let body = document.querySelector("body");
+  expect(body).toBeTruthy();
+  
+  let video = body.querySelector("video");
+  expect(video).toBeTruthy();
+  expect(video.width).toBe(100)
+  expect(video.height).toBe(100)
+})
 
-      expect( document.querySelector("VIDEO")).toBeTruthy()
-      })
+it('The <video> tag should have a <source> tag inside.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-    it('<video> tag muted & autoplay exist', function () {
-        const videoTag = document.querySelector("VIDEO")
+    let video = body.querySelector("video");
+    expect(video).toBeTruthy();
 
-       //expect(videoTag.muted).toBeTruthy()
-        expect(videoTag.autoplay).toBeTruthy()
+    let source = video.querySelector("source");
+    expect(source).toBeTruthy();
+})
 
-       })
+it('The <source> tag should have the expected video in the "src" attribute.', function () {
+    let body = document.querySelector("body");
+    expect(body).toBeTruthy();
 
-    it('<video> tag width=100% & height=100% exist', function () {
-        const videoTag = document.querySelector("VIDEO")
-      expect(videoTag.height + "%").toBe("100%")
-      expect(videoTag.width + "%").toBe("100%")
-       })
+    let video = body.querySelector("video");
+    expect(video).toBeTruthy();
 
-});
+    let source = video.querySelector("source");
+    expect(source).toBeTruthy();
+    expect(source.src).toBe("https://assets.breatheco.de/apis/video/why-pair-programming")
+})

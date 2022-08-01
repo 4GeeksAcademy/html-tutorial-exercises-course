@@ -9,6 +9,7 @@ HTML was initially created with the purpose of publishing documents, that is why
 | `<h1>`    | Heading with the most importance (bigger) |
 | `<h2>`    | Heading with the second importance (smaller) |
 | `<a>`    | Links or anchors |
+| `<ul>`   | Unordered Lists (Just the bullets) |
 
 ## 📝 Instructions:
 

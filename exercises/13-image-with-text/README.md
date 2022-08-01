@@ -8,7 +8,7 @@ Before `CSS` existed, using tables was the only way possible to do some website 
 
 Now, let's recreate an example similar to this:
 
-![demo](../../.learn/assets/opTIFpg.png?raw=true)
+![demo](../../.learn/assets/13-images-with-text-2.png?raw=true)
 
 ## 📝 Instructions: 
 
@@ -29,10 +29,12 @@ Now, let's recreate an example similar to this:
 </table>
 ```
 
-3. The first column (`<td>`) with the attribute `width="25%"`, it should contain an image with the attribute `width="100%"` (You can use any image from google).
+3. The first column (`<td>`) with the attribute `width="25%"`, it should contain an image with the attribute `width="100%"`.
+
+    Use this image: `"../../.learn/assets/13-images-with-text.jpg"`
 
 ```html
-<td width="X"><img width="X" src="url"/></td>
+<td width="X"><img width="X" src="The given image url"/></td>
 ```
 
 4. The second column (`<td>`), contains the paragraph along with the `valign = "top"` attribute (this is used to move the text to the top of the cell and also add text inside).

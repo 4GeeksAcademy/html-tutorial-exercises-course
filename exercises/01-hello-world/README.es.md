@@ -18,3 +18,7 @@ HTML es un lenguaje de marcado, lo que significa que todo lo que se escribe debe
 Tu sitio web final debería ser algo como esto:
 
 ![Preview for 01.1 HTML Exercises](../../.learn/assets/preview-01.1.png?raw=true)
+
+## 💡 Pista:
+
++ Sólo debes quitar lo que tiene el archivo actualmente y pegar el código dado en las instrucciones.

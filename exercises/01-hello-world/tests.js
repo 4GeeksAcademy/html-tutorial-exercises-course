@@ -1,22 +1,28 @@
 const fs = require('fs');
 const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, './index.html'), 'utf8');
+document.documentElement.innerHTML = html.toString();
 
 jest.dontMock('fs');
 
- it('Add an opening strong tag <strong>', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-    expect(a.indexOf("<strong>")).not.toBe(-1)
+it('Add a <span> tag.', function () {
+    let span = document.querySelector("span");
+    expect(span).toBeTruthy();
 });
-it('Add a closing strong tag </strong>', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-    expect(a.indexOf("</strong>")).not.toBe(-1)
+
+it('Add a <strong> tag.', function () {
+    let strong = document.querySelector("strong");
+    expect(strong).toBeTruthy();
 });
- it('Add an opening span tag <span>', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-    expect(a.indexOf("<span>")).not.toBe(-1)
+
+it('The <span> tag should have the expected value.', function () {
+    let span = document.querySelector("span");
+    expect(span).toBeTruthy();
+    expect(span.innerHTML.toLowerCase()).toContain("hello, i am a text")
 });
-it('Add a closing span tag </span>', function () {
-    let a = document.documentElement.innerHTML = html.toString()
-    expect(a.indexOf("</span>")).not.toBe(-1)
+
+it('The <strong> tag should have the expected value.', function () {
+    let strong = document.querySelector("strong");
+    expect(strong).toBeTruthy();
+    expect(strong.innerHTML.toLowerCase()).toContain("hello, i am also a text but in bold")
 });

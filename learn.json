@@ -12,9 +12,7 @@
     "duration": 8,
     "difficulty": "easy",
     "video-solutions": true,
-    "graded": false,
-    "disabledActions": ["test"],
-    "disableGrading": true,
+    "disabledActions": [],
     "autoPlay": true,
     "editor": {
         "version": "1.0.73"
