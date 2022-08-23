@@ -2,7 +2,7 @@
 
 El tag de `<video>` se utiliza para incluir un contenido de video dentro de un documento.
 
-> Nota: Aquí puedes leer sobre los tags de video: [http://lmgtfy.com/?q=html+video+tag](http://lmgtfy.com/?q=html+video+tag)
+> Nota: Aquí puedes leer sobre los tags de video: [Html Video Tags](https://www.w3schools.com/tags/tag_video.asp)
 
 ## 📝 Instrucciones:
 
