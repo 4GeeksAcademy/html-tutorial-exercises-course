@@ -21,4 +21,4 @@ Para este ejercicio ya hemos agregado la estructura básica HTML.
 
 + Aquí puedes leer más sobre listas: [https://www.w3schools.com/html/html_lists.asp](https://www.w3schools.com/html/html_lists.asp)
 
-+ 6 buenas razones para convertirte en desarrollador web: [https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer](https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer). 
++ 6 buenas razones para convertirte en desarrollador web: https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer
