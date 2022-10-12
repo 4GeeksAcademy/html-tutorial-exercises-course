@@ -11,8 +11,8 @@
     "intro": "https://www.youtube.com/watch?v=Vd2dby9ind4",
     "duration": 8,
     "difficulty": "easy",
-    "video-solutions": true,
-    "bugs-link": "https://github.com/learnpack/learnpack/issues/new",
+    "videoSolutions": true,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "disabledActions": [],
     "autoPlay": true,
     "editor": {
