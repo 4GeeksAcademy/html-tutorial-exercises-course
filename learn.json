@@ -6,13 +6,13 @@
     ],
     "title": {
         "us": "Learn the basics of HTML Interactively",
-        "es": "Aprende lo básico de HTML Interactivamente",
+        "es": "Aprende lo básico de HTML Interactivamente"
     },
     "preview": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/preview.png?raw=true",
     "repository": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course",
     "description": {
         "us": "Learn the most popular HTML Tags and how to use them with real life interactive examples, automatic grading and video solutions",
-        "es": "Aprende los tags más populares de HTML y como usarlos en casos de la vida real con ejemplos interactivos, calicaciones automáticas y video-soluciones",
+        "es": "Aprende los tags más populares de HTML y como usarlos en casos de la vida real con ejemplos interactivos, calicaciones automáticas y video-soluciones"
     },
     "intro": "https://www.youtube.com/watch?v=Vd2dby9ind4",
     "duration": 8,
