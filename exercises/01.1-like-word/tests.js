@@ -16,7 +16,7 @@ it('The <p> tag should have the expected value.', function () {
     expect(p.innerHTML.toLowerCase()).toContain("html tags are similar to ms word elements")
 });
 
-it('Add "HTML tags are similar to MS Word elements" between the <p> cosing tags → <p>HERE</p> ', function () {
+it('Add "HTML tags are similar to MS Word elements" between the <p> tags → <p>HERE</p> ', function () {
     let p = document.querySelector("p")
     const _regex = /\s*HTML\s*tags\s*are\s*similar\s*to\s*MS\s*Word\s*elements\s*/gm;
     expect(_regex.test(p.innerHTML)).toBe(true);
