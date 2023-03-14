@@ -41,7 +41,7 @@ Este proyecto sigue las especificaciones: [all-contributors](https://github.com/
 
 ¡Todas las contribuciones son bienvenidas!
 
-> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificuldad entre los ejercicios nunca sea tan grande como para frustrarte.
+> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificultad entre los ejercicios nunca sea tan grande como para frustrarte.
 
 Nota: ¡No te frustres! Pregúntanos por Slack en el canal #public-support-full-stack o en privado siguiendo [estos pasos](https://content.breatheco.de/es/how-to/ask). 
 
