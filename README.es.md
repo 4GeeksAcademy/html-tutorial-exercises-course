@@ -20,9 +20,9 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ### Aprenderás los siguientes conceptos:
  
-1. A familiarizarte con la mayoría de las etiquetas HTML más populares.
+1. Familiarizarte con la mayoría de las etiquetas HTML más populares.
 
-2. A usar las etiquetas/tags juntas para crear un sitio web HTML simple.
+2. Usar varias etiquetas juntas para crear un sitio web HTML simple.
 
 3. Vinculación de sitios web mediante enlaces (anchors) con rutas relativas o absolutas.
 
