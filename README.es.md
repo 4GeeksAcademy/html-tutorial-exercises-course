@@ -24,7 +24,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 2. A usar las etiquetas/tags juntas para crear un sitio web HTML simple.
 
-3. Vinculación de sitios web mediante anclajes/anchors con rutas relativas o absolutas.
+3. Vinculación de sitios web mediante enlaces (anchors) con rutas relativas o absolutas.
 
 4. La etiqueta HTML de audio y video.
 
