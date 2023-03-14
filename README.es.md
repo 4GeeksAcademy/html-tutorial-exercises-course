@@ -14,7 +14,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ¡Selección completa de ejercicios html autograduados para cualquier persona interesada en aprender HTML!
 
-¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter] (https://twitter.com/alesanchezr) si tienes alguna pregunta. 
+¡Hola! Soy [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter](https://twitter.com/alesanchezr) si tienes alguna pregunta. 
 
 <!-- endhide -->
 
@@ -67,7 +67,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o puedes frustrarte.
+Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una sugerencia o puedes frustrarte.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
