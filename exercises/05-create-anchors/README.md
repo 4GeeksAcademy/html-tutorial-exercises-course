@@ -12,7 +12,7 @@ Some attributes that you are going to use a lot are: `href`, `src`, `placeholder
 
 1. Add to the website `<body>` an anchor `<a>` tag that says: `"Click me to search on google"`
 
-2. The anchor (`<a>`) should take the user to the url [https://google.com](https://google.com) when it is clicked (Use the `href` attribute).
+2. The anchor `<a>` should take the user to the url [https://google.com](https://google.com) when it is clicked (Use the `href` attribute).
 
 ## 💻 Expected Result:
 
