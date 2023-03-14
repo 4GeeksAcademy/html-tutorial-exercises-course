@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=oFswWx9ba14"
+---
+
 # `03` Hello without Head
 
 En el último ejercicio tuviste que agregar toda la estructura básica HTML de un sitio web.
@@ -14,7 +18,7 @@ Haz lo mismo en este ejercicio, pero no incluyas la etiqueta `<head>`.
 
 ## 💡 Pista:
 
-+ La estructura debería de verse algo asi:
++ La estructura debería de verse algo así:
 
 ```md
 <!DOCTYPE html>
