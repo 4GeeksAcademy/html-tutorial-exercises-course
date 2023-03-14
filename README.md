@@ -70,7 +70,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to ignore the tests and use them only as a suggestion or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to ignore the tests and use them only as a suggestion or you may get frustrated.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
