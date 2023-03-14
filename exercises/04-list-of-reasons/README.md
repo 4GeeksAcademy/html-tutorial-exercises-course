@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=IH1hAxMGRcw"
 
 # `04` List of Reasons
 
-Now we are going to learn how to use de `<ol>` tag. We use this when we want to define an ordered list (numerically or alphabetically).
+Now we are going to learn how to use the `<ol>` tag. We use this when we want to define an ordered list (numerically or alphabetically).
 
 For this exercise we have already added the basic HTML structure.
 
@@ -22,4 +22,4 @@ For this exercise we have already added the basic HTML structure.
 
 + Here is more information about HTML lists: [https://www.w3schools.com/html/html_lists.asp](https://www.w3schools.com/html/html_lists.asp)
 
-+ Here you can read about 6 good reasons why becoming a web developer: [https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer](https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer). 
++ Here you can read about 6 good reasons why to become a web developer: [https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer](https://www.indeed.com/career-advice/finding-a-job/reasons-to-become-web-developer). 
