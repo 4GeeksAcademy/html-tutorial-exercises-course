@@ -16,7 +16,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 <!-- endhide -->
 
-1. Get familiar with most of the most popular HTML Tags.
+1. Get familiar with a good deal of the most popular HTML Tags.
 
 2. Using the tags together to create a simple HTML Website.
 
