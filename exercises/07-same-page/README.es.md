@@ -16,7 +16,7 @@ Todo junto debe verse algo así:
 
 En este ejercicio, hay dos `<h2>` (El `upperSide` y el `lowerSide`). Por otro lado, hay un `<a>` que te lleva al `<h2>` de abajo.
 
-Ncesitamos que crees otro `<a>` al final del archivo, que te lleve al `<h2>` que se encuentra al inicio.
+Necesitamos que crees otro `<a>` al final del archivo, que te lleve al `<h2>` que se encuentra al inicio.
 
 ## 📝 Instrucciones:
 
