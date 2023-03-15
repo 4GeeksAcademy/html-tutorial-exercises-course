@@ -10,7 +10,7 @@ Cuando agregas un tag de `<img />` (imagen) en un sitio web, tienes que establec
 
 ## Rutas Relativas:
 
-Las rutas relativas se utilizan únicamenete para indicar el orden de directorios. No contienen la primera parte de la URL (el nombre de dominio) y solo pueden redirigir al usuario a diferentes partes del mismo sitio web.
+Las rutas relativas se utilizan únicamente para indicar el orden de directorios. No contienen la primera parte de la URL (el nombre de dominio) y solo pueden redirigir al usuario a diferentes partes del mismo sitio web.
 
 ```html
 <img src="../../.learn/assets/rigo-baby.jpg" />
@@ -19,7 +19,7 @@ Las rutas relativas se utilizan únicamenete para indicar el orden de directorio
 <a href="/help/articles/how-do-i-set-up-a-webpage.html">Llévame a how-do-i-set-up-a-webpage.html</a>
 ```
 
-> Nota: Si usas **rutas relativas** , tienes que asumir que la parte inicial de la ruta está oculta y es igual a la ruta actual en la barra de URL.
+> Nota: Si usas **rutas relativas**, tienes que asumir que la parte inicial de la ruta está oculta y es igual a la ruta actual en la barra de URL.
 
 ## Rutas Absolutas:
 
@@ -36,7 +36,7 @@ Las rutas absolutas incluyen también el nombre del dominio. Contienen la URL co
 
 1. Comienza por **construir** (haz clic en el botón de `build`) el sitio web actual, cuando abra verás una imagen.
 
-2. Modifica la propiedad `src` de la imagen y conviertela en una URL absoluta.
+2. Modifica la propiedad `src` de la imagen y conviértela en una URL absoluta.
 
 > Nota: Asegúrate de que la imagen aún se muestre correctamente después de realizar los cambios.
 
@@ -44,6 +44,6 @@ Las rutas absolutas incluyen también el nombre del dominio. Contienen la URL co
 
 + Tu ruta absoluta debe comenzar con esto: {{publicUrl}}
 
-+ Si construyes (`build`) el ejercicio, abre el sitio web y haz un clic derecho en la imagen, el menú contextual mostrará una opción 'Copiar dirección de imagen' que copiará tu URL absoluta en tu portapapeles.
++ Si construyes (`build`) el ejercicio, abre el sitio web y haz un clic derecho en la imagen, el menú contextual mostrará una opción 'Copiar dirección de imagen' que copiará la URL absoluta en tu portapapeles.
 
 + Aquí hay un video que explica la diferencia entre rutas relativas y absolutas [https://www.youtube.com/watch?v=ephId3mYu9o](https://www.youtube.com/watch?v=ephId3mYu9o)
