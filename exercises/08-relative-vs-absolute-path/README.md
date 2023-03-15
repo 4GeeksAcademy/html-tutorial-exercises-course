@@ -19,7 +19,7 @@ Relative paths are only used to indicate directory order. They do not contain th
 <a href="/help/articles/how-do-i-set-up-a-webpage.html">Take me to how-do-i-set-up-a-webpage.html</a>
 ```
 
-> Note: If you use **relative paths**, you have to assume that the initial part of the path is hidden and equal to the current path in the URL bar.
+> Note: If you use **relative paths**, you have to assume that the initial part of the path is hidden and equals to the current path in the URL bar.
 
 ## Absolute Paths:
 
@@ -36,7 +36,7 @@ Absolute paths include the domain name. They contain the full URL because they a
 
 1. Start by **building** (click the `build` button) the current website, when it opens you will see an image displaying.
 
-2. Please modify the `src` property of image and convert it to an absolute URL.
+2. Please modify the `src` property of the image and convert it to an absolute URL.
 
 > Note: Make sure the image is still displaying correctly after you make your changes.
 
@@ -44,6 +44,6 @@ Absolute paths include the domain name. They contain the full URL because they a
 
 + Your absolute path should start with this: {{publicUrl}}
 
-+ If you build the exercise, open the website, and right click on the image, the context menu will show an option with this text 'Copy Image Address' that will copy it's absolute URL into your clipboard.
++ If you build the exercise, open the website, and right click on the image, the context menu will show an option with the text 'Copy Image Address' that will copy its absolute URL into your clipboard.
 
 + Here is a video explaining the difference between relative and absolute paths [https://www.youtube.com/watch?v=ephId3mYu9o](https://www.youtube.com/watch?v=ephId3mYu9o)
