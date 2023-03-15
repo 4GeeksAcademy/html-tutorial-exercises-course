@@ -10,7 +10,7 @@ For this exercise we have already added the basic HTML structure.
 
 ## 📝 Instructions:
 
-1. Please add into the `<body>` an ordered list `<ol>` with 6 items (`<li>`), each item being a reason to become a web developer.
+1. Please add into the `<body>` an ordered list `<ol>` with 6 items `<li>`, each item being a reason to become a web developer.
 
 ## 💻 Expected Result:
 
