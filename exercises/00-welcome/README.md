@@ -13,7 +13,7 @@ We have prepared these exercises for anyone interested in learning HTML from scr
 
 2. Using the tags together to create a simple HTML Website.
 
-3. Linking websites together using Anchors with Relative or Abolute paths.
+3. Linking websites together using Anchors with Relative or Absolute paths.
 
 4. The HTML audio and video tag.
 
