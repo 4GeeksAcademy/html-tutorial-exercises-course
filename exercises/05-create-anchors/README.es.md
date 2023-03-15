@@ -11,7 +11,7 @@ Algunos de los atributos que vas a usar frecuentemente son: `href`, `src`, `plac
 
 1. Agrega al `<body>` del sitio web un anchor `<a>` (link) tag que diga: `"Click me to search on google"`
 
-2. El link del anchor (`<a>`) debe llevar al usuario a la url [https://google.com](https://google.com) cuando haga clic (usa el atributo `href`).
+2. El link del anchor `<a>` debe llevar al usuario a la url [https://google.com](https://google.com) cuando haga clic (usa el atributo `href`).
 
 ## 💻 Resultado Esperado:
 
