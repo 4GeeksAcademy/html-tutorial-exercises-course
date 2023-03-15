@@ -9,7 +9,7 @@ Para este ejercicio ya hemos agregado la estructura básica HTML.
 
 ## 📝 Instrucciones:
 
-1. Por favor agrega al `<body>` una lista ordenada `<ol>` con 6 elementos (`<li>`), donde cada uno sea un motivo para convertirse en un desarrollador web.
+1. Por favor agrega al `<body>` una lista ordenada `<ol>` con 6 elementos `<li>`, donde cada uno sea un motivo para convertirse en un desarrollador web.
 
 ## 💻 Resultado Esperado:
 
