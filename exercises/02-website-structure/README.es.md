@@ -15,13 +15,13 @@ tutorial: "https://www.youtube.com/watch?v=9OB2RPWHYgw"
 
 ## 💡 Pistas:
 
-+ La estructura debería de verse algo asi:
++ La estructura debería de verse algo así:
 
 ```md
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> <!-- El titulo va aqui --> </title>
+		<title> <!-- El título va aquí --> </title>
 	</head>
 	<body>
 
