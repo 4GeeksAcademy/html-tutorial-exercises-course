@@ -12,11 +12,11 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 
 Complete selection of autograded html exercises, anyone interested in learning HTML!
       
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any question. You'll be learning the following concepts:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. You'll be learning the following concepts:
 
 <!-- endhide -->
 
-1. Get familiar with most of the most popular HTML Tags.
+1. Get familiar with a good deal of the most popular HTML Tags.
 
 2. Using the tags together to create a simple HTML Website.
 
@@ -41,7 +41,7 @@ There are two ways to run the exercises: Immediately in gitpod (recommended) or 
 
 ### A) Open immediately with Gitpod (one-click)
 
-This exercises are configured to easily open in gitpod.
+These exercises are configured to easily open in gitpod.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
 
@@ -70,7 +70,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to ignore the tests and use them only as a suggestion or you may get frustrated.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
