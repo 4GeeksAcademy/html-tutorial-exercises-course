@@ -30,7 +30,7 @@ it('You should create a <blockquote> tag inside the <body>.', function () {
     expect(blockquote).toBeTruthy();
 })
 
-it('You should create a <ul> with 3 <li> inside tag.', function () {
+it('You should create a <ul> with 3 <li> tags inside.', function () {
     let body = document.querySelector("body");
     expect(body).toBeTruthy();
 
