@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=1JXOMalTLNo"
 
 # `06` New Window
 
-On the `index.html` file there is an anchor (`<a>`) taking you to `"https://google.com"`:
+On the `index.html` file there is an anchor `<a>` taking you to `"https://google.com"`:
 
 ```html
 <a href="http://google.com">Click me to search on google </a>
@@ -14,7 +14,7 @@ What property should we add to this `<a>` anchor, if we wanted it to open in a *
 
 ## 📝 Instructions:
 
-1. Search how to make the anchor (`<a>`) open the link in a new window.
+1. Search how to make the anchor `<a>` open the link in a new window.
 
 ## 💡 Hints:
 
