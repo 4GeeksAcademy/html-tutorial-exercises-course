@@ -20,7 +20,7 @@ HTML was meant to replicate that exact behavior. Here is an example of a typical
 
 + For the `<blockquote>` case, the stylings have been already applied in the same file.
 
-+ You should add the `<br />` tag inside the blockquote in order to add a line break.
++ You should add the `<br />` tag inside the `<blockquote>` in order to add a line break.
 
 + You can use this text so you don't have to type all that boring stuff:
 
