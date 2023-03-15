@@ -9,11 +9,11 @@ Welcome to the world of HTML 🖖🧑‍💻
 
 We have prepared these exercises for anyone interested in learning HTML from scratch. During this course we will go over the following concepts:
 
-1. Get familiar with most of the most popular HTML Tags.
+1. Get familiar with a good deal of the most popular HTML Tags.
 
 2. Using the tags together to create a simple HTML Website.
 
-3. Linking websites together using Anchors with Relative or Asbolute paths.
+3. Linking websites together using Anchors with Relative or Absolute paths.
 
 4. The HTML audio and video tag.
 
@@ -43,6 +43,6 @@ Contributions of any kind are welcome!
 
 > 🔹 We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
 
-Note: Don't get frustrated! Ask any question in the #public-support-full-stack channel of Slack or by private message following [these steps](https://content.breatheco.de/how-to/ask/). 
+Note: Don't get frustrated! Ask any questions in the #public-support-full-stack channel of Slack or by private message following [these steps](https://content.breatheco.de/how-to/ask/). 
 
 ➡️ Click the `next` button on the top of these instructions to begin with the first exercise...
