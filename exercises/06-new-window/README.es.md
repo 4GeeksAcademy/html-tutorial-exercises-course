@@ -1,6 +1,6 @@
 # `06` New Window
 
-En el `index.html` de este ejercicio hay un anchor (`<a>`) que te lleva a `"https://google.com"`:
+En el `index.html` de este ejercicio hay un anchor `<a>` que te lleva a `"https://google.com"`:
 
 ```html
 <a href="http://google.com">Click me to search on google </a>
@@ -10,7 +10,7 @@ En el `index.html` de este ejercicio hay un anchor (`<a>`) que te lleva a `"http
 
 ## 📝 Instrucciones:
 
-1. Investiga cómo hacer para que el anchor (`<a>`) abra el link en una nueva ventana.
+1. Investiga cómo hacer para que el anchor `<a>` abra el link en una nueva ventana.
 
 ## 💡 Pistas:
 
