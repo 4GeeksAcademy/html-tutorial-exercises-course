@@ -23,14 +23,3 @@ it('The <ol> tag should have 6 <li> inside.', function () {
     let lis = ol.querySelectorAll('li');
     expect(lis.length).toBe(6);
 })
-
-it('The <ol> tag should have 6 <li> inside.', function () {
-    let body = document.querySelector("body");
-    expect(body).toBeTruthy();
-
-    let ol = body.querySelector("ol");
-    expect(ol).toBeTruthy();
-
-    let lis = ol.querySelectorAll('li');
-    expect(lis.length).toBe(6);
-})
