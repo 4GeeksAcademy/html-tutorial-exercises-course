@@ -63,7 +63,7 @@ $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
