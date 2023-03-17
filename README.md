@@ -76,7 +76,7 @@ Note: The exercises have automatic grading but its very rigid and strict, my rec
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
 1. **index.js:** represents the entry file for the entire app.
 2. **README.md:** contains exercise instructions.
