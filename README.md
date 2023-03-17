@@ -12,9 +12,11 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 
 Complete selection of autograded html exercises, anyone interested in learning HTML!
       
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. You'll be learning the following concepts:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions.
 
 <!-- endhide -->
+
+### You'll be learning the following concepts:
 
 1. Get familiar with a good deal of the most popular HTML Tags.
 
@@ -45,18 +47,18 @@ These exercises are configured to easily open in gitpod.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
 
-### B) Manual installation
+## B) Manual installation
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
 2. Download these particular exercises using learnpack and `cd` into the folder:
 
-```
+```sh
 $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
@@ -70,11 +72,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to ignore the tests and use them only as a suggestion or you may get frustrated.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
 
 ## How are the exercises organized?
 
