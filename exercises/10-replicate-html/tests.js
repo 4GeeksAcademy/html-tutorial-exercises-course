@@ -29,7 +29,7 @@ it('You should create a <p> tag inside the <body>.', function () {
     expect(p).toBeTruthy();
 })
 
-it('You should create a <ol> with 3 <li> inside tag.', function () {
+it('You should create an <ol> with 3 <li> tags inside.', function () {
     let body = document.querySelector("body");
     expect(body).toBeTruthy();
 
@@ -40,7 +40,7 @@ it('You should create a <ol> with 3 <li> inside tag.', function () {
     expect(lis.length).toBe(3);
 })
 
-it('You should create a <ul> with 3 <li> inside tag.', function () {
+it('You should create a <ul> with 3 <li> tags inside.', function () {
     let body = document.querySelector("body");
     expect(body).toBeTruthy();
 
