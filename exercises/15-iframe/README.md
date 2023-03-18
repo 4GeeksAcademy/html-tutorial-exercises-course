@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=B-ge0ggbm7Y"
 
 # `15` Iframe
 
-The `<iframe>` tag is amazing! It let's you insert a website inside a website. An example of this is Youtube, it uses the `<iframe>` tag to allow you to insert videos from this platform on your own website.
+The `<iframe>` tag is amazing! It lets you insert a website inside a website. An example of this is Youtube, it uses the `<iframe>` tag to allow you to insert videos from this platform on your own website.
 
 ## 📝 Instructions:
 
