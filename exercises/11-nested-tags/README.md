@@ -6,9 +6,9 @@ tutorial: "https://www.youtube.com/watch?v=_sLqC-C-rvE"
 
 ## What are Nested Tags? 🤔
 
-Let's think for a moment of HTML tags as boxes that hold your content; they can contain text, images, and related media... Sometimes, you'll have to place boxes inside of other boxes. In this case, those "inner" boxes are `nested` inside of others.
+Let's think for a moment of HTML tags as boxes that hold your content; they can contain text, images, and related media... Sometimes, you'll have to place boxes inside other boxes. In this case, those "inner" boxes are `nested` inside of others.
 
-In other words, `Nested Tags` refer to adding a tag inside the same tag as immediate child.
+In other words, `Nested Tags` refer to adding a tag inside the same tag as an immediate child.
 
 ## 📝 Instructions:
 
