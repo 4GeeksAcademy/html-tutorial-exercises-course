@@ -43,6 +43,6 @@ Now, let's recreate an example similar to this:
 <td valign="X">Here goes the text</td>
 ``` 
 
-## 💡Hint:
+## 💡 Hint:
 
 + You can choose your fake text on this page: [http://www.lipsum.com/](http://www.lipsum.com/)
