@@ -1,6 +1,6 @@
-# `12` My first table
+# `12` My First Table
 
-Vamos a crear una tabla de datos con solamente código HTML. Esta va a llevar la siquiente información:
+Vamos a crear una tabla de datos con solamente código HTML, la cual llevará la siguiente información:
 
 ![demo](../../.learn/assets/12-my-first-table-0.png?raw=true)
 
