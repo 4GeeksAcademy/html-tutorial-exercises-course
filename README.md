@@ -72,7 +72,7 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
+Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
 
 ## How are the exercises organized?
 
