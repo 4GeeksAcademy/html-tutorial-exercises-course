@@ -46,14 +46,14 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
 2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta:
 
-```
+```sh
 $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
