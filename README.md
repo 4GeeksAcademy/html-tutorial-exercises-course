@@ -12,9 +12,11 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 
 Complete selection of autograded html exercises, anyone interested in learning HTML!
       
-Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions. You'll be learning the following concepts:
+Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! [DM me on twitter](https://twitter.com/alesanchezr) if you have any questions.
 
 <!-- endhide -->
+
+### You'll be learning the following concepts:
 
 1. Get familiar with a good deal of the most popular HTML Tags.
 
@@ -29,7 +31,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 #### Before we start... other related tutorials
 
 <ol>
-  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← You are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
@@ -45,7 +47,7 @@ These exercises are configured to easily open in gitpod.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
 
-### B) Manual installation
+## B) Manual installation
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
@@ -61,24 +63,20 @@ $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
 
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level where your bc.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and strict, my recommendation is to ignore the tests and use them only as a suggestion or you may get frustrated.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
 1. **index.js:** represents the entry file for the entire app.
 2. **README.md:** contains exercise instructions.

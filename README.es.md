@@ -67,15 +67,11 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una sugerencia o puedes frustrarte.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
 
-Cada ejercicio es una pequeña aplicación de react que contiene los siguientes archivos:
+Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
 
 1. **index.js:** representa el archivo de entrada para toda la aplicación.
 2. **README.md:** contiene las instrucciones de los ejercicios.
