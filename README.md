@@ -49,14 +49,14 @@ These exercises are configured to easily open in gitpod.
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
-```
+```sh
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
 2. Download these particular exercises using learnpack and `cd` into the folder:
 
-```
+```sh
 $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
