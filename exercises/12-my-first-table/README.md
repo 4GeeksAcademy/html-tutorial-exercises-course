@@ -4,7 +4,7 @@ tutorial: "https://www.youtube.com/watch?v=ZHsw63Xdbw4"
 
 # `12` My First Table
 
-We are going to create a data table with only HTML code. This will carry the following information:
+We are going to create a data table with only HTML code, which will carry the following information:
 
 ![demo](../../.learn/assets/12-my-first-table-0.png?raw=true)
 
