@@ -33,5 +33,5 @@ Here are the 3 most common signs that shows you are learning
 
 + Time passes fast.
 + You are anxious to finish this exercise and start the next one.
-+ Is 12am and you don't want to go to sleep.
++ It's 12am and you don't want to go to sleep.
 ```
