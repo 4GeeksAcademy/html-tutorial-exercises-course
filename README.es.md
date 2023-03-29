@@ -40,7 +40,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ## Instalación en un clic
 
-[![Open in Gitpod](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
+[![Open in Gitpod](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/open-in-gitpod.svg?raw=true)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
 
 ## Instalación manual
 
