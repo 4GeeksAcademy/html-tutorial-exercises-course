@@ -29,7 +29,7 @@ Now, let's recreate an example similar to this:
 </table>
 ```
 
-3. The first column (`<td>`) with the attribute `width="25%"`, it should contain an image with the attribute `width="100%"`.
+3. The first column (`<td>`) with the attribute `width="25%"`, should contain an image with the attribute `width="100%"`.
 
     Use this image: `"../../.learn/assets/13-images-with-text.jpg"`
 
@@ -43,6 +43,6 @@ Now, let's recreate an example similar to this:
 <td valign="X">Here goes the text</td>
 ``` 
 
-## 💡Hint:
+## 💡 Hint:
 
 + You can choose your fake text on this page: [http://www.lipsum.com/](http://www.lipsum.com/)
