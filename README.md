@@ -45,7 +45,7 @@ There are two ways to run the exercises: Immediately in gitpod (recommended) or 
 
 These exercises are configured to easily open in gitpod.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
+[![Open in Gitpod](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
 
 ## B) Manual installation
 
