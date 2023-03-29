@@ -1,4 +1,4 @@
-# `14`  Video tag
+# `14`  Video Tag
 
 El tag de `<video>` se utiliza para incluir un contenido de video dentro de un documento.
 
@@ -18,7 +18,7 @@ El tag de `<video>` se utiliza para incluir un contenido de video dentro de un d
 
 ## 💡 Pistas:
 
-+ Algo así deberia de ser tu código.
++ Algo así debería ser tu código.
 
 ```html
 <video width="X" height="X" muted autoplay>
