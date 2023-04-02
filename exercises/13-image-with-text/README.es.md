@@ -33,7 +33,7 @@ Ahora, vamos a recrear un ejemplo similar a este:
 <td width="X"><img width="X" src="url"/></td>
 ```
 
-4. La segunda columna (`<td>`), contiene el párrafo junto con el atributo `valign="top"` (este sirve para mover el texto a la parte superior de la celda y también agregar texto dentro).
+4. La segunda columna (`<td>`), contiene el párrafo junto con el atributo `valign="top"` (este sirve para mover el texto a la parte superior de la celda).
 
 ```html
 <td valign="X">aquí va el párrafo</td>
