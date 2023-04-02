@@ -37,7 +37,7 @@ Now, let's recreate an example similar to this:
 <td width="X"><img width="X" src="The given image url"/></td>
 ```
 
-4. The second column (`<td>`), contains the paragraph along with the `valign = "top"` attribute (this is used to move the text to the top of the cell and also add text inside).
+4. The second column (`<td>`), contains the paragraph along with the `valign = "top"` attribute (this is used to move the text to the top of the cell).
 
 ```html
 <td valign="X">Here goes the text</td>
