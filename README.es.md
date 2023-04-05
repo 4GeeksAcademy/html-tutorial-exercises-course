@@ -36,7 +36,6 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
-<!-- endhide -->
 
 ## Instalación en un clic
 
@@ -66,6 +65,8 @@ Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" qu
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
+
+<!-- endhide -->
 
 Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 
