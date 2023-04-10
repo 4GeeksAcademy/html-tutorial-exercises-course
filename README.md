@@ -36,17 +36,13 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
 
-## 🌱 How to start
+## One click installation (recommended):
 
-There are two ways to run the exercises: Immediately in gitpod (recommended) or locally in your computer (requires installation).
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
 
-### A) Open immediately with Gitpod (one-click)
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
-These exercises are configured to easily open in gitpod.
-
-[![Open in Gitpod](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/open-in-gitpod.svg?raw=true)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
-
-## B) Manual installation
+## Manual installation
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
@@ -62,7 +58,7 @@ $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
 
-Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
@@ -73,7 +69,7 @@ $ learnpack start
 
 <!-- endhide -->
 
-Note: The exercises have automatic grading but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion or you may get frustrated.
+> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
 
 ## How are the exercises organized?
 

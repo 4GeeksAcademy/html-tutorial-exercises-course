@@ -4,7 +4,7 @@
 
       
       
-Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcadem/html-tutorial-exercises-course/graphs/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](https://github.com/4GeeksAcadem/html-tutorial-exercises-course/graphs/contributors) de [4Geeks Academy](https://4geeksacademy.co/)
 
 <p>
 <img alt="last commit" src="https://img.shields.io/github/last-commit/4geeksacademy/javascript-arrays-exercises-tutorial" class="text-center" />
@@ -37,9 +37,11 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
 
-## Instalación en un clic
+## Instalación en un clic (recomendado)
 
-[![Open in Gitpod](https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/.learn/assets/open-in-gitpod.svg?raw=true)](https://gitpod.io#https://github.com/4GeeksAcademy/html-tutorial-exercises-course.git)
+Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/css-layouts-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises.git).
+
+> Una vez ya tengas abirto VSCode los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación manual
 
@@ -57,7 +59,7 @@ $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
 
-Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
+> Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
 
 3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
@@ -68,7 +70,7 @@ $ learnpack start
 
 <!-- endhide -->
 
-Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+> Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
 
