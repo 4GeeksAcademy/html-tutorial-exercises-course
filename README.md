@@ -16,7 +16,7 @@ Hi! I'm [Alejandro Sanchez @alesanchezr](https://github.com/alesanchezr), really
 
 <!-- endhide -->
 
-### You'll be learning the following concepts:
+## You'll be learning the following concepts:
 
 1. Get familiar with a good deal of the most popular HTML Tags.
 
