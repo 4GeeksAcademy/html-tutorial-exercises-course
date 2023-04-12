@@ -18,7 +18,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 <!-- endhide -->
 
-### Aprenderás los siguientes conceptos:
+## Aprenderás los siguientes conceptos:
  
 1. Familiarizarte con la mayoría de las etiquetas HTML más populares.
 
@@ -32,9 +32,11 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 #### Antes de empezar... otros tutoriales relacionados
 
 <ol>
-  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a>← Estás aquí</li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← 🔥 Estás aquí</li>
+  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
 
 ## Instalación en un clic (recomendado)
