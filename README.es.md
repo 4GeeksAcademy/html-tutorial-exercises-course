@@ -18,7 +18,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 <!-- endhide -->
 
-### Aprenderás los siguientes conceptos:
+## Aprenderás los siguientes conceptos:
  
 1. Familiarizarte con la mayoría de las etiquetas HTML más populares.
 
