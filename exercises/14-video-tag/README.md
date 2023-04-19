@@ -30,4 +30,4 @@ The `<video>` tag is used to include video content within a document.
 </video>
 ```
 
-+ Read more about it here: [https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome](https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome).
++ You can remove the `muted` attribute to watch the video with sound.
