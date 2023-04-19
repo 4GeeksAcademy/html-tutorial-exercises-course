@@ -26,4 +26,4 @@ El tag de `<video>` se utiliza para incluir un contenido de video dentro de un d
 </video>
 ```
 
-+ Lee más sobre esto aquí: [https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome](https://stackoverflow.com/questions/34764876/html-5-video-autoplay-not-automatically-starting-in-chrome).
++ Puedes borrar el atributo `muted` para ver el video con sonido.
