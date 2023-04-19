@@ -13,14 +13,14 @@ it('You should create an <iframe> tag inside the <body>.', function () {
     expect(iframe).toBeTruthy();
 })
 
-it('The <iframe> tag should have width of "300px" and height of "200px".', function () {
+it('The <iframe> tag should have width of "1280px" and height of "720px".', function () {
   let body = document.querySelector("body");
   expect(body).toBeTruthy();
   
   let iframe = body.querySelector("iframe");
   expect(iframe).toBeTruthy();
-  expect(iframe.width).toBe("300px");
-  expect(iframe.height).toBe("200px");
+  expect(iframe.width).toBe("1280px");
+  expect(iframe.height).toBe("720px");
 })
 
 it('The <iframe> tag should have the given "src".', function () {
