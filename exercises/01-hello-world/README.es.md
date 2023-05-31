@@ -9,7 +9,7 @@ HTML es un lenguaje de marcado, lo que significa que todo lo que se escribe debe
 
 ## 📝 Instrucciones:
 
-1. `Elimina` todo el contenido actual de la página, `agrega` las etiquetas anteriores en el HTML de tu sitio web y presiona "build" para ver los resultados.
+1. **Elimina** todo el contenido actual de la página, **agrega** las etiquetas anteriores en el HTML de tu sitio web y presiona "build" para ver los resultados.
 
 ![Build](../../.learn/assets/build.png?raw=true)
 
