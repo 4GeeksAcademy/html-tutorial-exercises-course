@@ -14,7 +14,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ¡Selección completa de ejercicios html autograduados para cualquier persona interesada en aprender HTML!
 
-¡Hola! Soy [Alejandro Sanchez (Github: @alesanchezr)](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter](https://twitter.com/alesanchezr) si tienes alguna pregunta. 
+¡Hola! Soy [Alejandro Sanchez (Github: @alesanchezr)](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter](https://twitter.com/alesanchezr) si tienes alguna pregunta. 
 
 <!-- endhide -->
 
