@@ -98,7 +98,7 @@ We are going to practice doing the following tasks to play with the table format
 </table>
 ```
 
-## Expected Result:
+## 💻 Expected Result:
 
 ![demo](../../.learn/assets/12-my-first-table.png?raw=true)
 

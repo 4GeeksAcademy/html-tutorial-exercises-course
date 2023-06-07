@@ -94,7 +94,7 @@ Vamos a practicar realizando las siguientes tareas para jugar con el formato de 
 </table>
 ```
 
-## Resultado Esperado:
+## 💻 Resultado Esperado:
 
 ![demo](../../.learn/assets/12-my-first-table.png?raw=true)
 

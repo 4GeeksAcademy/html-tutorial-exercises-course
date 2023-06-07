@@ -14,7 +14,7 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 
 ¡Selección completa de ejercicios html autograduados para cualquier persona interesada en aprender HTML!
 
-¡Hola! Soy [Alejandro Sanchez (Github: @alesanchezr)](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter](https://twitter.com/alesanchezr) si tienes alguna pregunta. 
+¡Hola! Soy [Alejandro Sanchez (Github: @alesanchezr)](https://github.com/alesanchezr), ¡muy emocionado de tenerte aquí! 🎉 😂 Aprender a programar es difícil, ¡necesitas entrenamiento! [Envíame un mensaje privado en Twitter](https://twitter.com/alesanchezr) si tienes alguna pregunta. 
 
 <!-- endhide -->
 
@@ -32,11 +32,11 @@ Por [@alesanchezr](https://twitter.com/alesanchezr) y [otros colaboradores](http
 #### Antes de empezar... otros tutoriales relacionados
 
 <ol>
-  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a>← 🔥 Estás aquí</li>
-  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML5 Forms</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a>← 🔥 Estás aquí</li>
+  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Aprende Formularios HTML5</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Aprende CSS Layouts</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Aprende Bootstrap</a></li>
 </ol>
 
 ## Instalación en un clic (recomendado)
@@ -49,14 +49,14 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
-```sh
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
 2. Descarga estos ejercicios en particular usando learnpack y luego `cd` para entrar en la carpeta:
 
-```sh
+```bash
 $ learnpack download html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
@@ -65,7 +65,7 @@ $ cd html-tutorial-exercises-course
 
 3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
