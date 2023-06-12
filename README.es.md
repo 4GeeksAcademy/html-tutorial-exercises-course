@@ -47,6 +47,8 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación manual
 
+Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
+
 1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
 ```bash
