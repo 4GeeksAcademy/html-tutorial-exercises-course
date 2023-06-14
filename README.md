@@ -46,6 +46,8 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Manual installation
 
+Clone the repository in your local environment and follow the steps below:
+
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
 ```sh
