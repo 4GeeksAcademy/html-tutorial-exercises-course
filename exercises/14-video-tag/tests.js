@@ -43,5 +43,5 @@ it('The <source> tag should have the expected video in the "src" attribute.', fu
 
     let source = video.querySelector("source");
     expect(source).toBeTruthy();
-    expect(source.src).toBe("https://assets.breatheco.de/apis/video/why-pair-programming")
+    expect(source.src).toBe("https://4geeks-temp.s3.amazonaws.com/y2mate.is+-+How+to+Pair+Program+(Pair+Programming+Tips+from+Steven+Nunez)-YhV4TaZaB84-720p-1694414048.mp4")
 })
