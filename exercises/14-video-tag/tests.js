@@ -43,5 +43,5 @@ it('The <source> tag should have the expected video in the "src" attribute.', fu
 
     let source = video.querySelector("source");
     expect(source).toBeTruthy();
-    expect(source.src).toBe("https://assets.breatheco.de/apis/video/why-pair-programming")
+    expect(source.src).toBe("https://github.com/breatheco-de/assets-old/blob/bb5870b89e029884360641b544665bcb037ef437/apis/video/videos/4geeks-background.mp4?raw=true")
 })

@@ -10,7 +10,7 @@ The `<video>` tag is used to include video content within a document.
 
 ## 📝 Instructions:
 
-1. Use the `<video>` tag to include this video on the website: [https://assets.breatheco.de/apis/video/why-pair-programming](https://assets.breatheco.de/apis/video/why-pair-programming).
+1. Use the `<video>` tag to include this video on the website: `https://github.com/breatheco-de/assets-old/blob/bb5870b89e029884360641b544665bcb037ef437/apis/video/videos/4geeks-background.mp4?raw=true`.
 
 2. The video must cover the entire website, for this we are going to apply a `width="100%"` and a `height="100%"`.
 
