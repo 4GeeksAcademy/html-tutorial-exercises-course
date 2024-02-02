@@ -37,6 +37,8 @@ Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds
 
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribución: (traducción) :earth_africa:
 
+4. [Charly Chacón (charlytoc)](https://github.com/charlytoc), contribución: (remasterización, video tutoriales) 🤖
+
 Este proyecto sigue las especificaciones: [all-contributors](https://github.com/kentcdodds/all-contributors). 
 
 ¡Todas las contribuciones son bienvenidas!
