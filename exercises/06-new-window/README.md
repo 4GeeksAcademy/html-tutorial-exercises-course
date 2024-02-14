@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=1JXOMalTLNo"
+tutorial: "https://www.youtube.com/watch?v=ZzXz6YMHRGs"
 ---
 
 # `06` New Window
