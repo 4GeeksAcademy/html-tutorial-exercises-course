@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=ZHsw63Xdbw4"
+tutorial: "https://www.youtube.com/watch?v=bIQfuIOggpM"
 ---
 
 # `12` My First Table

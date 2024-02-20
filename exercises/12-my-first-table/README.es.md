@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=MskUgEMh88g"
+---
+
 # `12` My First Table
 
 Vamos a crear una tabla de datos con solamente código HTML, la cual llevará la siguiente información:

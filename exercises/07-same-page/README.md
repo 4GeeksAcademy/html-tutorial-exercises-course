@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=HkJtj2618YU"
+tutorial: "https://www.youtube.com/watch?v=zFJmSEcU6uQ"
 ---
 
 # `07` Same Page
