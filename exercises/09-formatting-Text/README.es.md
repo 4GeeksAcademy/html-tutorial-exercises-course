@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=wYWGCLekOCA"
+---
+
 # `09` Formatting Text
 
 La forma en que funciona el procesamiento de texto en documentos es bastante estándar, siempre se ve lo mismo: encabezados, texto en negrita, párrafos, citas, etc.

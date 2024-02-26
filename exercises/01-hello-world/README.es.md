@@ -1,3 +1,6 @@
+---
+tutorial: "https://www.youtube.com/watch?v=rEs6-k7un3o"
+---
 # `01` Hello World
 
 HTML es un lenguaje de marcado, lo que significa que todo lo que se escribe debe estar encerrado en `<tags>` (etiquetas) de apertura y cierre, como estas:
@@ -9,9 +12,9 @@ HTML es un lenguaje de marcado, lo que significa que todo lo que se escribe debe
 
 ## 📝 Instrucciones:
 
-1. **Elimina** todo el contenido actual de la página, **agrega** las etiquetas anteriores en el HTML de tu sitio web y presiona "build" para ver los resultados.
+1. **Elimina** todo el contenido actual de la página, **agrega** las etiquetas anteriores en el HTML de tu sitio web y presiona "**run**" para ver los resultados.
 
-![Build](../../.learn/assets/build.png?raw=true)
+![Run](../../.learn/assets/build.png?raw=true)
 
 ## 💻 Resultado Esperado:
 

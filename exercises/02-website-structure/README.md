@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=XMiG5UhV1n0"
+tutorial: "https://www.youtube.com/watch?v=NxOOu4mntXo"
 ---
 # `02` Website Structure
 

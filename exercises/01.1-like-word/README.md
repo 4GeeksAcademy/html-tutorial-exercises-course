@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=sPcd9egcDak"
+---
+
 # `01.1` Like Word
 
 HTML was initially created with the purpose of publishing documents, that is why its `<tags>` are similar to the typical elements you see in a document:

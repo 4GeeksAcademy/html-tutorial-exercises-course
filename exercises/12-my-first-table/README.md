@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=ZHsw63Xdbw4"
+tutorial: "https://www.youtube.com/watch?v=bIQfuIOggpM"
 ---
 
 # `12` My First Table
@@ -104,7 +104,7 @@ We are going to practice doing the following tasks to play with the table format
 
 ## 💡 Hints:
 
-+ After each step click `build`, to make sure everything is going well.
++ After each step click `**run**`, to make sure everything is going well.
 
 + You can copy the code blocks so you don't have to type them 3 more times, just remember to change the information in the cells.
 

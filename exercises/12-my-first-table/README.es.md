@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=MskUgEMh88g"
+---
+
 # `12` My First Table
 
 Vamos a crear una tabla de datos con solamente código HTML, la cual llevará la siguiente información:
@@ -101,7 +105,7 @@ Vamos a practicar realizando las siguientes tareas para jugar con el formato de 
 
 ## 💡 Pista:
 
-+ Después de cada paso dale clic a `build`, para asegurarte que todo va bien.
++ Después de cada paso dale clic a `**run**`, para asegurarte que todo va bien.
 
 + Puedes copiar los bloques de código para que no tengas que escribirlos 3 veces más, solo recuerda cambiar la información de las celdas.
 

@@ -1,5 +1,5 @@
 ---
-tutorial: "https://www.youtube.com/watch?v=PhH8JeTPHXs"
+tutorial: "https://www.youtube.com/watch?v=Krt4BsRNtJo"
 ---
 
 # `09` Formatting Text

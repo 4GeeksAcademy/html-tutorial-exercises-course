@@ -1,5 +1,5 @@
 ---
-intro: "https://www.youtube.com/watch?v=Vd2dby9ind4"
+intro: "https://www.youtube.com/watch?v=zKfaek8q2vI"
 ---
 # Welcome!
 
@@ -36,6 +36,8 @@ Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-
 2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
 
 3. [Marco Gómez (marcogonzalo)](https://github.com/marcogonzalo), contribution: (translator) :earth_africa:
+
+4. [Charly Chacón (charlytoc)](https://github.com/charlytoc), contribution: (remasterization, video tutorials) 🤖
 
 This project follows these specifications: [all-contributors](https://github.com/kentcdodds/all-contributors)
 

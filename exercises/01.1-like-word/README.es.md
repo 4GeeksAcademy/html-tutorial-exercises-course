@@ -1,3 +1,6 @@
+---
+tutorial: "https://www.youtube.com/watch?v=PFY7o_z8L2I"
+---
 # `01.1` Like Word
 
 HTML fue creado inicialmente para publicar documentos, es por eso que sus `<tags>` (etiquetas) son similares a los elementos típicos que ves en un documento:

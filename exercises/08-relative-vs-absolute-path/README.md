@@ -42,7 +42,7 @@ Absolute paths include the domain name. They contain the full URL because they a
 
 ## 💡 Hints:
 
-+ Your absolute path should start with this: {{publicUrl}}
++ Your absolute path should start with this:**{{publicUrl}}**
 
 + If you build the exercise, open the website, and right click on the image, the context menu will show an option with the text 'Copy Image Address' that will copy its absolute URL into your clipboard.
 
