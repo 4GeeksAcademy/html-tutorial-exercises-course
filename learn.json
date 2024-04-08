@@ -21,6 +21,9 @@
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "disabledActions": [],
     "autoPlay": true,
+    "telemetry": {
+        "batch":"https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+    },
     "editor": {
         "version": "3.1.23"
     }
