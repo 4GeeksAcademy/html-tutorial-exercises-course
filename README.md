@@ -58,7 +58,7 @@ $ learnpack plugins:install learnpack-html
 2. Download these particular exercises using learnpack and `cd` into the folder:
 
 ```sh
-$ learnpack download html-tutorial-exercises-course
+$ git clone https://github.com/4GeeksAcademy/html-tutorial-exercises-course
 $ cd html-tutorial-exercises-course
 ```
 
