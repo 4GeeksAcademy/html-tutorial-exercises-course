@@ -28,7 +28,9 @@
         "version": "3.1.23"
     },
     "video": {
-        "es":"https://www.youtube.com/watch?v=zKfaek8q2vI",
-        "en": "https://www.youtube.com/watch?v=kDQAnCqGS-w"
+        "intro": {
+            "es":"https://www.youtube.com/watch?v=zKfaek8q2vI",
+            "en": "https://www.youtube.com/watch?v=kDQAnCqGS-w"
+        }
     }
 }
