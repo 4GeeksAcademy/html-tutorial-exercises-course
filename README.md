@@ -69,6 +69,8 @@ $ cd html-tutorial-exercises-course
 $ learnpack start
 ```
 
+For more information or questions you can refer to the [LearnPack documentation](https://4geeks.com/docs/learnpack/quickstart-for-learners).
+
 <!-- endhide -->
 
 > Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
