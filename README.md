@@ -52,10 +52,9 @@ Clone the repository in your local environment and follow the steps below:
 
 ```sh
 $ npm i @learnpack/learnpack -g
-$ learnpack plugins:install @learnpack/html
 ```
 
-2. Download these particular exercises using learnpack and `cd` into the folder:
+2. Download this particular exercise and `cd` into the folder:
 
 ```sh
 $ git clone https://github.com/4GeeksAcademy/html-tutorial-exercises-course
@@ -67,7 +66,6 @@ $ cd html-tutorial-exercises-course
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```sh
-$ npm i jest@29.7.0 jest-environment-jsdom@29.7.0 -g
 $ learnpack start
 ```
 
