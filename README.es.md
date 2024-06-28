@@ -70,6 +70,8 @@ $ cd html-tutorial-exercises-course
 $ learnpack start
 ```
 
+Para más detalles sobre instalación o cualquier otra cosa puedes referirte a la [documentacion de LearnPack](https://4geeks.com/docs/learnpack/quickstart-for-learners).
+
 <!-- endhide -->
 
 > Nota: Estos ejercicios tienen calificación automática. Los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
