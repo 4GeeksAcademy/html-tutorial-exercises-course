@@ -70,7 +70,7 @@ $ cd html-tutorial-exercises-course
 $ learnpack start
 ```
 
-Para más detalles sobre instalación o cualquier otra cosa puedes referirte a la [documentacion de LearnPack](https://4geeks.com/docs/learnpack/quickstart-for-learners).
+Para más detalles sobre instalación o cualquier otra cosa puedes referirte a la [documentacion de LearnPack](https://4geeks.com/es/docs/learnpack/quickstart-para-estudiantes).
 
 <!-- endhide -->
 
