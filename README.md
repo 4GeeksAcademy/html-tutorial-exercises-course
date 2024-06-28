@@ -67,7 +67,7 @@ $ cd html-tutorial-exercises-course
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```sh
-$ npm i jest@29.7.0 jest-environment-jsdom@29.7.0 -g 
+$ npm i jest@29.7.0 jest-environment-jsdom@29.7.0 -g
 $ learnpack start
 ```
 
