@@ -21,6 +21,7 @@
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "disabledActions": [],
 "autoPlay": true,
+"projectType": "tutorial",
 "telemetry": {
     "batch":"https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
 },
