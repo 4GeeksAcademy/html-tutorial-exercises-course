@@ -26,4 +26,4 @@ What property should we add to this `<a>` anchor, if we wanted it to open in a *
 
 + You have to use the `target` property.
 
-+ Read more about how to make an anchor open in a new tab or window here: [https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/)
++ Read more about about anchor tags and how to use them to open a new tab or window: [https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/)
