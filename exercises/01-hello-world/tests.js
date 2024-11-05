@@ -15,13 +15,13 @@ it('Add a <strong> tag.', function () {
     expect(strong).toBeTruthy();
 });
 
-it('The <span> tag should have the expected value.', function () {
+it('The <span> tag should have inside "hello, i am a text"', function () {
     let span = document.querySelector("span");
     expect(span).toBeTruthy();
     expect(span.innerHTML.toLowerCase()).toContain("hello, i am a text")
 });
 
-it('The <strong> tag should have the expected value.', function () {
+it('The <strong> tag should have inside "hello, i am also a text but in bold"', function () {
     let strong = document.querySelector("strong");
     expect(strong).toBeTruthy();
     expect(strong.innerHTML.toLowerCase()).toContain("hello, i am also a text but in bold")
