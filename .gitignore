@@ -19,3 +19,4 @@
 !/.learn/resets/**
 !/.learn/assets
 !/.learn/assets/**
+.DS_Store
