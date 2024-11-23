@@ -17,15 +17,12 @@ We have prepared these exercises for anyone interested in learning HTML from scr
 
 4. The HTML audio and video tag.
 
-## Useful Readings:
+> 🔹 We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
 
-+ [https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+Note: Don't get frustrated! Ask any questions in the [slack public support channel](https://4geeksacademy.slack.com/) (for premium 4Geeks Students), the [WhatsApp community](https://chat.whatsapp.com/CBppI0ulMt8Dx4Fsw9AreG) or by private message following [these steps](https://4geeks.com/how-to/how-to-ask-programming-questions). 
 
-+ [https://www.w3schools.com/html/html_intro.asp](https://www.w3schools.com/html/html_intro.asp)
+➡️ Click the `next` button on the top of these instructions to begin with the first exercise...
 
-## Useful Video:
-
-+ [https://youtu.be/u0OeZfIfBRI](https://youtu.be/u0OeZfIfBRI)
 
 ## Contributors:
 
@@ -42,9 +39,3 @@ Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-
 This project follows these specifications: [all-contributors](https://github.com/kentcdodds/all-contributors)
 
 Contributions of any kind are welcome!
-
-> 🔹 We built the exercises incrementally, you should feel the progress little by little, and hopefully, the difficulty raising between exercises will never be too big to get you frustrated.
-
-Note: Don't get frustrated! Ask any questions in the #public-support-full-stack channel of Slack or by private message following [these steps](https://content.breatheco.de/how-to/ask/). 
-
-➡️ Click the `next` button on the top of these instructions to begin with the first exercise...

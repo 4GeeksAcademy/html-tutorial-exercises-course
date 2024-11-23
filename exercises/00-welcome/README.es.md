@@ -17,15 +17,13 @@ Hemos preparado estos ejercicios para cualquier persona interesada en aprender H
 
 4. La etiqueta HTML de audio y video.
 
-## Lecturas Útiles:
+> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificultad entre los ejercicios nunca sea tan grande como para frustrarte.
 
-+ [https://www.w3schools.com/html/html_intro.asp](https://www.w3schools.com/html/html_intro.asp)
+Nota: ¡No te frustres! Pregúntanos [por Slack](https://4geeksacademy.slack.com/) en el canal de public support (para miembros de 4Geeks Academy), en la [comunidad de WhatsApp](https://chat.whatsapp.com/K39ELB5TIK63r4INTBd7SG) (para miembros de 4Geeks.com premium) o en privado siguiendo [estos pasos](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion). 
 
-+ [https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics)
+➡️ Haz clic en `next` arriba de estas instrucciones para empezar con el primer ejercicio...
 
-## Video Útil:
 
-+ [https://youtu.be/10GHKjgQIR0](https://youtu.be/10GHKjgQIR0)
 
 ## Colaboradores:
 
@@ -42,10 +40,3 @@ Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds
 Este proyecto sigue las especificaciones: [all-contributors](https://github.com/kentcdodds/all-contributors). 
 
 ¡Todas las contribuciones son bienvenidas!
-
-> 🔹 Nosotros construimos los ejercicios incrementalmente, deberías sentir el progreso poco a poco, y esperamos que el incremento de la dificultad entre los ejercicios nunca sea tan grande como para frustrarte.
-
-Nota: ¡No te frustres! Pregúntanos por Slack en el canal #public-support-full-stack o en privado siguiendo [estos pasos](https://4geeks.com/es/how-to/como-hacer-preguntas-de-programacion). 
-
-➡️ Haz clic en `next` arriba de estas instrucciones para empezar con el primer ejercicio...
-

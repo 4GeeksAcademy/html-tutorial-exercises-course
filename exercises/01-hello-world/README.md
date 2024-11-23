@@ -15,7 +15,6 @@ HTML is a markup language, meaning that everything you type must be wrapped in o
 
 1. Please **remove** the current website content, **add** the above tags to your website HTML and press "**run**" to see the results.
 
-![Run](../../.learn/assets/build.png?raw=true)
 
 ## 💻 Expected Result:
 

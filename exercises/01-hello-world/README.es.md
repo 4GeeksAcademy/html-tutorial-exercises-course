@@ -14,8 +14,6 @@ HTML es un lenguaje de marcado, lo que significa que todo lo que se escribe debe
 
 1. **Elimina** todo el contenido actual de la página, **agrega** las etiquetas anteriores en el HTML de tu sitio web y presiona "**run**" para ver los resultados.
 
-![Run](../../.learn/assets/build.png?raw=true)
-
 ## 💻 Resultado Esperado:
 
 Tu sitio web final debería ser algo como esto:
