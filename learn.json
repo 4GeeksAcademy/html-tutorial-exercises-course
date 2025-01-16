@@ -26,7 +26,7 @@
     "batch":"https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=141"
 },
 "editor": {
-    "version": "4.0"
+    "version": "5.0"
 },
 "video": {
     "intro": {
