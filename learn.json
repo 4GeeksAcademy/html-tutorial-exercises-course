@@ -11,8 +11,8 @@
 "preview": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course/blob/master/preview.png?raw=true",
 "repository": "https://github.com/4GeeksAcademy/html-tutorial-exercises-course",
 "description": {
-    "us": "Learn the most popular HTML Tags and how to use them with real life interactive examples, automatic grading and video solutions",
-    "es": "Aprende los tags más populares de HTML y como usarlos en casos de la vida real con ejemplos interactivos, calicaciones automáticas y video-soluciones"
+    "us": "Learn the most popular HTML tags and how to use them effectively with interactive real-life examples designed to simplify learning. With automatic grading and video solutions, you can track your progress seamlessly. This tutorial will help you master HTML basics to build functional, well-structured websites confidently.",
+    "es": "Aprende los tags de HTML más populares y cómo utilizarlos con ejemplos interactivos de la vida real diseñados para simplificar el aprendizaje. Con calificación automática y soluciones en video, podrás seguir tu progreso fácilmente. Este tutorial te ayudará a dominar los fundamentos de HTML para crear sitios web funcionales y bien estructurados con confianza."
 },
 "intro": "https://www.youtube.com/watch?v=Vd2dby9ind4",
 "duration": 8,
@@ -26,7 +26,8 @@
     "batch":"https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=141"
 },
 "editor": {
-    "version": "5.0"
+    "version": "5.0",
+    "agent": "vscode"
 },
 "video": {
     "intro": {
