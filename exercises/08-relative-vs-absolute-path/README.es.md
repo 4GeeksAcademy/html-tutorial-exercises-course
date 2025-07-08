@@ -34,7 +34,7 @@ Las rutas absolutas incluyen también el nombre del dominio. Contienen la URL co
 
 ## 📝 Instrucciones:
 
-1. Comienza por **construir** (haz clic en el botón de `build`) el sitio web actual, cuando abra verás una imagen.
+1. Comienza por hacer una pequeña modifcación en tu HTML para que el boton de "Ejecutar" aparezca, (haz clic en el botón de `Ejecutar`) el sitio web actual, cuando abra verás una imagen.
 
 2. Modifica la propiedad `src` de la imagen y conviértela en una URL absoluta.
 
