@@ -34,7 +34,7 @@ Absolute paths include the domain name. They contain the full URL because they a
 
 ## 📝 Instructions:
 
-1. Start by **building** (click the `build` button) the current website, when it opens you will see an image displaying.
+1. Start by doing a small modification to the HTML so that the  **run** button becomes visible (click the `run` button) the current website, when it opens you will see an image displaying.
 
 2. Please modify the `src` property of the image and convert it to an absolute URL.
 
